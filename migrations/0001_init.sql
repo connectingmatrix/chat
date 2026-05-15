@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS chats (id TEXT PRIMARY KEY, user_id TEXT, organization_id TEXT, title TEXT NOT NULL, mode TEXT, created_at TIMESTAMPTZ DEFAULT NOW(), updated_at TIMESTAMPTZ DEFAULT NOW());
+CREATE TABLE IF NOT EXISTS chat_messages (id TEXT PRIMARY KEY, user_id TEXT, organization_id TEXT, chat_id TEXT NOT NULL, role TEXT NOT NULL, content TEXT NOT NULL, metadata JSONB DEFAULT '{}'::jsonb, created_at TIMESTAMPTZ DEFAULT NOW(), updated_at TIMESTAMPTZ DEFAULT NOW());
