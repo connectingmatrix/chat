@@ -1,35 +1,28 @@
-# Auto-generated contracts for `@connectingmatrix/chat`
+# @connectingmatrix/chat — auto-generated contracts
 
-This document is generated from the final package audit. The package owns its `src/ui`, `src/backend`, `src/entity`, migrations, GraphQL/API surfaces, health/status, launcher, and tests unless this is a thin shell repo.
+    Generated from the package audit on 2026-05-15.
 
-## Public contracts
+    ## Purpose
 
-- `Chat.getChats/getMessages/search`
+    Single chat owner for DB-backed chat, slash routing, attachments, Giga queryChat/queryChaat facade, and browser-only transient sessions for debug flows.
+
+    ## Public contracts
+
+    - `Chat.createChat/getChats/getMessages/search`
 - `Chat.queryChat/queryChaat`
 - `Chat.createBrowserSession/queryBrowserSession/clearBrowserSession`
-- `Chat.registerSlashCommands`
-- `Chat.bindDrive/bindSockets`
+- `Chat.registerSlashCommand/registerSlashCommands/listSlashCommands`
+- `Chat.attachFile/bindDrive/setResponder`
+- `GigaChat alias`
 
-## Package use
+    ## Package-owned surfaces
 
-```ts
-import { createPackage } from '@connectingmatrix/chat';
-const pkg = createPackage();
-await pkg.health?.();
-```
+    - `src/client` owns dataloaders, browser binding and UI-facing data contracts.
+    - `src/backend` owns non-CRUD runtime processing, route handlers, health/status and launchers.
+    - `src/entity` owns entity records, CRUD repositories and entity GraphQL.
+    - `migrations` owns package database migrations.
+    - `playground.mjs` launches the package in stub/playable mode.
 
-## Backend registration
+    ## GraphQL/middleware binding
 
-Register `pkg.routes`, merge `pkg.graphql`, run `pkg.migrations`, and keep auth/signature handling delegated to `@connectingmatrix/orm`.
-
-## Frontend binding
-
-UI adapters expose `bindWithServer('/graphql')` or route-specific helpers. Domain logic remains in the owning package.
-
-## Launcher
-
-```bash
-npm run build
-npm test
-node playground.mjs
-```
+    This package exposes `createPackage()` so `@connectingmatrix/server` or `giga-ai-backend` can register package middleware, package GraphQL and package health/launcher routes.

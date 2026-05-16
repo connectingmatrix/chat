@@ -1,0 +1,190 @@
+# AGENTS.md
+
+## Directory Context
+
+- Path: `packages/apps/chat/src/services/chat/workflow/runtime`
+- This folder owns the production code files in this folder.
+
+## Contract
+
+- Keep all code in this folder aligned with its layer package boundary.
+- If any production code file in this folder is updated, update this AGENTS.md in the same change.
+- This AGENTS file must document each owned file purpose, input/output shape, role rules, logic gates, functions, exports, and line snippets.
+
+## File Usage Specification
+
+### `async-workflow-chat.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `workflowRealtimeText` (L6-L6, arrow)
+- Exports:
+  - `workflowRealtimeText` (L6)
+- Key snippets and use-case mapping:
+  - `L6-L6`: Implements `workflowRealtimeText` for this module use case.
+### `chat-debug-state.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `workflowNode` (L9-L9, arrow)
+  - `logNode` (L16-L16, arrow)
+  - `resolveWorkflowCurrentNode` (L23-L23, arrow)
+- Exports:
+  - `resolveWorkflowCurrentNode` (L23)
+- Key snippets and use-case mapping:
+  - `L9-L9`: Implements `workflowNode` for this module use case.
+  - `L16-L16`: Implements `logNode` for this module use case.
+  - `L23-L23`: Implements `resolveWorkflowCurrentNode` for this module use case.
+### `chat-parity-fixtures.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `chatParityVariant` (L27-L27, function)
+  - `chatParityFixturePath` (L31-L31, function)
+  - `readChatParityFixture` (L37-L37, function)
+- Exports:
+  - `chatParityVariant` (L27)
+  - `chatParityFixturePath` (L31)
+  - `readChatParityFixture` (L37)
+- Key snippets and use-case mapping:
+  - `L27-L27`: Implements `chatParityVariant` for this module use case.
+  - `L31-L31`: Implements `chatParityFixturePath` for this module use case.
+  - `L37-L37`: Implements `readChatParityFixture` for this module use case.
+### `explicit-workflow-route.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `resolveExplicitChatWorkflow` (L4-L4, function)
+- Exports:
+  - `resolveExplicitChatWorkflow` (L4)
+- Key snippets and use-case mapping:
+  - `L4-L4`: Implements `resolveExplicitChatWorkflow` for this module use case.
+### `workflow-chat.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `isMissingRelationError` (L28-L28, function)
+  - `resolveBaseUrl` (L66-L66, function)
+  - `resolveWorkflowSettings` (L85-L85, function)
+  - `normalizeChatSources` (L109-L109, function)
+  - `normalizeRetrievedChunks` (L131-L131, function)
+  - `extractTerminalPayload` (L156-L156, function)
+  - `normalizeWorkflowText` (L173-L173, function)
+  - `resolveWorkflowFailureMessage` (L202-L202, function)
+  - `hydrateWorkflowDefinition` (L212-L212, function)
+  - `loadWorkflowRecord` (L276-L276, function)
+  - `loadWorkflowAssignmentSlot` (L315-L315, function)
+  - `resolveChatWorkflow` (L335-L335, function)
+  - `createWorkflowChatTracker` (L429-L429, function)
+  - `executeChatWorkflow` (L508-L508, function)
+  - `persistWorkflowExecution` (L670-L670, function)
+- Exports:
+  - `resolveWorkflowSettings` (L85)
+  - `normalizeChatSources` (L109)
+  - `normalizeRetrievedChunks` (L131)
+  - `extractTerminalPayload` (L156)
+  - `normalizeWorkflowText` (L173)
+  - `resolveWorkflowFailureMessage` (L202)
+  - `hydrateWorkflowDefinition` (L212)
+  - `resolveChatWorkflow` (L335)
+  - `executeChatWorkflow` (L508)
+  - `persistWorkflowExecution` (L670)
+- Key snippets and use-case mapping:
+  - `L28-L28`: Implements `isMissingRelationError` for this module use case.
+  - `L66-L66`: Implements `resolveBaseUrl` for this module use case.
+  - `L85-L85`: Implements `resolveWorkflowSettings` for this module use case.
+  - `L109-L109`: Implements `normalizeChatSources` for this module use case.
+  - `L131-L131`: Implements `normalizeRetrievedChunks` for this module use case.
+  - `L156-L156`: Implements `extractTerminalPayload` for this module use case.
+  - `L173-L173`: Implements `normalizeWorkflowText` for this module use case.
+  - `L202-L202`: Implements `resolveWorkflowFailureMessage` for this module use case.
+  - `L212-L212`: Implements `hydrateWorkflowDefinition` for this module use case.
+  - `L276-L276`: Implements `loadWorkflowRecord` for this module use case.
+  - `L315-L315`: Implements `loadWorkflowAssignmentSlot` for this module use case.
+  - `L335-L335`: Implements `resolveChatWorkflow` for this module use case.
+  - `L429-L429`: Implements `createWorkflowChatTracker` for this module use case.
+  - `L508-L508`: Implements `executeChatWorkflow` for this module use case.
+  - `L670-L670`: Implements `persistWorkflowExecution` for this module use case.
+
+## Non-Negotiable Coding Standards
+
+- Never ever write supabase.from we have entities always load data through it
+- Do not use `supabase.from` or `input.from` directly. Load data through entities and the ORM.
+- Do not add autofills
+- Do not add placeholder, do not add normalisation.
+- Find and fix the root cause instead of adding the fallback.
+- Do not add fallbacks. Fix the logic.
+- Everything should be typed dont use unknown, never, any
+- Do not use JS-style safe/coercion helper functions.
+- Do not use `to*` functions like `toPayload`.
+- Do not create map functions.
+- Do not check types like `type === Array` or `type === string`.
+- Use the `||` operator for comparison.
+- Do not write a code file bigger than 70-100 lines.
+- Try to generalise multiple lines of code into fewer lines.
+- After writing code, recheck patterns across the workspace to remove duplications.
+- Do not invent functionality. Ask the user if it already exists somewhere.
+- Prefer the smallest correct change over broad refactors.
+- Preserve the repo's existing style, structure, and package manager.
+- Avoid destructive git commands unless explicitly requested.
+- Keep memory entries concise, factual, and tied to the files or behavior that changed.
+- Entity table name should come from the Entity and not direct usage.
+- Function naming should be .create, .delete .find .update .find .findBy .deleteBy
+- Disallowed naming conventions are createRows, listRows and any programatic name for the entity.
+- Importing supabase in the entities is disallowed. Upgrade the ORM file is something is not supported by entity. Orm is present at @gigav2/orm
+- If Create, Update, Delete, Find is unable to do any thing stop the coding and inform the user of your updates first.
+- Do not create proxy or additional functions for create, update, delete
+- Keep ORM generic do not add Entity functions in the ORM
+- MCP.ts will execute inner graphql for the operations they will not implement any
+- JSON is disallowed in the Graphql Schema use proper types only
+- Dont use zod for typing

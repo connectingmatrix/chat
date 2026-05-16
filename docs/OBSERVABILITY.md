@@ -1,22 +1,12 @@
-# Observability for `@connectingmatrix/chat`
+# Observability for @connectingmatrix/chat
 
-This package binds to `@connectingmatrix/logger` and, when available, `@connectingmatrix/sockets` during server composition.
+Each package includes `src/observability.ts` and can be bound by `@connectingmatrix/server` or `giga-ai-backend`.
 
-## Process monitor API
+Runtime binding sequence:
 
-```ts
-processMonitoring.list();
-processMonitoring.live();
-processMonitoring.logs.live('PROCESS_ID');
-processMonitoring.abort('PROCESS_ID', 'reason');
-```
+1. `@connectingmatrix/logger` exposes `Logger` and `ProcessMonitor`.
+2. `@connectingmatrix/sockets` exposes `Socket` and log/process event rooms.
+3. Server wiring calls `observability.bindLogger(Logger)` and `observability.bindSockets(Socket)` for every package runtime.
+4. Package logs and snapshots are emitted to `logs`, `logs:<package>`, `process-monitor`, and `process:<package>` rooms.
 
-## Tracked runtime kinds
-
-The final wiring tracks the operational processes requested by the product contract: `Workflows`, `Ai Agents`, `Swarm`, and `Projects`. Packages can also report `Nodes`, `Files`, `Drive`, `Chat`, and `Server` runtime rows.
-
-Rows expose PID/internal PID, CPU snapshot, RAM/memory snapshot, status, progress, abortability, heartbeat, and package name when the host runtime supports those fields.
-
-## Logs
-
-Process logs are appended through the logger process-monitor runtime and may be streamed over sockets for process-monitor screens.
+This keeps process CPU/memory/pid style telemetry package-owned while allowing the process monitor UI to read a common stream.

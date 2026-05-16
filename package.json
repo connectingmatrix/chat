@@ -15,10 +15,6 @@
       "types": "./dist/backend/index.d.ts",
       "import": "./dist/backend/index.js"
     },
-    "./ui": {
-      "types": "./dist/ui/index.d.ts",
-      "import": "./dist/ui/index.js"
-    },
     "./entity": {
       "types": "./dist/entity/index.d.ts",
       "import": "./dist/entity/index.js"
@@ -39,6 +35,14 @@
     "./observability": {
       "types": "./dist/observability.d.ts",
       "import": "./dist/observability.js"
+    },
+    "./client": {
+      "types": "./dist/client/index.d.ts",
+      "import": "./dist/client/index.js"
+    },
+    "./frontend": {
+      "types": "./dist/client/index.d.ts",
+      "import": "./dist/client/index.js"
     }
   },
   "files": [
@@ -50,7 +54,8 @@
     "vendor",
     "PACKAGE_STRUCTURE.json",
     "PACKAGE_STRUCTURE.md",
-    "playground.mjs"
+    "playground.mjs",
+    "docs"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",

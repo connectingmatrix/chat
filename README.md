@@ -1,101 +1,35 @@
 # @connectingmatrix/chat
 
-The only chat package. Owns persistent chat, browser-only transient chat, slash routing, attachments through drive, and Giga chat API alias.
+Complete chat system with queryChat, slash command routing, sockets, attachments, modes, dataloaders, GraphQL, and entity CRUD.
 
-## Ownership
+This repo is intentionally split into `src/client`, `src/backend`, and `src/entity` so it can be impackage-owned by the frontend, backend, or package-owned migration runner without making `giga-ai-backend` a monorepo again.
 
-This package owns its `src/ui`, `src/backend`, `src/entity`, GraphQL bundle, migrations, health/status, launcher, and package contracts. It can be included in backend or UI without assuming a monorepo.
-
-## Public contracts
-
-- `Chat.getChats/getMessages/search`
-- `Chat.queryChat/queryChaat`
-- `Chat.queryTransient/createTransientSession/clearTransientSession`
-- `Chat.registerSlashCommands/registerSlashCommand/listSlashCommands`
-- `Chat.bindDrive(Drive)`
-- `Chat.onMessage/onTransientSession`
-- `GigaChat alias`
-- `./giga subpath`
-
-
-## Basic usage
-
-```ts
-import { Chat } from '@connectingmatrix/chat';
-const chat = Chat.createChat({ title: 'Main' }, ctx);
-await Chat.queryChat(chat.id, { message: '/workflow list' }, ctx);
-await Chat.queryTransient({ scope: 'project-debug', ownerId: projectId, message: 'debug this', transient: true }, ctx);
-```
-
-## Server usage
+## Usage
 
 ```ts
 import { createPackage } from '@connectingmatrix/chat';
+
 const pkg = createPackage();
-await pkg.health?.();
-// register pkg.routes as middleware and merge pkg.graphql into /graphql
+await pkg.health();
 ```
 
-## UI usage
+## Server binding
 
-Package UI modules expose `bindWithServer('/graphql')` where applicable. Domain packages own their dataloaders; the thin UI only renders/binds.
+Each package exports a `registerWithServer(app)` helper when server routes are needed, plus a `graphql` bundle containing `typeDefs`, `resolvers`, and `migrations`.
 
-## Observability and process monitor
+## Frontend binding
 
-All packages expose `PackageObservability`. The server wires logger and sockets into every package. Logger registers package health probes and exposes `/logger/process-monitor` plus `/server/process-monitor`.
-
-## Launcher
-
-Run locally:
-
-```bash
-npm run build
-node playground.mjs
-```
-
-The launcher opens in stub mode so the package can be tested independently, similar to workflow designer stub mode.
-
-## GraphQL and routes
-
-GraphQL namespace and routes are returned by `createPackage()`. Routes include health and launcher endpoints when needed.
-
-## Exports
-
-- `.`
-- `./backend`
-- `./ui`
-- `./entity`
-- `./package.json`
-- `./giga`
-- `./package-structure`
-- `./launcher`
-- `./observability`
-
-## Folder counts
-
-- `src/ui`: 16 files
-- `src/backend`: 1 files
-- `src/entity`: 9 files
-- `migrations`: 3 files
-- `tests`: 53 files
+UI loaders expose `.bindWithServer('/graphql')` so the same package can work with the current backend or a separately deployed package host.
 
 
+See `PACKAGE_STRUCTURE.md` for the role-folder source map.
 
-## Final gap closure
+## Final package audit docs
 
-See `docs/FINAL_GAP_CLOSURE_CONTRACTS.md` for the final process-monitor, project, node, workflow, and package-owned contract audit.
+This repo now includes package-local generated docs:
 
-## Final runtime contracts
+- `docs/AUTO_GENERATED_CONTRACTS.md` — all public contracts and owned surfaces.
+- `docs/USAGE.md` — backend registration, frontend binding and launcher usage.
+- `docs/OBSERVABILITY.md` — logger/process-monitor/socket wiring.
 
-See `docs/FINAL_RUNTIME_CONTRACTS.md` for the final package-owned API, routes, launcher, observability, and wiring contracts.
-
-
-## Final package contracts
-
-- `Chat.getChats/getMessages/search`
-- `Chat.queryChat/queryChaat`
-- `Chat.createBrowserSession/queryBrowserSession/clearBrowserSession`
-- `Chat.registerSlashCommands`
-- `Chat.bindDrive/bindSockets`
-
-See `docs/AUTO_GENERATED_CONTRACTS.md` and `docs/OBSERVABILITY.md` for generated operational docs.
+The package remains independently playable with `npm run build`, `npm test`, and `npm run play`.
