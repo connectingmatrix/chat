@@ -1,0 +1,978 @@
+{
+  "artifactsChannel": {
+    "id": "4885617c-f8aa-4b62-9ef0-49a65813995c",
+    "name": "matrix-artifacts",
+    "path": [
+      "giga-ai-test",
+      "queryChat",
+      "matrix-artifacts"
+    ]
+  },
+  "generatedAt": "2026-05-10T05:10:01.180Z",
+  "systems": {
+    "chat-only": [
+      {
+        "chatId": "816da34a-9d01-4c55-8088-3e2eb4dc743d",
+        "lane": 1,
+        "scope": {
+          "id": "cb95f68a-0797-467d-8e90-6fad2d197cff",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "55e0a4bf-7f82-4692-8a55-3cabe939c7cd",
+        "lane": 2,
+        "scope": {
+          "id": "217832c0-9f63-48fc-8bd8-9c902091b88b",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "a00bf27a-1505-47a8-88af-a3a4a17fd0e4",
+        "lane": 3,
+        "scope": {
+          "id": "28d318d8-b011-4f8d-a449-88661e85839f",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "258326e8-43bb-4e02-9bdf-a3dcbe9e589c",
+        "lane": 4,
+        "scope": {
+          "id": "4a67dcc5-4e67-4076-9a73-b1037087590d",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "1d10bbf0-4a75-4c32-828f-954a25f41ac8",
+        "lane": 5,
+        "scope": {
+          "id": "a1c47db5-d2a9-4990-87d0-1a072e444523",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "0612b17d-49c2-408d-87c5-d1f108aa8e52",
+        "lane": 6,
+        "scope": {
+          "id": "2d5a81c6-ecd8-4aa2-8e8a-6772e49d92f6",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "392f8b0a-5563-449a-a9d8-34435d282b48",
+        "lane": 7,
+        "scope": {
+          "id": "4fefa13c-b468-4293-8954-17e32d5e04d4",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "cf3641af-54d9-4985-b92b-ff56a51b45c3",
+        "lane": 8,
+        "scope": {
+          "id": "7fe1683a-337c-4c98-9790-bc65efde5539",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "78638eb6-0407-4d18-94e2-1ef2b54fab2d",
+        "lane": 9,
+        "scope": {
+          "id": "a5153ff8-71f6-4c81-9e84-23dd66b74c9a",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "cecde3b2-714a-4b84-9b77-18dfcc92c2a5",
+        "lane": 10,
+        "scope": {
+          "id": "dd39584c-35df-46d3-8577-b0b2f0581fac",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "6c22e7ba-f957-495a-a7d4-617b2c4ae08c",
+        "lane": 11,
+        "scope": {
+          "id": "ddbb3a11-6b8b-4ede-b67a-2dad2244c958",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "64754cea-06bd-46d6-9a14-bc932ae74df5",
+        "lane": 12,
+        "scope": {
+          "id": "142b50be-7931-4a6c-8933-125337258178",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "8a5aaa91-5c7e-4b9b-a4a2-39d2112d617c",
+        "lane": 13,
+        "scope": {
+          "id": "800c7e42-0b7f-408c-baca-a5378da25388",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "cc17620f-3a29-482e-9d32-3f112cc608fe",
+        "lane": 14,
+        "scope": {
+          "id": "71942d58-46c8-49c0-8ce0-63c8aeffaf7b",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "057a31ea-8754-420b-bd92-3f38612718e8",
+        "lane": 15,
+        "scope": {
+          "id": "9eae0fd8-081b-4cb0-9823-c6d8d0280fda",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "af545b38-c372-494f-8b81-2f68a1480b8e",
+        "lane": 16,
+        "scope": {
+          "id": "9bab99ab-b120-4b25-b0c9-840041f12dac",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "024c6774-0623-45e8-826f-a608d5143566",
+        "lane": 17,
+        "scope": {
+          "id": "4ffeefc8-6fae-4030-a35b-4879d956f409",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "f8bb74ec-3db4-42ed-8aa4-07e425a3d14a",
+        "lane": 18,
+        "scope": {
+          "id": "9a7cf353-de4c-42a7-bce7-a96d2d534c6b",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "8749dfdf-c49a-4e18-bb5d-40dafc8ea46b",
+        "lane": 19,
+        "scope": {
+          "id": "c5b0ca84-cd15-480f-9caa-99524fc18300",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "a482d224-ec96-4940-a421-2839b31ccc75",
+        "lane": 20,
+        "scope": {
+          "id": "ea0d3ffa-e97b-448c-af30-99e5eec811d8",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "50647721-327a-4859-adab-88ea988ac04c",
+        "lane": 21,
+        "scope": {
+          "id": "0d1714fa-adb1-4b9b-a600-ea7de796163b",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "bca6cbef-9d65-4eb1-8dd2-63544e5155ff",
+        "lane": 22,
+        "scope": {
+          "id": "a5d31bbd-63b5-4582-a3e8-8eb7892c61a0",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "4684540b-fff4-4a2b-97d9-868db5613ee6",
+        "lane": 23,
+        "scope": {
+          "id": "a1645147-0341-4eac-bc8e-2a04f7ed6573",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "86fba71f-4c6f-4983-b629-a402f99f3d7d",
+        "lane": 24,
+        "scope": {
+          "id": "61ec1366-7bc2-4bfb-8ecc-8900647bc810",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "d7db3f46-6e00-463a-82ad-d33773c5b064",
+        "lane": 25,
+        "scope": {
+          "id": "6fd25621-d92f-4287-a0da-55fd866ec33b",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "0e6f9006-1101-4e9a-82c6-6af6c97d119d",
+        "lane": 26,
+        "scope": {
+          "id": "95cf8f65-a902-4d11-83d3-88485c7d181b",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "bf610f9b-ac19-4866-92d6-5815b86a85cf",
+        "lane": 27,
+        "scope": {
+          "id": "4c6940b1-1ac7-4373-a29d-8b7cb17b8a68",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "b51a9cd0-4ce7-4f6e-a477-10cf0b71419d",
+        "lane": 28,
+        "scope": {
+          "id": "bdb0b845-1d33-4fd4-aaf0-bac7f5edf44d",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "a5293645-9fda-4b5b-b1d1-4032dd0a30e3",
+        "lane": 29,
+        "scope": {
+          "id": "327550b1-bb31-4c29-b731-49474ec1a0f9",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "1b3340d9-3ca1-49f1-bc00-d70487b2456b",
+        "lane": 30,
+        "scope": {
+          "id": "c1787bc8-539b-45d7-b89c-b132206c417f",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "314edc4f-a640-4db4-b341-fef76969b331",
+        "lane": 31,
+        "scope": {
+          "id": "b5c24c54-fa27-4080-9e96-9d2fd5db0f27",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "1d0ef9bd-840b-4dff-b6ea-854833676f78",
+        "lane": 32,
+        "scope": {
+          "id": "df66eea6-7e3e-4a2f-9a71-9b324622d34f",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "2c351246-a438-42c3-9f6d-6a93734c5336",
+        "lane": 33,
+        "scope": {
+          "id": "6cbb64d2-3841-4b38-9a9c-e87b64461af4",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "b97abed6-b8b7-4ee0-b369-cc6e898df057",
+        "lane": 34,
+        "scope": {
+          "id": "b23af046-00de-444e-b89e-ed974417c125",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "db5aaab3-41f3-4855-9ab1-d68071d57848",
+        "lane": 35,
+        "scope": {
+          "id": "decb3bec-30b2-43ac-8bfb-763de0f4e25c",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "f3be7ddc-5df9-45d5-8db5-61e849ebe5e1",
+        "lane": 36,
+        "scope": {
+          "id": "4c3f1701-04ee-4d17-9d72-e8b8e79c3400",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "d388ceac-76b1-48c8-8cae-e3141ee9ab6c",
+        "lane": 37,
+        "scope": {
+          "id": "bb6915db-18ea-45e6-967b-b6d42824dd76",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "8f402e3a-c64c-4ad3-adab-6ad514f2a078",
+        "lane": 38,
+        "scope": {
+          "id": "71c49379-0852-40e3-9672-43f8d2662055",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "9fc0e1a9-7560-4d96-8538-2f7fbe886f8c",
+        "lane": 39,
+        "scope": {
+          "id": "e1c3ad8f-181e-4768-a349-2e5823d60789",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      },
+      {
+        "chatId": "88b95179-f1a2-48fe-a4d2-a3bcaeec1165",
+        "lane": 40,
+        "scope": {
+          "id": "94b2c888-3a4c-4a00-bde5-9a8e97f1fb3b",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "",
+        "workflowId": ""
+      }
+    ],
+    "workflow-ai-agent": [
+      {
+        "chatId": "e6b3db81-e652-43db-a012-bb1570419b90",
+        "lane": 1,
+        "scope": {
+          "id": "e5b77ae7-d0ef-454e-b505-3fe4dfc3d695",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "56e0ba9c-1473-4828-a813-65104380837d"
+      },
+      {
+        "chatId": "722d3e5e-4472-4558-8447-44c46a80a736",
+        "lane": 2,
+        "scope": {
+          "id": "ecfd375a-fdb7-4390-944c-b0c0b7ad9737",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "7c460b15-4811-46cf-8de3-5f2d393b9eab"
+      },
+      {
+        "chatId": "012d1911-2c98-4043-b8e7-408fe1d202dd",
+        "lane": 3,
+        "scope": {
+          "id": "d231dd3d-328a-46c6-b1fe-c1a2feaf5004",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "db6df940-fed3-4731-9502-21c7ae02476a"
+      },
+      {
+        "chatId": "0ae1f471-97f6-4b53-ad27-63972481f731",
+        "lane": 4,
+        "scope": {
+          "id": "058a0448-f9ef-4ad4-8a76-be3e869486cb",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "ca2552b8-0510-4f2d-98ff-70fc49003a98"
+      },
+      {
+        "chatId": "659ba538-023f-4cd3-9411-f820a03424c4",
+        "lane": 5,
+        "scope": {
+          "id": "e7080012-cc70-46ad-86dc-e9380a9e0767",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "22548fde-4a3a-44ad-98bf-50bf4974bc79"
+      },
+      {
+        "chatId": "e626854b-337b-4141-8580-5317b2e87ea1",
+        "lane": 6,
+        "scope": {
+          "id": "3225e440-8585-4346-b71c-c410391cef28",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "f47197bb-ec8f-4467-9edc-65dd5eb9055f"
+      },
+      {
+        "chatId": "bac54b08-c25f-48c2-89e4-d69a0b18d6a0",
+        "lane": 7,
+        "scope": {
+          "id": "9a48a722-b7d5-4b8f-a8e7-43a0a5474d24",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "180a17e0-9fc6-4624-b1c8-90d5260c48ab"
+      },
+      {
+        "chatId": "464030be-6b0d-417c-b5a6-ac7290880277",
+        "lane": 8,
+        "scope": {
+          "id": "724d4bc4-aa56-4816-bfd8-7501d3618d3e",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "d3b93634-fa59-4a8a-b82d-1630d7d33c22"
+      },
+      {
+        "chatId": "1e60a222-f2e5-472e-bd69-4329c016ec84",
+        "lane": 9,
+        "scope": {
+          "id": "58d067af-2a68-431c-8f33-1831b4ae1113",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "b9e95fc2-9953-4c8a-a2e4-f87426f402c0"
+      },
+      {
+        "chatId": "d32480d2-07f7-418d-84cc-cb88cbad4d48",
+        "lane": 10,
+        "scope": {
+          "id": "766e3f78-3311-4787-b4f4-41ca25177516",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "e93094cb-af8e-44d8-a720-e538f382fa99"
+      },
+      {
+        "chatId": "80747408-87e4-4013-9a0f-f0e1b67a1948",
+        "lane": 11,
+        "scope": {
+          "id": "5d21bd28-2582-4bd3-8cfa-ff898529653c",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "d2ad44e5-18dd-420b-a7cc-be9fb6342747"
+      },
+      {
+        "chatId": "9efa0eb0-a98e-442a-9e91-8395a3e9d4f4",
+        "lane": 12,
+        "scope": {
+          "id": "4ca1ccec-3de2-430d-8b12-74d8ff49d364",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "9fa4dcf1-58c8-46a7-a82f-59a311bc3216"
+      },
+      {
+        "chatId": "435324cb-8ce2-41ab-8d7b-d4ce70c98bdd",
+        "lane": 13,
+        "scope": {
+          "id": "10771bac-4fa7-4719-9cf3-223236c36184",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "2d79ed2e-3584-4538-a88a-5aff7acd97f7"
+      },
+      {
+        "chatId": "163b6ea8-eabb-4702-9f24-4d9f29ef2133",
+        "lane": 14,
+        "scope": {
+          "id": "2e3ae394-42f3-4b2b-942e-07b2deb2612e",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "fd9c757d-7c4d-4fdb-828a-3eac708c56cf"
+      },
+      {
+        "chatId": "3d7e4176-7e8e-409d-acbe-1d657634fabc",
+        "lane": 15,
+        "scope": {
+          "id": "ffbfe0f3-5228-49dc-85d6-24fa4d821e76",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "33d72c91-73e8-4aa5-b183-82309efbe52b"
+      },
+      {
+        "chatId": "897501c4-19aa-41fd-815c-ef9606feb66e",
+        "lane": 16,
+        "scope": {
+          "id": "5cc533ee-af64-480e-b8e2-23c0616bc663",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "5d061930-50db-45f2-802b-61384e3df76c"
+      },
+      {
+        "chatId": "a6f87318-f31c-4829-b0a5-c612c27e2bc0",
+        "lane": 17,
+        "scope": {
+          "id": "27346f50-bc59-404a-954e-b1cc5c83656f",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "792e09dc-9a79-496b-b5ad-37631facd757"
+      },
+      {
+        "chatId": "4ae2c81f-b62e-4f1c-ba04-96b6cd4e5398",
+        "lane": 18,
+        "scope": {
+          "id": "7d7ec2cd-7033-4765-8fdd-d7be2fe5d14f",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "a5c5e0a0-8241-4a0c-8f93-c371928cb79d"
+      },
+      {
+        "chatId": "538e5543-c423-431d-a3a4-e164945b7fb4",
+        "lane": 19,
+        "scope": {
+          "id": "e4863b45-eef1-4e7a-ac2c-dab3e06581b6",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "8331c1bf-d52a-49ea-b17e-b1f55fb0cb25"
+      },
+      {
+        "chatId": "8b369d56-2820-4b27-abe4-0663dfbc79da",
+        "lane": 20,
+        "scope": {
+          "id": "00fe2e77-d911-45a1-98b0-ff22e7b9803e",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "68820f42-570e-4bc9-8a50-723dfb2a1cdb"
+      },
+      {
+        "chatId": "9479d7b4-63be-4407-9f95-74bee0f44a7a",
+        "lane": 21,
+        "scope": {
+          "id": "c8ea2f7a-b84e-4d82-80fd-0114a5ebdd5e",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "8554e878-987a-4526-977d-fcd3b8186007"
+      },
+      {
+        "chatId": "d1cd561e-37d2-4e98-a372-383c96c12f6d",
+        "lane": 22,
+        "scope": {
+          "id": "a07d8189-31e1-4671-844f-8646e111f6a3",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "d4f9d204-ed43-4b59-b9ff-d425e01e85c8"
+      },
+      {
+        "chatId": "58d349d0-5eee-45dc-8430-0d7de257763d",
+        "lane": 23,
+        "scope": {
+          "id": "ea313476-c6c6-4f99-a2a8-5169823952c3",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "6b64a836-3ecd-4a81-861a-1451420ca687"
+      },
+      {
+        "chatId": "d73c12b2-9fd2-466f-8ebd-2db9e913d797",
+        "lane": 24,
+        "scope": {
+          "id": "cfa5c10d-1e43-4d04-83a0-ce3feded8095",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "9123e251-fa43-43bc-8de4-6f2430ed50f2"
+      },
+      {
+        "chatId": "0681fc79-3da9-4aa9-b601-27e44387e50d",
+        "lane": 25,
+        "scope": {
+          "id": "068480cb-4c9a-4421-bf12-9d529e5d3bb4",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "3bde9aae-07b1-4d39-b6ec-230eb2d868be"
+      },
+      {
+        "chatId": "b85e3aa8-4c48-4832-a8d3-d63f8660427a",
+        "lane": 26,
+        "scope": {
+          "id": "27f60503-fd27-4620-b460-d46f5f29478c",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "dd26e0a2-45dc-42c6-a49a-79aa3b168489"
+      },
+      {
+        "chatId": "f381da49-566c-4607-8b51-b2eb7b39dc65",
+        "lane": 27,
+        "scope": {
+          "id": "4eeb6420-4efc-46ff-b1b0-c547f1a1bd75",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "0d8ac053-7f45-45e2-b951-52c071be0321"
+      },
+      {
+        "chatId": "e8da4fb5-19af-4752-a2e8-7a4f5a8b62bc",
+        "lane": 28,
+        "scope": {
+          "id": "2125e753-304a-4b66-8a86-4ef00d3b53ea",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "270fff7b-542a-4710-9609-178ff017702d"
+      },
+      {
+        "chatId": "ba3dcac7-f713-4880-bf93-affbb40cc71b",
+        "lane": 29,
+        "scope": {
+          "id": "698acb74-8c44-4f5f-b6ee-9479e4608690",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "b38c8c10-22a9-4910-b0dd-a013256b3f69"
+      },
+      {
+        "chatId": "cf671f3d-d8ac-42c2-bd7c-5a4ed9c16de4",
+        "lane": 30,
+        "scope": {
+          "id": "dd71a947-0537-44b4-93b7-8800a0b85b87",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "7fe11e7e-7bdf-419c-ad15-2a515f0ddec8"
+      },
+      {
+        "chatId": "c641111c-7613-4155-b5fa-2e75c0ff3aca",
+        "lane": 31,
+        "scope": {
+          "id": "1d9adc88-9d29-49a5-892f-e484692611ab",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "5fe585be-9faf-4839-ae1e-b342aa756b78"
+      },
+      {
+        "chatId": "d42ad02a-e3c6-4703-a06e-82657f57b419",
+        "lane": 32,
+        "scope": {
+          "id": "1284bdd1-b889-45cf-9eb1-4ed34b48718c",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "e3d619c9-53e4-49cf-8d64-5f6d754167e5"
+      },
+      {
+        "chatId": "8fde5ac6-4eda-4563-a438-a82edd7a6afb",
+        "lane": 33,
+        "scope": {
+          "id": "14b47059-5fa9-4233-93c8-afa3de083de1",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "e73efbad-2bdc-43d7-b8c5-da4aa08a7e2a"
+      },
+      {
+        "chatId": "4068a226-816e-4e2d-8ba8-b377eecc3f6b",
+        "lane": 34,
+        "scope": {
+          "id": "7f815066-e584-4809-9fb1-024258a641d0",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "c39fc24f-cd27-42e5-99c1-dbbf438f7388"
+      },
+      {
+        "chatId": "c5886cda-3d7f-4ecd-877f-94505806f1f6",
+        "lane": 35,
+        "scope": {
+          "id": "f8cccc9e-79f5-4b87-8484-b217cd30d341",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "45e17db6-75a2-416c-86b2-624965a511af"
+      },
+      {
+        "chatId": "c2550275-6f9d-4010-9f47-1acc44f5081a",
+        "lane": 36,
+        "scope": {
+          "id": "54a9b721-57a0-4f25-bad7-956d77fcefea",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "722103ff-2758-4e7e-85f2-6727cbed71f1"
+      },
+      {
+        "chatId": "9f69a3a2-d4cd-43d8-97e8-b4e948ff6ba2",
+        "lane": 37,
+        "scope": {
+          "id": "42824c93-3974-45c5-9d5c-4034a18a4f91",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "7a1e38c0-8bd8-429c-b33b-b35c68b8f27b"
+      },
+      {
+        "chatId": "c58fccd8-e0d7-4706-ae79-b5e2c72368c5",
+        "lane": 38,
+        "scope": {
+          "id": "3ed93cd8-b01c-4471-957c-1e8bbf9dfc58",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "68d25b2a-ab36-4b3c-82b0-4cf7f61058f9"
+      },
+      {
+        "chatId": "513221a1-4c37-4bbd-b177-5e5c6f464579",
+        "lane": 39,
+        "scope": {
+          "id": "a3a6c800-ddc2-4b66-94a5-e7914d659929",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "540f2ff1-23fc-4f91-b42a-30f3491414df"
+      },
+      {
+        "chatId": "935d2ff7-8a27-46a0-9b3d-035c1b092a38",
+        "lane": 40,
+        "scope": {
+          "id": "8a8c3631-7754-4256-9713-6099eb266b4c",
+          "organizationId": null,
+          "type": "channel"
+        },
+        "sessionMetadata": null,
+        "workflowFixtureHash": "b8559668804c7a4c",
+        "workflowId": "908f5897-18b3-426b-ac7e-55b86bdec830"
+      }
+    ]
+  }
+}

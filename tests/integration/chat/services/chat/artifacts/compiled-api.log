@@ -1,0 +1,5 @@
+Loading env undefined
+◇ injected env (33) from .env // tip: ⌘ suppress logs { quiet: true }
+⚡️[server]: Server is running at http://localhost:3000
+⚡️[socket]: Chat socket.io endpoint is running at http://localhost:3000 with path /ws/chat
+⚡️[executor]: Workflow transport endpoint is running at http://localhost:3000 with path /ws/workflow

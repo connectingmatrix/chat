@@ -1,0 +1,1059 @@
+2026-05-04T10:57:34.864Z [chat-only] [LANE 0] SYSTEM_START run_id=run-20260504105734 cases=167
+2026-05-04T10:57:34.864Z [chat-only] [LANE 1] LANE_SETUP_START lane_key=lane-1
+2026-05-04T10:57:34.867Z [query-chat-node] [LANE 0] SYSTEM_START run_id=run-20260504105734 cases=167
+2026-05-04T10:57:34.868Z [query-chat-node] [LANE 1] LANE_SETUP_START lane_key=lane-1
+2026-05-04T10:57:34.868Z [workflow-ai-agent] [LANE 0] SYSTEM_START run_id=run-20260504105734 cases=167
+2026-05-04T10:57:34.868Z [workflow-ai-agent] [LANE 1] LANE_SETUP_START lane_key=lane-1
+2026-05-04T10:58:38.289Z [chat-only] [LANE 1] LANE_SETUP_READY lane_key=lane-1 scope_id=29a06508-f0e8-4409-b46c-9c859fa95feb chat_id=
+2026-05-04T10:58:38.491Z [chat-only] [LANE 2] LANE_SETUP_START lane_key=lane-2
+2026-05-04T10:58:38.907Z [query-chat-node] [LANE 1] LANE_SETUP_READY lane_key=lane-1 scope_id=b935c91e-4829-4527-a72f-7b25ef19af3c chat_id=
+2026-05-04T10:58:39.109Z [query-chat-node] [LANE 2] LANE_SETUP_START lane_key=lane-2
+2026-05-04T10:58:40.206Z [workflow-ai-agent] [LANE 1] LANE_SETUP_READY lane_key=lane-1 scope_id=b6e52e45-23dd-4ecb-a405-d5cd64da550f chat_id=
+2026-05-04T10:58:40.408Z [workflow-ai-agent] [LANE 2] LANE_SETUP_START lane_key=lane-2
+2026-05-04T10:58:43.582Z [chat-only] [LANE 2] LANE_SETUP_READY lane_key=lane-2 scope_id=f0181677-b6a2-44c6-ad3f-16a77beb5cac chat_id=
+2026-05-04T10:58:43.775Z [query-chat-node] [LANE 2] LANE_SETUP_READY lane_key=lane-2 scope_id=b438095d-ebe0-4f3f-a35b-b2dbfed6c671 chat_id=
+2026-05-04T10:58:43.784Z [chat-only] [LANE 3] LANE_SETUP_START lane_key=lane-3
+2026-05-04T10:58:43.976Z [query-chat-node] [LANE 3] LANE_SETUP_START lane_key=lane-3
+2026-05-04T10:58:45.909Z [workflow-ai-agent] [LANE 2] LANE_SETUP_READY lane_key=lane-2 scope_id=7c9f95e7-9c93-4dbf-a36c-be855ac755c8 chat_id=
+2026-05-04T10:58:46.111Z [workflow-ai-agent] [LANE 3] LANE_SETUP_START lane_key=lane-3
+2026-05-04T10:58:47.859Z [chat-only] [LANE 3] LANE_SETUP_READY lane_key=lane-3 scope_id=cb76a20a-1b8c-4bc6-873b-6c11e5081c48 chat_id=
+2026-05-04T10:58:48.061Z [chat-only] [LANE 4] LANE_SETUP_START lane_key=lane-4
+2026-05-04T10:58:48.224Z [query-chat-node] [LANE 3] LANE_SETUP_READY lane_key=lane-3 scope_id=0acc8e49-1d17-4fcf-9f23-a0565fff0c9f chat_id=
+2026-05-04T10:58:48.426Z [query-chat-node] [LANE 4] LANE_SETUP_START lane_key=lane-4
+2026-05-04T10:58:50.765Z [workflow-ai-agent] [LANE 3] LANE_SETUP_READY lane_key=lane-3 scope_id=f6f17348-96a9-49c3-8aac-454e5cd5915c chat_id=
+2026-05-04T10:58:50.966Z [workflow-ai-agent] [LANE 4] LANE_SETUP_START lane_key=lane-4
+2026-05-04T10:58:51.989Z [chat-only] [LANE 4] LANE_SETUP_READY lane_key=lane-4 scope_id=2583a990-fd50-4866-b91f-0df2cce91642 chat_id=
+2026-05-04T10:58:52.189Z [chat-only] [LANE 5] LANE_SETUP_START lane_key=lane-5
+2026-05-04T10:58:52.576Z [query-chat-node] [LANE 4] LANE_SETUP_READY lane_key=lane-4 scope_id=31e8757c-5862-4b15-a300-f55013632e61 chat_id=
+2026-05-04T10:58:52.778Z [query-chat-node] [LANE 5] LANE_SETUP_START lane_key=lane-5
+2026-05-04T10:58:55.586Z [workflow-ai-agent] [LANE 4] LANE_SETUP_READY lane_key=lane-4 scope_id=b5a86c74-d03d-4274-b5d1-82f694104935 chat_id=
+2026-05-04T10:58:55.787Z [workflow-ai-agent] [LANE 5] LANE_SETUP_START lane_key=lane-5
+2026-05-04T10:58:56.257Z [chat-only] [LANE 5] LANE_SETUP_READY lane_key=lane-5 scope_id=34223350-2050-4fa0-89e2-10e2597b5e5e chat_id=
+2026-05-04T10:58:56.457Z [chat-only] [LANE 6] LANE_SETUP_START lane_key=lane-6
+2026-05-04T10:58:56.709Z [query-chat-node] [LANE 5] LANE_SETUP_READY lane_key=lane-5 scope_id=6c49f450-e29d-46d7-9b06-4d42e6f03396 chat_id=
+2026-05-04T10:58:56.910Z [query-chat-node] [LANE 6] LANE_SETUP_START lane_key=lane-6
+2026-05-04T10:59:00.505Z [chat-only] [LANE 6] LANE_SETUP_READY lane_key=lane-6 scope_id=0e510cff-43c0-41e2-b5b7-e2496afd7c34 chat_id=
+2026-05-04T10:59:00.689Z [workflow-ai-agent] [LANE 5] LANE_SETUP_READY lane_key=lane-5 scope_id=7ab753cb-b31e-434d-a44b-da26146f2671 chat_id=
+2026-05-04T10:59:00.706Z [chat-only] [LANE 7] LANE_SETUP_START lane_key=lane-7
+2026-05-04T10:59:00.891Z [workflow-ai-agent] [LANE 0] SYSTEM_LANES_READY run_id=run-20260504105734 lanes=5
+2026-05-04T10:59:00.892Z [workflow-ai-agent] [LANE 1] START case_id=greeting-hello
+2026-05-04T10:59:00.894Z [workflow-ai-agent] [LANE 2] START case_id=giga-help
+2026-05-04T10:59:00.894Z [workflow-ai-agent] [LANE 3] START case_id=workflow-create
+2026-05-04T10:59:00.895Z [workflow-ai-agent] [LANE 4] START case_id=channel-create
+2026-05-04T10:59:00.895Z [workflow-ai-agent] [LANE 5] START case_id=subject-link
+2026-05-04T10:59:00.942Z [query-chat-node] [LANE 6] LANE_SETUP_READY lane_key=lane-6 scope_id=74418d39-7182-4766-8d22-d04ea0406a8b chat_id=
+2026-05-04T10:59:01.144Z [query-chat-node] [LANE 7] LANE_SETUP_START lane_key=lane-7
+2026-05-04T10:59:06.341Z [chat-only] [LANE 7] LANE_SETUP_READY lane_key=lane-7 scope_id=30c30296-f476-4da2-96ad-a737772034ab chat_id=
+2026-05-04T10:59:06.541Z [chat-only] [LANE 8] LANE_SETUP_START lane_key=lane-8
+2026-05-04T10:59:07.444Z [query-chat-node] [LANE 7] LANE_SETUP_READY lane_key=lane-7 scope_id=24279423-86a3-4214-b449-ada312d95ed5 chat_id=
+2026-05-04T10:59:07.645Z [query-chat-node] [LANE 8] LANE_SETUP_START lane_key=lane-8
+2026-05-04T10:59:10.486Z [chat-only] [LANE 8] LANE_SETUP_READY lane_key=lane-8 scope_id=489674ef-5af0-4de3-a9ce-eb3d9c760645 chat_id=
+2026-05-04T10:59:10.686Z [chat-only] [LANE 9] LANE_SETUP_START lane_key=lane-9
+2026-05-04T10:59:11.560Z [query-chat-node] [LANE 8] LANE_SETUP_READY lane_key=lane-8 scope_id=cc972ef4-36f7-4e14-bf5a-5fbd1d4045d7 chat_id=
+2026-05-04T10:59:11.760Z [query-chat-node] [LANE 9] LANE_SETUP_START lane_key=lane-9
+2026-05-04T10:59:15.568Z [chat-only] [LANE 9] LANE_SETUP_READY lane_key=lane-9 scope_id=51cf5412-0777-453e-a176-fa7a94ea9db8 chat_id=
+2026-05-04T10:59:15.768Z [chat-only] [LANE 10] LANE_SETUP_START lane_key=lane-10
+2026-05-04T10:59:16.450Z [query-chat-node] [LANE 9] LANE_SETUP_READY lane_key=lane-9 scope_id=88086076-75a8-4b40-aa86-b52f15a338b7 chat_id=
+2026-05-04T10:59:16.650Z [query-chat-node] [LANE 10] LANE_SETUP_START lane_key=lane-10
+2026-05-04T10:59:19.694Z [chat-only] [LANE 10] LANE_SETUP_READY lane_key=lane-10 scope_id=a84fd70a-405e-4fef-b1d1-84d69e086ff8 chat_id=
+2026-05-04T10:59:19.899Z [chat-only] [LANE 0] SYSTEM_LANES_READY run_id=run-20260504105734 lanes=10
+2026-05-04T10:59:19.899Z [chat-only] [LANE 1] START case_id=greeting-hello
+2026-05-04T10:59:19.901Z [chat-only] [LANE 2] START case_id=giga-help
+2026-05-04T10:59:19.902Z [chat-only] [LANE 3] START case_id=workflow-create
+2026-05-04T10:59:19.902Z [chat-only] [LANE 4] START case_id=channel-create
+2026-05-04T10:59:19.903Z [chat-only] [LANE 5] START case_id=subject-link
+2026-05-04T10:59:19.903Z [chat-only] [LANE 6] START case_id=simple-1
+2026-05-04T10:59:19.904Z [chat-only] [LANE 7] START case_id=general-1
+2026-05-04T10:59:19.905Z [chat-only] [LANE 8] START case_id=category-1
+2026-05-04T10:59:19.905Z [chat-only] [LANE 9] START case_id=post-1
+2026-05-04T10:59:19.905Z [chat-only] [LANE 10] START case_id=advanced-1
+2026-05-04T10:59:20.565Z [query-chat-node] [LANE 10] LANE_SETUP_READY lane_key=lane-10 scope_id=e4c52788-f463-42f7-93de-e8ced8e6ab6b chat_id=
+2026-05-04T10:59:20.765Z [query-chat-node] [LANE 0] SYSTEM_LANES_READY run_id=run-20260504105734 lanes=10
+2026-05-04T10:59:20.765Z [query-chat-node] [LANE 1] START case_id=greeting-hello
+2026-05-04T10:59:20.766Z [query-chat-node] [LANE 2] START case_id=giga-help
+2026-05-04T10:59:20.766Z [query-chat-node] [LANE 3] START case_id=workflow-create
+2026-05-04T10:59:20.766Z [query-chat-node] [LANE 4] START case_id=channel-create
+2026-05-04T10:59:20.766Z [query-chat-node] [LANE 5] START case_id=subject-link
+2026-05-04T10:59:20.767Z [query-chat-node] [LANE 6] START case_id=simple-1
+2026-05-04T10:59:20.767Z [query-chat-node] [LANE 7] START case_id=general-1
+2026-05-04T10:59:20.767Z [query-chat-node] [LANE 8] START case_id=category-1
+2026-05-04T10:59:20.767Z [query-chat-node] [LANE 9] START case_id=post-1
+2026-05-04T10:59:20.767Z [query-chat-node] [LANE 10] START case_id=advanced-1
+2026-05-04T10:59:27.454Z [chat-only] [LANE 3] FAILED case_id=workflow-create elapsed_s=7.552 error=Expected confirmation but none was requested.
+2026-05-04T10:59:27.599Z [chat-only] [LANE 3] START case_id=workflow-1
+2026-05-04T10:59:31.349Z [chat-only] [LANE 9] PASSED case_id=post-1 elapsed_s=11.444
+2026-05-04T10:59:31.409Z [workflow-ai-agent] [LANE 1] PASSED case_id=greeting-hello elapsed_s=30.517
+2026-05-04T10:59:31.544Z [chat-only] [LANE 9] START case_id=post-2
+2026-05-04T10:59:31.603Z [workflow-ai-agent] [LANE 1] START case_id=greeting-hi
+2026-05-04T10:59:33.209Z [chat-only] [LANE 1] PASSED case_id=greeting-hello elapsed_s=13.31
+2026-05-04T10:59:33.618Z [chat-only] [LANE 10] FAILED case_id=advanced-1 elapsed_s=13.713 error=Expected confirmation but none was requested.
+2026-05-04T10:59:33.678Z [chat-only] [LANE 1] START case_id=greeting-hi
+2026-05-04T10:59:33.827Z [chat-only] [LANE 10] START case_id=advanced-2
+2026-05-04T10:59:34.500Z [chat-only] [LANE 7] PASSED case_id=general-1 elapsed_s=14.596
+2026-05-04T10:59:34.541Z [chat-only] [LANE 7] START case_id=general-2
+2026-05-04T10:59:37.103Z [chat-only] [LANE 6] PASSED case_id=simple-1 elapsed_s=17.2
+2026-05-04T10:59:37.537Z [chat-only] [LANE 6] START case_id=simple-2
+2026-05-04T10:59:39.148Z [chat-only] [LANE 2] PASSED case_id=giga-help elapsed_s=19.247
+2026-05-04T10:59:40.002Z [chat-only] [LANE 2] START case_id=coverage2-1
+2026-05-04T10:59:40.373Z [chat-only] [LANE 4] PASSED case_id=channel-create elapsed_s=20.471
+2026-05-04T10:59:40.534Z [chat-only] [LANE 4] START case_id=channel-1
+2026-05-04T10:59:40.730Z [chat-only] [LANE 9] FAILED case_id=post-2 elapsed_s=9.186 error=Unexpected confirmation for: Create subject "matrix-subject-parent" and post "matrix-post-a", then read post "matrix-post-a".
+2026-05-04T10:59:41.130Z [chat-only] [LANE 9] START case_id=post-3
+2026-05-04T10:59:43.188Z [workflow-ai-agent] [LANE 4] FAILED case_id=channel-create elapsed_s=42.293 error=Expected confirmation but none was requested.
+2026-05-04T10:59:43.222Z [workflow-ai-agent] [LANE 4] START case_id=channel-1
+2026-05-04T10:59:45.116Z [chat-only] [LANE 8] PASSED case_id=category-1 elapsed_s=25.211
+2026-05-04T10:59:45.145Z [chat-only] [LANE 8] START case_id=category-2
+2026-05-04T10:59:46.564Z [chat-only] [LANE 3] PASSED case_id=workflow-1 elapsed_s=18.965
+2026-05-04T10:59:46.589Z [chat-only] [LANE 3] START case_id=workflow-2
+2026-05-04T10:59:47.124Z [chat-only] [LANE 1] PASSED case_id=greeting-hi elapsed_s=13.446
+2026-05-04T10:59:47.144Z [chat-only] [LANE 1] START case_id=chart-workflow-1
+2026-05-04T10:59:48.905Z [query-chat-node] [LANE 6] PASSED case_id=simple-1 elapsed_s=28.138
+2026-05-04T10:59:48.951Z [query-chat-node] [LANE 6] START case_id=simple-2
+2026-05-04T10:59:49.076Z [chat-only] [LANE 6] PASSED case_id=simple-2 elapsed_s=11.539
+2026-05-04T10:59:49.112Z [chat-only] [LANE 6] START case_id=simple-3
+2026-05-04T10:59:50.203Z [query-chat-node] [LANE 1] PASSED case_id=greeting-hello elapsed_s=29.438
+2026-05-04T10:59:50.229Z [query-chat-node] [LANE 2] PASSED case_id=giga-help elapsed_s=29.463
+2026-05-04T10:59:50.232Z [query-chat-node] [LANE 1] START case_id=greeting-hi
+2026-05-04T10:59:50.263Z [query-chat-node] [LANE 2] START case_id=coverage2-1
+2026-05-04T10:59:51.654Z [query-chat-node] [LANE 3] FAILED case_id=workflow-create elapsed_s=30.888 error=Expected confirmation but none was requested.
+2026-05-04T10:59:51.688Z [query-chat-node] [LANE 3] START case_id=workflow-1
+2026-05-04T10:59:51.979Z [query-chat-node] [LANE 7] PASSED case_id=general-1 elapsed_s=31.212
+2026-05-04T10:59:52.001Z [query-chat-node] [LANE 7] START case_id=general-2
+2026-05-04T10:59:53.251Z [chat-only] [LANE 8] FAILED case_id=category-2 elapsed_s=8.106 error=Unexpected confirmation for: Create category "matrix-category-a" and then read category "matrix-category-a".
+2026-05-04T10:59:53.273Z [chat-only] [LANE 8] START case_id=category-3
+2026-05-04T10:59:53.632Z [chat-only] [LANE 4] PASSED case_id=channel-1 elapsed_s=13.098
+2026-05-04T10:59:53.652Z [chat-only] [LANE 4] START case_id=channel-2
+2026-05-04T10:59:55.317Z [chat-only] [LANE 1] FAILED case_id=chart-workflow-1 elapsed_s=8.173 error=Expected confirmation but none was requested.
+2026-05-04T10:59:55.340Z [chat-only] [LANE 1] START case_id=chart-workflow-2
+2026-05-04T10:59:57.067Z [chat-only] [LANE 3] FAILED case_id=workflow-2 elapsed_s=10.478 error=Unexpected confirmation for: Create workflow "matrix-workflow-a" and then read workflow "matrix-workflow-a".
+2026-05-04T10:59:57.087Z [chat-only] [LANE 3] START case_id=workflow-3
+2026-05-04T10:59:59.209Z [workflow-ai-agent] [LANE 2] FAILED case_id=giga-help elapsed_s=58.315 error=Final output missing expected text: giga
+2026-05-04T10:59:59.261Z [workflow-ai-agent] [LANE 2] START case_id=general-1
+2026-05-04T11:00:00.282Z [chat-only] [LANE 6] PASSED case_id=simple-3 elapsed_s=11.17
+2026-05-04T11:00:00.491Z [chat-only] [LANE 6] START case_id=simple-4
+2026-05-04T11:00:01.355Z [chat-only] [LANE 5] PASSED case_id=subject-link elapsed_s=41.452
+2026-05-04T11:00:01.790Z [chat-only] [LANE 5] START case_id=subject-1
+2026-05-04T11:00:05.538Z [chat-only] [LANE 4] FAILED case_id=channel-2 elapsed_s=11.886 error=Unexpected confirmation for: Create channel "matrix-channel-a" and then read channel "matrix-channel-a".
+2026-05-04T11:00:05.632Z [chat-only] [LANE 4] START case_id=channel-3
+2026-05-04T11:00:07.103Z [query-chat-node] [LANE 6] PASSED case_id=simple-2 elapsed_s=18.152
+2026-05-04T11:00:07.475Z [query-chat-node] [LANE 6] START case_id=simple-3
+2026-05-04T11:00:11.353Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-create elapsed_s=70.459 error=Expected confirmation but none was requested.
+2026-05-04T11:00:11.471Z [workflow-ai-agent] [LANE 3] START case_id=workflow-1
+2026-05-04T11:00:13.171Z [chat-only] [LANE 6] PASSED case_id=simple-4 elapsed_s=12.68
+2026-05-04T11:00:13.214Z [chat-only] [LANE 6] START case_id=simple-5
+2026-05-04T11:00:15.690Z [chat-only] [LANE 8] PASSED case_id=category-3 elapsed_s=22.417
+2026-05-04T11:00:15.731Z [chat-only] [LANE 8] START case_id=category-4
+2026-05-04T11:00:16.239Z [chat-only] [LANE 10] PASSED case_id=advanced-2 elapsed_s=42.412
+2026-05-04T11:00:16.283Z [chat-only] [LANE 10] START case_id=advanced-3
+2026-05-04T11:00:17.191Z [chat-only] [LANE 9] PASSED case_id=post-3 elapsed_s=36.061
+2026-05-04T11:00:17.240Z [chat-only] [LANE 9] START case_id=post-4
+2026-05-04T11:00:17.880Z [chat-only] [LANE 1] FAILED case_id=chart-workflow-2 elapsed_s=22.54 error=Expected confirmation but none was requested.
+2026-05-04T11:00:17.890Z [query-chat-node] [LANE 1] PASSED case_id=greeting-hi elapsed_s=27.658
+2026-05-04T11:00:17.903Z [chat-only] [LANE 1] START case_id=chart-workflow-3
+2026-05-04T11:00:17.927Z [query-chat-node] [LANE 1] START case_id=chart-workflow-1
+2026-05-04T11:00:19.217Z [chat-only] [LANE 3] PASSED case_id=workflow-3 elapsed_s=22.13
+2026-05-04T11:00:19.251Z [chat-only] [LANE 3] START case_id=workflow-4
+2026-05-04T11:00:20.374Z [query-chat-node] [LANE 7] PASSED case_id=general-2 elapsed_s=28.373
+2026-05-04T11:00:20.394Z [query-chat-node] [LANE 7] START case_id=general-3
+2026-05-04T11:00:20.683Z [chat-only] [LANE 5] PASSED case_id=subject-1 elapsed_s=18.893
+2026-05-04T11:00:20.725Z [chat-only] [LANE 5] START case_id=subject-2
+2026-05-04T11:00:20.802Z [query-chat-node] [LANE 10] PASSED case_id=advanced-1 elapsed_s=60.035
+2026-05-04T11:00:20.828Z [query-chat-node] [LANE 10] START case_id=advanced-2
+2026-05-04T11:00:21.869Z [query-chat-node] [LANE 9] PASSED case_id=post-1 elapsed_s=61.102
+2026-05-04T11:00:21.899Z [query-chat-node] [LANE 9] START case_id=post-2
+2026-05-04T11:00:22.624Z [chat-only] [LANE 4] PASSED case_id=channel-3 elapsed_s=16.992
+2026-05-04T11:00:22.654Z [chat-only] [LANE 4] START case_id=channel-4
+2026-05-04T11:00:23.261Z [query-chat-node] [LANE 6] PASSED case_id=simple-3 elapsed_s=15.786
+2026-05-04T11:00:23.343Z [query-chat-node] [LANE 6] START case_id=simple-4
+2026-05-04T11:00:23.937Z [query-chat-node] [LANE 4] PASSED case_id=channel-create elapsed_s=63.171
+2026-05-04T11:00:23.977Z [query-chat-node] [LANE 4] START case_id=channel-1
+2026-05-04T11:00:24.903Z [query-chat-node] [LANE 3] FAILED case_id=workflow-1 elapsed_s=33.215 error=Expected confirmation but none was requested.
+2026-05-04T11:00:24.971Z [query-chat-node] [LANE 3] START case_id=workflow-2
+2026-05-04T11:00:25.223Z [query-chat-node] [LANE 8] PASSED case_id=category-1 elapsed_s=64.456
+2026-05-04T11:00:25.268Z [query-chat-node] [LANE 8] START case_id=category-2
+2026-05-04T11:00:26.037Z [chat-only] [LANE 6] PASSED case_id=simple-5 elapsed_s=12.823
+2026-05-04T11:00:26.140Z [chat-only] [LANE 6] START case_id=simple-6
+2026-05-04T11:00:28.321Z [chat-only] [LANE 5] FAILED case_id=subject-2 elapsed_s=7.596 error=Unexpected confirmation for: Create subject "matrix-subject-a" under category "matrix-category-parent" and then read it.
+2026-05-04T11:00:28.397Z [chat-only] [LANE 5] START case_id=subject-3
+2026-05-04T11:00:29.954Z [workflow-ai-agent] [LANE 1] PASSED case_id=greeting-hi elapsed_s=58.351
+2026-05-04T11:00:30.001Z [workflow-ai-agent] [LANE 1] START case_id=simple-1
+2026-05-04T11:00:30.719Z [chat-only] [LANE 10] FAILED case_id=advanced-3 elapsed_s=14.436 error=Expected confirmation but none was requested.
+2026-05-04T11:00:30.802Z [chat-only] [LANE 10] START case_id=advanced-4
+2026-05-04T11:00:32.204Z [chat-only] [LANE 3] PASSED case_id=workflow-4 elapsed_s=12.953
+2026-05-04T11:00:32.448Z [chat-only] [LANE 3] START case_id=workflow-5
+2026-05-04T11:00:35.910Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-link elapsed_s=95.015 error=Expected confirmation but none was requested.
+2026-05-04T11:00:36.066Z [workflow-ai-agent] [LANE 5] START case_id=subject-1
+2026-05-04T11:00:36.460Z [chat-only] [LANE 9] PASSED case_id=post-4 elapsed_s=19.22
+2026-05-04T11:00:36.632Z [chat-only] [LANE 9] START case_id=post-5
+2026-05-04T11:00:38.282Z [query-chat-node] [LANE 5] PASSED case_id=subject-link elapsed_s=77.516
+2026-05-04T11:00:38.324Z [query-chat-node] [LANE 5] START case_id=subject-1
+2026-05-04T11:00:39.222Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-1 elapsed_s=21.295 error=Expected confirmation but none was requested.
+2026-05-04T11:00:39.237Z [chat-only] [LANE 6] PASSED case_id=simple-6 elapsed_s=13.097
+2026-05-04T11:00:39.263Z [query-chat-node] [LANE 1] START case_id=chart-workflow-2
+2026-05-04T11:00:39.294Z [chat-only] [LANE 6] START case_id=simple-7
+2026-05-04T11:00:40.307Z [query-chat-node] [LANE 7] PASSED case_id=general-3 elapsed_s=19.913
+2026-05-04T11:00:40.344Z [query-chat-node] [LANE 7] START case_id=general-4
+2026-05-04T11:00:42.427Z [query-chat-node] [LANE 6] PASSED case_id=simple-4 elapsed_s=19.084
+2026-05-04T11:00:42.450Z [query-chat-node] [LANE 6] START case_id=simple-5
+2026-05-04T11:00:48.148Z [query-chat-node] [LANE 9] FAILED case_id=post-2 elapsed_s=26.249 error=Unexpected confirmation for: Create subject "matrix-subject-parent" and post "matrix-post-a", then read post "matrix-post-a".
+2026-05-04T11:00:48.241Z [query-chat-node] [LANE 9] START case_id=post-3
+2026-05-04T11:00:49.150Z [query-chat-node] [LANE 8] FAILED case_id=category-2 elapsed_s=23.882 error=Unexpected confirmation for: Create category "matrix-category-a" and then read category "matrix-category-a".
+2026-05-04T11:00:49.206Z [query-chat-node] [LANE 8] START case_id=category-3
+2026-05-04T11:00:50.582Z [chat-only] [LANE 1] PASSED case_id=chart-workflow-3 elapsed_s=32.679
+2026-05-04T11:00:50.603Z [chat-only] [LANE 1] START case_id=chart-workflow-4
+2026-05-04T11:00:51.515Z [chat-only] [LANE 6] PASSED case_id=simple-7 elapsed_s=12.221
+2026-05-04T11:00:51.541Z [chat-only] [LANE 6] START case_id=simple-8
+2026-05-04T11:00:53.026Z [workflow-ai-agent] [LANE 4] FAILED case_id=channel-1 elapsed_s=69.804 error=Expected confirmation but none was requested.
+2026-05-04T11:00:53.060Z [workflow-ai-agent] [LANE 4] START case_id=channel-2
+2026-05-04T11:00:53.406Z [chat-only] [LANE 8] PASSED case_id=category-4 elapsed_s=37.675
+2026-05-04T11:00:53.438Z [chat-only] [LANE 8] START case_id=category-5
+2026-05-04T11:00:58.390Z [chat-only] [LANE 9] PASSED case_id=post-5 elapsed_s=21.758
+2026-05-04T11:00:58.453Z [chat-only] [LANE 9] START case_id=post-6
+2026-05-04T11:00:58.764Z [query-chat-node] [LANE 3] PASSED case_id=workflow-2 elapsed_s=33.793
+2026-05-04T11:00:58.920Z [query-chat-node] [LANE 3] START case_id=workflow-3
+2026-05-04T11:01:00.694Z [chat-only] [LANE 4] PASSED case_id=channel-4 elapsed_s=38.04
+2026-05-04T11:01:00.751Z [chat-only] [LANE 4] START case_id=channel-5
+2026-05-04T11:01:01.329Z [chat-only] [LANE 2] PASSED case_id=coverage2-1 elapsed_s=81.327
+2026-05-04T11:01:01.378Z [chat-only] [LANE 2] START case_id=coverage2-2
+2026-05-04T11:01:02.368Z [chat-only] [LANE 9] FAILED case_id=post-6 elapsed_s=3.915 error=Expected confirmation but none was requested.
+2026-05-04T11:01:02.453Z [chat-only] [LANE 9] START case_id=post-7
+2026-05-04T11:01:05.094Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-2 elapsed_s=25.831 error=Expected confirmation but none was requested.
+2026-05-04T11:01:05.407Z [query-chat-node] [LANE 1] START case_id=chart-workflow-3
+2026-05-04T11:01:06.119Z [chat-only] [LANE 9] FAILED case_id=post-7 elapsed_s=3.666 error=Expected confirmation but none was requested.
+2026-05-04T11:01:06.157Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-1 elapsed_s=66.896 error=Final output missing expected text: giga
+2026-05-04T11:01:06.375Z [workflow-ai-agent] [LANE 2] START case_id=general-2
+2026-05-04T11:01:07.550Z [chat-only] [LANE 3] PASSED case_id=workflow-5 elapsed_s=35.102
+2026-05-04T11:01:07.601Z [chat-only] [LANE 3] START case_id=workflow-6
+2026-05-04T11:01:11.481Z [chat-only] [LANE 8] PASSED case_id=category-5 elapsed_s=18.043
+2026-05-04T11:01:11.598Z [chat-only] [LANE 8] START case_id=category-6
+2026-05-04T11:01:12.645Z [chat-only] [LANE 10] PASSED case_id=advanced-4 elapsed_s=41.843
+2026-05-04T11:01:12.701Z [chat-only] [LANE 10] START case_id=advanced-5
+2026-05-04T11:01:12.952Z [chat-only] [LANE 6] PASSED case_id=simple-8 elapsed_s=21.411
+2026-05-04T11:01:12.993Z [chat-only] [LANE 6] START case_id=simple-9
+2026-05-04T11:01:14.464Z [chat-only] [LANE 4] PASSED case_id=channel-5 elapsed_s=13.713
+2026-05-04T11:01:14.514Z [chat-only] [LANE 4] START case_id=channel-6
+2026-05-04T11:01:15.504Z [query-chat-node] [LANE 6] PASSED case_id=simple-5 elapsed_s=33.054
+2026-05-04T11:01:15.526Z [query-chat-node] [LANE 6] START case_id=simple-6
+2026-05-04T11:01:16.226Z [query-chat-node] [LANE 7] PASSED case_id=general-4 elapsed_s=35.882
+2026-05-04T11:01:16.249Z [query-chat-node] [LANE 7] START case_id=general-5
+2026-05-04T11:01:16.820Z [chat-only] [LANE 1] PASSED case_id=chart-workflow-4 elapsed_s=26.217
+2026-05-04T11:01:16.843Z [chat-only] [LANE 1] START case_id=chart-workflow-5
+2026-05-04T11:01:17.657Z [query-chat-node] [LANE 10] PASSED case_id=advanced-2 elapsed_s=56.829
+2026-05-04T11:01:17.702Z [query-chat-node] [LANE 10] START case_id=advanced-3
+2026-05-04T11:01:19.802Z [chat-only] [LANE 8] FAILED case_id=category-6 elapsed_s=8.204 error=Unexpected confirmation for: Create category "matrix-category-child".
+2026-05-04T11:01:19.837Z [chat-only] [LANE 8] START case_id=category-7
+2026-05-04T11:01:20.555Z [query-chat-node] [LANE 5] PASSED case_id=subject-1 elapsed_s=42.231
+2026-05-04T11:01:20.587Z [query-chat-node] [LANE 5] START case_id=subject-2
+2026-05-04T11:01:21.584Z [query-chat-node] [LANE 4] PASSED case_id=channel-1 elapsed_s=57.607
+2026-05-04T11:01:21.616Z [query-chat-node] [LANE 4] START case_id=channel-2
+2026-05-04T11:01:22.169Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-1 elapsed_s=70.698 error=Expected confirmation but none was requested.
+2026-05-04T11:01:22.262Z [workflow-ai-agent] [LANE 3] START case_id=workflow-2
+2026-05-04T11:01:22.275Z [chat-only] [LANE 4] FAILED case_id=channel-6 elapsed_s=7.761 error=Unexpected confirmation for: Create channel "matrix-child-channel".
+2026-05-04T11:01:22.323Z [chat-only] [LANE 4] START case_id=channel-7
+2026-05-04T11:01:27.292Z [chat-only] [LANE 3] PASSED case_id=workflow-6 elapsed_s=19.691
+2026-05-04T11:01:27.335Z [chat-only] [LANE 3] START case_id=workflow-7
+2026-05-04T11:01:29.059Z [chat-only] [LANE 6] PASSED case_id=simple-9 elapsed_s=16.066
+2026-05-04T11:01:29.118Z [chat-only] [LANE 6] START case_id=simple-10
+2026-05-04T11:01:29.396Z [workflow-ai-agent] [LANE 1] PASSED case_id=simple-1 elapsed_s=59.395
+2026-05-04T11:01:29.456Z [query-chat-node] [LANE 6] PASSED case_id=simple-6 elapsed_s=13.93
+2026-05-04T11:01:29.514Z [workflow-ai-agent] [LANE 1] START case_id=simple-2
+2026-05-04T11:01:29.736Z [query-chat-node] [LANE 6] START case_id=simple-7
+2026-05-04T11:01:34.698Z [query-chat-node] [LANE 7] PASSED case_id=general-5 elapsed_s=18.449
+2026-05-04T11:01:34.804Z [query-chat-node] [LANE 7] START case_id=general-6
+2026-05-04T11:01:35.064Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-3 elapsed_s=29.657 error=Expected confirmation but none was requested.
+2026-05-04T11:01:35.117Z [query-chat-node] [LANE 1] START case_id=chart-workflow-4
+2026-05-04T11:01:35.442Z [query-chat-node] [LANE 3] FAILED case_id=workflow-3 elapsed_s=36.522 error=Expected confirmation but none was requested.
+2026-05-04T11:01:35.472Z [query-chat-node] [LANE 3] START case_id=workflow-4
+2026-05-04T11:01:37.448Z [chat-only] [LANE 1] PASSED case_id=chart-workflow-5 elapsed_s=20.605
+2026-05-04T11:01:37.474Z [chat-only] [LANE 1] START case_id=chart-workflow-6
+2026-05-04T11:01:38.326Z [chat-only] [LANE 7] PASSED case_id=general-2 elapsed_s=123.785
+2026-05-04T11:01:38.355Z [chat-only] [LANE 7] START case_id=general-3
+2026-05-04T11:01:44.385Z [query-chat-node] [LANE 4] FAILED case_id=channel-2 elapsed_s=22.769 error=Unexpected confirmation for: Create channel "matrix-channel-a" and then read channel "matrix-channel-a".
+2026-05-04T11:01:44.491Z [query-chat-node] [LANE 10] FAILED case_id=advanced-3 elapsed_s=26.789 error=Expected confirmation but none was requested.
+2026-05-04T11:01:44.576Z [query-chat-node] [LANE 5] FAILED case_id=subject-2 elapsed_s=23.989 error=Unexpected confirmation for: Create subject "matrix-subject-a" under category "matrix-category-parent" and then read it.
+2026-05-04T11:01:44.600Z [query-chat-node] [LANE 4] START case_id=channel-3
+2026-05-04T11:01:44.714Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-1 elapsed_s=68.648 error=Expected confirmation but none was requested.
+2026-05-04T11:01:44.851Z [query-chat-node] [LANE 10] START case_id=advanced-4
+2026-05-04T11:01:44.920Z [query-chat-node] [LANE 5] START case_id=subject-3
+2026-05-04T11:01:44.993Z [workflow-ai-agent] [LANE 5] START case_id=subject-2
+2026-05-04T11:01:47.282Z [chat-only] [LANE 8] PASSED case_id=category-7 elapsed_s=27.445
+2026-05-04T11:01:47.368Z [chat-only] [LANE 8] START case_id=category-8
+2026-05-04T11:01:48.582Z [chat-only] [LANE 3] PASSED case_id=workflow-7 elapsed_s=21.247
+2026-05-04T11:01:49.011Z [chat-only] [LANE 3] START case_id=workflow-8
+2026-05-04T11:01:49.326Z [chat-only] [LANE 6] PASSED case_id=simple-10 elapsed_s=20.208
+2026-05-04T11:01:51.982Z [chat-only] [LANE 10] PASSED case_id=advanced-5 elapsed_s=39.281
+2026-05-04T11:01:52.026Z [chat-only] [LANE 10] START case_id=advanced-6
+2026-05-04T11:01:56.861Z [query-chat-node] [LANE 6] PASSED case_id=simple-7 elapsed_s=27.125
+2026-05-04T11:01:56.954Z [query-chat-node] [LANE 6] START case_id=simple-8
+2026-05-04T11:01:58.906Z [chat-only] [LANE 3] FAILED case_id=workflow-8 elapsed_s=9.895 error=Expected confirmation but none was requested.
+2026-05-04T11:01:58.931Z [chat-only] [LANE 3] START case_id=workflow-9
+2026-05-04T11:01:59.295Z [workflow-ai-agent] [LANE 4] PASSED case_id=channel-2 elapsed_s=66.235
+2026-05-04T11:01:59.324Z [workflow-ai-agent] [LANE 4] START case_id=channel-3
+2026-05-04T11:02:01.483Z [chat-only] [LANE 7] PASSED case_id=general-3 elapsed_s=23.128
+2026-05-04T11:02:01.508Z [chat-only] [LANE 7] START case_id=general-4
+2026-05-04T11:02:04.275Z [chat-only] [LANE 4] PASSED case_id=channel-7 elapsed_s=41.952
+2026-05-04T11:02:04.302Z [chat-only] [LANE 4] START case_id=channel-8
+2026-05-04T11:02:04.394Z [query-chat-node] [LANE 7] FAILED case_id=general-6 elapsed_s=29.59 error=Final output missing expected text: giga
+2026-05-04T11:02:04.424Z [query-chat-node] [LANE 7] START case_id=general-7
+2026-05-04T11:02:04.781Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-4 elapsed_s=29.664 error=Expected confirmation but none was requested.
+2026-05-04T11:02:04.808Z [query-chat-node] [LANE 1] START case_id=chart-workflow-5
+2026-05-04T11:02:05.022Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-2 elapsed_s=58.647 error=Final output missing expected text: giga
+2026-05-04T11:02:05.048Z [workflow-ai-agent] [LANE 2] START case_id=general-3
+2026-05-04T11:16:36.754Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-2 elapsed_s=907.24 error=Timed out waiting for chat workflow execution 75cc55b2-1ded-44c6-8273-920edf872ff5.
+2026-05-04T11:16:36.911Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-1 elapsed_s=1006.648 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.911Z [chat-only] [LANE 5] FAILED case_id=subject-3 elapsed_s=968.514 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.911Z [chat-only] [LANE 2] FAILED case_id=coverage2-2 elapsed_s=935.533 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.911Z [query-chat-node] [LANE 8] FAILED case_id=category-3 elapsed_s=947.705 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.911Z [query-chat-node] [LANE 9] FAILED case_id=post-3 elapsed_s=948.67 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.911Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-2 elapsed_s=914.649 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.911Z [query-chat-node] [LANE 3] FAILED case_id=workflow-4 elapsed_s=901.439 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.911Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-2 elapsed_s=891.918 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.911Z [query-chat-node] [LANE 6] FAILED case_id=simple-8 elapsed_s=879.957 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.911Z [chat-only] [LANE 1] FAILED case_id=chart-workflow-6 elapsed_s=899.437 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.912Z [chat-only] [LANE 8] FAILED case_id=category-8 elapsed_s=889.544 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.912Z [chat-only] [LANE 3] FAILED case_id=workflow-9 elapsed_s=877.981 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.912Z [workflow-ai-agent] [LANE 4] FAILED case_id=channel-3 elapsed_s=877.588 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.912Z [chat-only] [LANE 10] FAILED case_id=advanced-6 elapsed_s=884.886 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.912Z [chat-only] [LANE 7] FAILED case_id=general-4 elapsed_s=875.404 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.912Z [chat-only] [LANE 4] FAILED case_id=channel-8 elapsed_s=872.61 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.912Z [query-chat-node] [LANE 7] FAILED case_id=general-7 elapsed_s=872.488 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.912Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-5 elapsed_s=872.104 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.912Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-3 elapsed_s=871.864 error=pending request timed out after 180000ms
+2026-05-04T11:16:36.912Z [query-chat-node] [LANE 10] FAILED case_id=advanced-4 elapsed_s=892.061 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.912Z [query-chat-node] [LANE 4] FAILED case_id=channel-3 elapsed_s=892.312 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:36.912Z [query-chat-node] [LANE 5] FAILED case_id=subject-3 elapsed_s=891.992 error=confirmation request timed out after 180000ms
+2026-05-04T11:16:37.043Z [workflow-ai-agent] [LANE 1] START case_id=simple-3
+2026-05-04T11:16:37.099Z [query-chat-node] [LANE 2] START case_id=coverage2-2
+2026-05-04T11:16:37.128Z [chat-only] [LANE 5] START case_id=subject-4
+2026-05-04T11:16:37.155Z [chat-only] [LANE 2] START case_id=coverage2-3
+2026-05-04T11:16:37.182Z [query-chat-node] [LANE 8] START case_id=category-4
+2026-05-04T11:16:37.210Z [query-chat-node] [LANE 9] START case_id=post-4
+2026-05-04T11:16:37.238Z [workflow-ai-agent] [LANE 3] START case_id=workflow-3
+2026-05-04T11:16:37.261Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-3 elapsed_s=0.218 error=fetch failed
+2026-05-04T11:16:37.266Z [chat-only] [LANE 5] FAILED case_id=subject-4 elapsed_s=0.138 error=fetch failed
+2026-05-04T11:16:37.267Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-2 elapsed_s=0.168 error=fetch failed
+2026-05-04T11:16:37.270Z [query-chat-node] [LANE 8] FAILED case_id=category-4 elapsed_s=0.088 error=fetch failed
+2026-05-04T11:16:37.272Z [chat-only] [LANE 2] FAILED case_id=coverage2-3 elapsed_s=0.117 error=fetch failed
+2026-05-04T11:16:37.274Z [query-chat-node] [LANE 9] FAILED case_id=post-4 elapsed_s=0.064 error=fetch failed
+2026-05-04T11:16:37.275Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-3 elapsed_s=0.037 error=fetch failed
+2026-05-04T11:16:37.279Z [query-chat-node] [LANE 3] START case_id=workflow-5
+2026-05-04T11:16:37.294Z [query-chat-node] [LANE 3] FAILED case_id=workflow-5 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:37.307Z [workflow-ai-agent] [LANE 5] START case_id=subject-3
+2026-05-04T11:16:37.351Z [query-chat-node] [LANE 6] START case_id=simple-9
+2026-05-04T11:16:37.383Z [chat-only] [LANE 1] START case_id=chart-workflow-7
+2026-05-04T11:16:37.398Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-3 elapsed_s=0.091 error=fetch failed
+2026-05-04T11:16:37.400Z [query-chat-node] [LANE 6] FAILED case_id=simple-9 elapsed_s=0.049 error=fetch failed
+2026-05-04T11:16:37.400Z [chat-only] [LANE 1] FAILED case_id=chart-workflow-7 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:37.455Z [chat-only] [LANE 3] START case_id=workflow-10
+2026-05-04T11:16:37.500Z [chat-only] [LANE 3] FAILED case_id=workflow-10 elapsed_s=0.045 error=fetch failed
+2026-05-04T11:16:37.513Z [workflow-ai-agent] [LANE 4] START case_id=channel-4
+2026-05-04T11:16:37.537Z [workflow-ai-agent] [LANE 4] FAILED case_id=channel-4 elapsed_s=0.024 error=fetch failed
+2026-05-04T11:16:37.542Z [chat-only] [LANE 10] START case_id=advanced-7
+2026-05-04T11:16:37.556Z [chat-only] [LANE 10] FAILED case_id=advanced-7 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:37.569Z [chat-only] [LANE 7] START case_id=general-5
+2026-05-04T11:16:37.583Z [chat-only] [LANE 7] FAILED case_id=general-5 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:37.619Z [query-chat-node] [LANE 7] START case_id=general-8
+2026-05-04T11:16:37.634Z [query-chat-node] [LANE 7] FAILED case_id=general-8 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:37.645Z [query-chat-node] [LANE 1] START case_id=chart-workflow-6
+2026-05-04T11:16:37.657Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-6 elapsed_s=0.012 error=fetch failed
+2026-05-04T11:16:37.672Z [workflow-ai-agent] [LANE 2] START case_id=general-4
+2026-05-04T11:16:37.688Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-4 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:37.699Z [query-chat-node] [LANE 10] START case_id=advanced-5
+2026-05-04T11:16:37.711Z [query-chat-node] [LANE 10] FAILED case_id=advanced-5 elapsed_s=0.012 error=fetch failed
+2026-05-04T11:16:37.725Z [query-chat-node] [LANE 4] START case_id=channel-4
+2026-05-04T11:16:37.741Z [query-chat-node] [LANE 4] FAILED case_id=channel-4 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:37.752Z [query-chat-node] [LANE 5] START case_id=subject-4
+2026-05-04T11:16:37.764Z [query-chat-node] [LANE 5] FAILED case_id=subject-4 elapsed_s=0.012 error=fetch failed
+2026-05-04T11:16:37.778Z [workflow-ai-agent] [LANE 1] START case_id=simple-4
+2026-05-04T11:16:37.791Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-4 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:37.805Z [chat-only] [LANE 5] START case_id=subject-5
+2026-05-04T11:16:37.819Z [chat-only] [LANE 5] FAILED case_id=subject-5 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:37.832Z [query-chat-node] [LANE 2] START case_id=coverage2-3
+2026-05-04T11:16:37.845Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-3 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:37.859Z [query-chat-node] [LANE 8] START case_id=category-5
+2026-05-04T11:16:37.872Z [query-chat-node] [LANE 8] FAILED case_id=category-5 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:37.887Z [chat-only] [LANE 2] START case_id=coverage2-4
+2026-05-04T11:16:37.903Z [chat-only] [LANE 2] FAILED case_id=coverage2-4 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:37.916Z [query-chat-node] [LANE 9] START case_id=post-5
+2026-05-04T11:16:37.929Z [query-chat-node] [LANE 9] FAILED case_id=post-5 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:37.943Z [workflow-ai-agent] [LANE 3] START case_id=workflow-4
+2026-05-04T11:16:37.956Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-4 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:37.969Z [query-chat-node] [LANE 3] START case_id=workflow-6
+2026-05-04T11:16:37.983Z [query-chat-node] [LANE 3] FAILED case_id=workflow-6 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:37.996Z [workflow-ai-agent] [LANE 5] START case_id=subject-4
+2026-05-04T11:16:38.009Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-4 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:38.023Z [query-chat-node] [LANE 6] START case_id=simple-10
+2026-05-04T11:16:38.037Z [query-chat-node] [LANE 6] FAILED case_id=simple-10 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.050Z [chat-only] [LANE 1] START case_id=chart-workflow-8
+2026-05-04T11:16:38.066Z [chat-only] [LANE 1] FAILED case_id=chart-workflow-8 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:38.100Z [workflow-ai-agent] [LANE 4] START case_id=channel-5
+2026-05-04T11:16:38.113Z [workflow-ai-agent] [LANE 4] FAILED case_id=channel-5 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:38.127Z [chat-only] [LANE 10] START case_id=advanced-8
+2026-05-04T11:16:38.139Z [chat-only] [LANE 10] FAILED case_id=advanced-8 elapsed_s=0.012 error=fetch failed
+2026-05-04T11:16:38.153Z [chat-only] [LANE 7] START case_id=general-6
+2026-05-04T11:16:38.165Z [chat-only] [LANE 7] FAILED case_id=general-6 elapsed_s=0.012 error=fetch failed
+2026-05-04T11:16:38.179Z [query-chat-node] [LANE 7] START case_id=general-9
+2026-05-04T11:16:38.192Z [query-chat-node] [LANE 7] FAILED case_id=general-9 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:38.206Z [query-chat-node] [LANE 1] START case_id=chart-workflow-7
+2026-05-04T11:16:38.219Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-7 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:38.232Z [workflow-ai-agent] [LANE 2] START case_id=general-5
+2026-05-04T11:16:38.246Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-5 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.259Z [query-chat-node] [LANE 10] START case_id=advanced-6
+2026-05-04T11:16:38.272Z [query-chat-node] [LANE 10] FAILED case_id=advanced-6 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:38.285Z [query-chat-node] [LANE 4] START case_id=channel-5
+2026-05-04T11:16:38.298Z [query-chat-node] [LANE 4] FAILED case_id=channel-5 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:38.313Z [query-chat-node] [LANE 5] START case_id=subject-5
+2026-05-04T11:16:38.331Z [query-chat-node] [LANE 5] FAILED case_id=subject-5 elapsed_s=0.018 error=fetch failed
+2026-05-04T11:16:38.346Z [workflow-ai-agent] [LANE 1] START case_id=simple-5
+2026-05-04T11:16:38.360Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-5 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.372Z [chat-only] [LANE 5] START case_id=subject-6
+2026-05-04T11:16:38.386Z [chat-only] [LANE 5] FAILED case_id=subject-6 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.399Z [query-chat-node] [LANE 2] START case_id=coverage2-4
+2026-05-04T11:16:38.413Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-4 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.425Z [query-chat-node] [LANE 8] START case_id=category-6
+2026-05-04T11:16:38.440Z [query-chat-node] [LANE 8] FAILED case_id=category-6 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.452Z [chat-only] [LANE 2] START case_id=coverage2-5
+2026-05-04T11:16:38.467Z [chat-only] [LANE 2] FAILED case_id=coverage2-5 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.479Z [query-chat-node] [LANE 9] START case_id=post-6
+2026-05-04T11:16:38.494Z [query-chat-node] [LANE 9] FAILED case_id=post-6 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.506Z [workflow-ai-agent] [LANE 3] START case_id=workflow-5
+2026-05-04T11:16:38.520Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-5 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.533Z [query-chat-node] [LANE 3] START case_id=workflow-7
+2026-05-04T11:16:38.548Z [query-chat-node] [LANE 3] FAILED case_id=workflow-7 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.560Z [workflow-ai-agent] [LANE 5] START case_id=subject-5
+2026-05-04T11:16:38.574Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-5 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.611Z [chat-only] [LANE 1] START case_id=chart-workflow-9
+2026-05-04T11:16:38.624Z [chat-only] [LANE 1] FAILED case_id=chart-workflow-9 elapsed_s=0.013 error=fetch failed
+2026-05-04T11:16:38.637Z [workflow-ai-agent] [LANE 4] START case_id=channel-6
+2026-05-04T11:16:38.651Z [workflow-ai-agent] [LANE 4] FAILED case_id=channel-6 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.663Z [chat-only] [LANE 10] START case_id=advanced-9
+2026-05-04T11:16:38.677Z [chat-only] [LANE 10] FAILED case_id=advanced-9 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.690Z [chat-only] [LANE 7] START case_id=general-7
+2026-05-04T11:16:38.704Z [chat-only] [LANE 7] FAILED case_id=general-7 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.716Z [query-chat-node] [LANE 7] START case_id=general-10
+2026-05-04T11:16:38.730Z [query-chat-node] [LANE 7] FAILED case_id=general-10 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.742Z [query-chat-node] [LANE 1] START case_id=chart-workflow-8
+2026-05-04T11:16:38.756Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-8 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.768Z [workflow-ai-agent] [LANE 2] START case_id=general-6
+2026-05-04T11:16:38.783Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-6 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.795Z [query-chat-node] [LANE 10] START case_id=advanced-7
+2026-05-04T11:16:38.809Z [query-chat-node] [LANE 10] FAILED case_id=advanced-7 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.822Z [query-chat-node] [LANE 4] START case_id=channel-6
+2026-05-04T11:16:38.836Z [query-chat-node] [LANE 4] FAILED case_id=channel-6 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.848Z [query-chat-node] [LANE 5] START case_id=subject-6
+2026-05-04T11:16:38.863Z [query-chat-node] [LANE 5] FAILED case_id=subject-6 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.875Z [workflow-ai-agent] [LANE 1] START case_id=simple-6
+2026-05-04T11:16:38.890Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-6 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.902Z [chat-only] [LANE 5] START case_id=subject-7
+2026-05-04T11:16:38.917Z [chat-only] [LANE 5] FAILED case_id=subject-7 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.929Z [query-chat-node] [LANE 2] START case_id=coverage2-5
+2026-05-04T11:16:38.944Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-5 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:38.956Z [query-chat-node] [LANE 8] START case_id=category-7
+2026-05-04T11:16:38.970Z [query-chat-node] [LANE 8] FAILED case_id=category-7 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:38.983Z [chat-only] [LANE 2] START case_id=coverage2-6
+2026-05-04T11:16:39.002Z [chat-only] [LANE 2] FAILED case_id=coverage2-6 elapsed_s=0.019 error=fetch failed
+2026-05-04T11:16:39.021Z [query-chat-node] [LANE 9] START case_id=post-7
+2026-05-04T11:16:39.037Z [query-chat-node] [LANE 9] FAILED case_id=post-7 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:39.051Z [workflow-ai-agent] [LANE 3] START case_id=workflow-6
+2026-05-04T11:16:39.066Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-6 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.081Z [query-chat-node] [LANE 3] START case_id=workflow-8
+2026-05-04T11:16:39.107Z [query-chat-node] [LANE 3] FAILED case_id=workflow-8 elapsed_s=0.026 error=fetch failed
+2026-05-04T11:16:39.109Z [workflow-ai-agent] [LANE 5] START case_id=subject-6
+2026-05-04T11:16:39.125Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-6 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:39.137Z [chat-only] [LANE 1] START case_id=chart-workflow-10
+2026-05-04T11:16:39.152Z [chat-only] [LANE 1] FAILED case_id=chart-workflow-10 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.165Z [workflow-ai-agent] [LANE 4] START case_id=channel-7
+2026-05-04T11:16:39.179Z [workflow-ai-agent] [LANE 4] FAILED case_id=channel-7 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:39.193Z [chat-only] [LANE 10] START case_id=advanced-10
+2026-05-04T11:16:39.208Z [chat-only] [LANE 10] FAILED case_id=advanced-10 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.222Z [chat-only] [LANE 7] START case_id=general-8
+2026-05-04T11:16:39.237Z [chat-only] [LANE 7] FAILED case_id=general-8 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.276Z [query-chat-node] [LANE 1] START case_id=chart-workflow-9
+2026-05-04T11:16:39.290Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-9 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:39.303Z [workflow-ai-agent] [LANE 2] START case_id=general-7
+2026-05-04T11:16:39.319Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-7 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:39.332Z [query-chat-node] [LANE 10] START case_id=advanced-8
+2026-05-04T11:16:39.347Z [query-chat-node] [LANE 10] FAILED case_id=advanced-8 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.361Z [query-chat-node] [LANE 4] START case_id=channel-7
+2026-05-04T11:16:39.376Z [query-chat-node] [LANE 4] FAILED case_id=channel-7 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.390Z [query-chat-node] [LANE 5] START case_id=subject-7
+2026-05-04T11:16:39.405Z [query-chat-node] [LANE 5] FAILED case_id=subject-7 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.417Z [workflow-ai-agent] [LANE 1] START case_id=simple-7
+2026-05-04T11:16:39.432Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-7 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.445Z [chat-only] [LANE 5] START case_id=subject-8
+2026-05-04T11:16:39.459Z [chat-only] [LANE 5] FAILED case_id=subject-8 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:39.471Z [query-chat-node] [LANE 2] START case_id=coverage2-6
+2026-05-04T11:16:39.486Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-6 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.499Z [query-chat-node] [LANE 8] START case_id=category-8
+2026-05-04T11:16:39.514Z [query-chat-node] [LANE 8] FAILED case_id=category-8 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.526Z [chat-only] [LANE 2] START case_id=coverage2-7
+2026-05-04T11:16:39.542Z [chat-only] [LANE 2] FAILED case_id=coverage2-7 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:39.582Z [workflow-ai-agent] [LANE 3] START case_id=workflow-7
+2026-05-04T11:16:39.597Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-7 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.609Z [query-chat-node] [LANE 3] START case_id=workflow-9
+2026-05-04T11:16:39.624Z [query-chat-node] [LANE 3] FAILED case_id=workflow-9 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.637Z [workflow-ai-agent] [LANE 5] START case_id=subject-7
+2026-05-04T11:16:39.654Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-7 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:39.665Z [chat-only] [LANE 1] START case_id=chart-output-1
+2026-05-04T11:16:39.679Z [chat-only] [LANE 1] FAILED case_id=chart-output-1 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:39.692Z [workflow-ai-agent] [LANE 4] START case_id=channel-8
+2026-05-04T11:16:39.706Z [workflow-ai-agent] [LANE 4] FAILED case_id=channel-8 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:39.720Z [chat-only] [LANE 10] START case_id=advanced-exact-1
+2026-05-04T11:16:39.735Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-1 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.748Z [chat-only] [LANE 7] START case_id=general-9
+2026-05-04T11:16:39.762Z [chat-only] [LANE 7] FAILED case_id=general-9 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:39.782Z [query-chat-node] [LANE 1] START case_id=chart-workflow-10
+2026-05-04T11:16:39.798Z [query-chat-node] [LANE 1] FAILED case_id=chart-workflow-10 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:39.811Z [workflow-ai-agent] [LANE 2] START case_id=general-8
+2026-05-04T11:16:39.827Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-8 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:39.839Z [query-chat-node] [LANE 10] START case_id=advanced-9
+2026-05-04T11:16:39.854Z [query-chat-node] [LANE 10] FAILED case_id=advanced-9 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.867Z [query-chat-node] [LANE 4] START case_id=channel-8
+2026-05-04T11:16:39.883Z [query-chat-node] [LANE 4] FAILED case_id=channel-8 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:39.895Z [query-chat-node] [LANE 5] START case_id=subject-8
+2026-05-04T11:16:39.911Z [query-chat-node] [LANE 5] FAILED case_id=subject-8 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:39.925Z [workflow-ai-agent] [LANE 1] START case_id=simple-8
+2026-05-04T11:16:39.940Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-8 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:39.980Z [query-chat-node] [LANE 2] START case_id=coverage2-7
+2026-05-04T11:16:39.994Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-7 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:40.034Z [chat-only] [LANE 2] START case_id=coverage2-8
+2026-05-04T11:16:40.050Z [chat-only] [LANE 2] FAILED case_id=coverage2-8 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:40.062Z [workflow-ai-agent] [LANE 3] START case_id=workflow-8
+2026-05-04T11:16:40.076Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-8 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:40.090Z [query-chat-node] [LANE 3] START case_id=workflow-10
+2026-05-04T11:16:40.117Z [query-chat-node] [LANE 3] FAILED case_id=workflow-10 elapsed_s=0.027 error=fetch failed
+2026-05-04T11:16:40.119Z [workflow-ai-agent] [LANE 5] START case_id=subject-8
+2026-05-04T11:16:40.135Z [workflow-ai-agent] [LANE 5] FAILED case_id=subject-8 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:40.148Z [chat-only] [LANE 1] START case_id=chart-output-2
+2026-05-04T11:16:40.165Z [chat-only] [LANE 1] FAILED case_id=chart-output-2 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:40.178Z [workflow-ai-agent] [LANE 4] START case_id=post-1
+2026-05-04T11:16:40.193Z [workflow-ai-agent] [LANE 4] FAILED case_id=post-1 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.207Z [chat-only] [LANE 10] START case_id=advanced-exact-2
+2026-05-04T11:16:40.223Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-2 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:40.236Z [chat-only] [LANE 7] START case_id=general-10
+2026-05-04T11:16:40.252Z [chat-only] [LANE 7] FAILED case_id=general-10 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:40.265Z [query-chat-node] [LANE 1] START case_id=chart-output-1
+2026-05-04T11:16:40.282Z [query-chat-node] [LANE 1] FAILED case_id=chart-output-1 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:40.294Z [workflow-ai-agent] [LANE 2] START case_id=general-9
+2026-05-04T11:16:40.309Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-9 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.322Z [query-chat-node] [LANE 10] START case_id=advanced-10
+2026-05-04T11:16:40.339Z [query-chat-node] [LANE 10] FAILED case_id=advanced-10 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:40.400Z [workflow-ai-agent] [LANE 1] START case_id=simple-9
+2026-05-04T11:16:40.415Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-9 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.428Z [query-chat-node] [LANE 2] START case_id=coverage2-8
+2026-05-04T11:16:40.443Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-8 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.456Z [chat-only] [LANE 2] START case_id=coverage2-9
+2026-05-04T11:16:40.470Z [chat-only] [LANE 2] FAILED case_id=coverage2-9 elapsed_s=0.014 error=fetch failed
+2026-05-04T11:16:40.484Z [workflow-ai-agent] [LANE 3] START case_id=workflow-9
+2026-05-04T11:16:40.500Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-9 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:40.538Z [workflow-ai-agent] [LANE 5] START case_id=advanced-1
+2026-05-04T11:16:40.553Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-1 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.565Z [chat-only] [LANE 1] START case_id=chart-output-3
+2026-05-04T11:16:40.581Z [chat-only] [LANE 1] FAILED case_id=chart-output-3 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:40.593Z [workflow-ai-agent] [LANE 4] START case_id=post-2
+2026-05-04T11:16:40.608Z [workflow-ai-agent] [LANE 4] FAILED case_id=post-2 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.621Z [chat-only] [LANE 10] START case_id=advanced-exact-3
+2026-05-04T11:16:40.637Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-3 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:40.675Z [query-chat-node] [LANE 1] START case_id=chart-output-2
+2026-05-04T11:16:40.690Z [query-chat-node] [LANE 1] FAILED case_id=chart-output-2 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.703Z [workflow-ai-agent] [LANE 2] START case_id=general-10
+2026-05-04T11:16:40.718Z [workflow-ai-agent] [LANE 2] FAILED case_id=general-10 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.731Z [query-chat-node] [LANE 10] START case_id=advanced-exact-1
+2026-05-04T11:16:40.746Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-1 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.759Z [workflow-ai-agent] [LANE 1] START case_id=simple-10
+2026-05-04T11:16:40.774Z [workflow-ai-agent] [LANE 1] FAILED case_id=simple-10 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.787Z [query-chat-node] [LANE 2] START case_id=coverage2-9
+2026-05-04T11:16:40.803Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-9 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:40.816Z [chat-only] [LANE 2] START case_id=coverage2-10
+2026-05-04T11:16:40.831Z [chat-only] [LANE 2] FAILED case_id=coverage2-10 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.843Z [workflow-ai-agent] [LANE 3] START case_id=workflow-10
+2026-05-04T11:16:40.858Z [workflow-ai-agent] [LANE 3] FAILED case_id=workflow-10 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.872Z [workflow-ai-agent] [LANE 5] START case_id=advanced-2
+2026-05-04T11:16:40.887Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-2 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.900Z [chat-only] [LANE 1] START case_id=chart-output-4
+2026-05-04T11:16:40.917Z [chat-only] [LANE 1] FAILED case_id=chart-output-4 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:40.929Z [workflow-ai-agent] [LANE 4] START case_id=post-3
+2026-05-04T11:16:40.945Z [workflow-ai-agent] [LANE 4] FAILED case_id=post-3 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.958Z [chat-only] [LANE 10] START case_id=advanced-exact-4
+2026-05-04T11:16:40.973Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-4 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:40.986Z [query-chat-node] [LANE 1] START case_id=chart-output-3
+2026-05-04T11:16:41.003Z [query-chat-node] [LANE 1] FAILED case_id=chart-output-3 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:41.015Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-1
+2026-05-04T11:16:41.030Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-1 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:41.044Z [query-chat-node] [LANE 10] START case_id=advanced-exact-2
+2026-05-04T11:16:41.060Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-2 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.072Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-1
+2026-05-04T11:16:41.090Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-1 elapsed_s=0.018 error=fetch failed
+2026-05-04T11:16:41.101Z [query-chat-node] [LANE 2] START case_id=coverage2-10
+2026-05-04T11:16:41.116Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-10 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:41.130Z [chat-only] [LANE 2] START case_id=coverage2-11
+2026-05-04T11:16:41.145Z [chat-only] [LANE 2] FAILED case_id=coverage2-11 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:41.158Z [workflow-ai-agent] [LANE 3] START case_id=category-1
+2026-05-04T11:16:41.174Z [workflow-ai-agent] [LANE 3] FAILED case_id=category-1 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.187Z [workflow-ai-agent] [LANE 5] START case_id=advanced-3
+2026-05-04T11:16:41.206Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-3 elapsed_s=0.019 error=fetch failed
+2026-05-04T11:16:41.216Z [chat-only] [LANE 1] START case_id=chart-output-5
+2026-05-04T11:16:41.232Z [chat-only] [LANE 1] FAILED case_id=chart-output-5 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.246Z [workflow-ai-agent] [LANE 4] START case_id=post-4
+2026-05-04T11:16:41.261Z [workflow-ai-agent] [LANE 4] FAILED case_id=post-4 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:41.274Z [chat-only] [LANE 10] START case_id=advanced-exact-5
+2026-05-04T11:16:41.290Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-5 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.303Z [query-chat-node] [LANE 1] START case_id=chart-output-4
+2026-05-04T11:16:41.318Z [query-chat-node] [LANE 1] FAILED case_id=chart-output-4 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:41.332Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-2
+2026-05-04T11:16:41.349Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-2 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:41.363Z [query-chat-node] [LANE 10] START case_id=advanced-exact-3
+2026-05-04T11:16:41.379Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-3 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.393Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-2
+2026-05-04T11:16:41.408Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-2 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:41.421Z [query-chat-node] [LANE 2] START case_id=coverage2-11
+2026-05-04T11:16:41.437Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-11 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.451Z [chat-only] [LANE 2] START case_id=coverage2-12
+2026-05-04T11:16:41.467Z [chat-only] [LANE 2] FAILED case_id=coverage2-12 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.480Z [workflow-ai-agent] [LANE 3] START case_id=category-2
+2026-05-04T11:16:41.495Z [workflow-ai-agent] [LANE 3] FAILED case_id=category-2 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:41.509Z [workflow-ai-agent] [LANE 5] START case_id=advanced-4
+2026-05-04T11:16:41.525Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-4 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.538Z [chat-only] [LANE 1] START case_id=chart-output-6
+2026-05-04T11:16:41.554Z [chat-only] [LANE 1] FAILED case_id=chart-output-6 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.567Z [workflow-ai-agent] [LANE 4] START case_id=post-5
+2026-05-04T11:16:41.582Z [workflow-ai-agent] [LANE 4] FAILED case_id=post-5 elapsed_s=0.015 error=fetch failed
+2026-05-04T11:16:41.596Z [chat-only] [LANE 10] START case_id=advanced-exact-6
+2026-05-04T11:16:41.612Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-6 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.625Z [query-chat-node] [LANE 1] START case_id=chart-output-5
+2026-05-04T11:16:41.651Z [query-chat-node] [LANE 1] FAILED case_id=chart-output-5 elapsed_s=0.026 error=fetch failed
+2026-05-04T11:16:41.655Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-3
+2026-05-04T11:16:41.683Z [query-chat-node] [LANE 10] START case_id=advanced-exact-4
+2026-05-04T11:16:41.701Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-3 elapsed_s=0.046 error=fetch failed
+2026-05-04T11:16:41.702Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-4 elapsed_s=0.019 error=fetch failed
+2026-05-04T11:16:41.713Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-3
+2026-05-04T11:16:41.729Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-3 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.742Z [query-chat-node] [LANE 2] START case_id=coverage2-12
+2026-05-04T11:16:41.758Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-12 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.772Z [chat-only] [LANE 2] START case_id=coverage2-13
+2026-05-04T11:16:41.788Z [chat-only] [LANE 2] FAILED case_id=coverage2-13 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.803Z [workflow-ai-agent] [LANE 3] START case_id=category-3
+2026-05-04T11:16:41.821Z [workflow-ai-agent] [LANE 3] FAILED case_id=category-3 elapsed_s=0.018 error=fetch failed
+2026-05-04T11:16:41.834Z [workflow-ai-agent] [LANE 5] START case_id=advanced-5
+2026-05-04T11:16:41.850Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-5 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.866Z [chat-only] [LANE 1] START case_id=chart-output-7
+2026-05-04T11:16:41.884Z [chat-only] [LANE 1] FAILED case_id=chart-output-7 elapsed_s=0.017 error=fetch failed
+2026-05-04T11:16:41.897Z [workflow-ai-agent] [LANE 4] START case_id=post-6
+2026-05-04T11:16:41.917Z [workflow-ai-agent] [LANE 4] FAILED case_id=post-6 elapsed_s=0.02 error=fetch failed
+2026-05-04T11:16:41.932Z [chat-only] [LANE 10] START case_id=advanced-exact-7
+2026-05-04T11:16:41.948Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-7 elapsed_s=0.016 error=fetch failed
+2026-05-04T11:16:41.962Z [query-chat-node] [LANE 1] START case_id=chart-output-6
+2026-05-04T11:16:41.992Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-4
+2026-05-04T11:16:42.024Z [query-chat-node] [LANE 10] START case_id=advanced-exact-5
+2026-05-04T11:16:42.122Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-4
+2026-05-04T11:16:42.161Z [query-chat-node] [LANE 2] START case_id=coverage2-13
+2026-05-04T11:16:42.210Z [chat-only] [LANE 2] START case_id=coverage2-14
+2026-05-04T11:16:42.260Z [workflow-ai-agent] [LANE 3] START case_id=category-4
+2026-05-04T11:16:42.303Z [workflow-ai-agent] [LANE 5] START case_id=advanced-6
+2026-05-04T11:16:42.427Z [chat-only] [LANE 1] START case_id=chart-output-8
+2026-05-04T11:16:42.490Z [workflow-ai-agent] [LANE 4] START case_id=post-7
+2026-05-04T11:16:42.534Z [chat-only] [LANE 10] START case_id=advanced-exact-8
+2026-05-04T11:16:57.075Z [chat-only] [LANE 1] PASSED case_id=chart-output-8 elapsed_s=14.648
+2026-05-04T11:16:57.357Z [chat-only] [LANE 1] START case_id=chart-output-9
+2026-05-04T11:17:05.084Z [query-chat-node] [LANE 1] PASSED case_id=chart-output-6 elapsed_s=23.122
+2026-05-04T11:17:05.127Z [query-chat-node] [LANE 1] START case_id=chart-output-7
+2026-05-04T11:17:13.469Z [chat-only] [LANE 1] PASSED case_id=chart-output-9 elapsed_s=16.112
+2026-05-04T11:17:13.510Z [chat-only] [LANE 1] START case_id=chart-output-10
+2026-05-04T11:17:17.392Z [query-chat-node] [LANE 1] PASSED case_id=chart-output-7 elapsed_s=12.265
+2026-05-04T11:17:17.422Z [query-chat-node] [LANE 1] START case_id=chart-output-8
+2026-05-04T11:17:25.753Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-8 elapsed_s=43.219 error=Expected confirmation but none was requested.
+2026-05-04T11:17:25.785Z [chat-only] [LANE 10] START case_id=advanced-exact-9
+2026-05-04T11:17:28.894Z [chat-only] [LANE 1] PASSED case_id=chart-output-10 elapsed_s=15.384
+2026-05-04T11:17:30.440Z [query-chat-node] [LANE 1] PASSED case_id=chart-output-8 elapsed_s=13.018
+2026-05-04T11:17:30.474Z [query-chat-node] [LANE 1] START case_id=chart-output-9
+2026-05-04T11:17:45.080Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-4 elapsed_s=62.958 error=Expected confirmation but none was requested.
+2026-05-04T11:17:45.152Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-5
+2026-05-04T11:17:49.132Z [chat-only] [LANE 10] PASSED case_id=advanced-exact-9 elapsed_s=23.347
+2026-05-04T11:17:49.394Z [chat-only] [LANE 10] START case_id=advanced-exact-10
+2026-05-04T11:17:58.472Z [query-chat-node] [LANE 1] PASSED case_id=chart-output-9 elapsed_s=27.998
+2026-05-04T11:17:58.503Z [query-chat-node] [LANE 1] START case_id=chart-output-10
+2026-05-04T11:18:01.034Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-10 elapsed_s=11.64 error=Expected confirmation but none was requested.
+2026-05-04T11:18:01.072Z [chat-only] [LANE 10] START case_id=advanced-exact-11
+2026-05-04T11:18:03.873Z [workflow-ai-agent] [LANE 4] FAILED case_id=post-7 elapsed_s=81.383 error=Expected confirmation but none was requested.
+2026-05-04T11:18:11.985Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-4 elapsed_s=89.993 error=Expected confirmation but none was requested.
+2026-05-04T11:18:12.018Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-5
+2026-05-04T11:18:14.821Z [chat-only] [LANE 2] PASSED case_id=coverage2-14 elapsed_s=92.611
+2026-05-04T11:18:14.912Z [chat-only] [LANE 2] START case_id=coverage2-15
+2026-05-04T11:18:23.004Z [query-chat-node] [LANE 1] PASSED case_id=chart-output-10 elapsed_s=24.501
+2026-05-04T11:18:29.653Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-6 elapsed_s=107.35 error=Expected confirmation but none was requested.
+2026-05-04T11:18:29.697Z [workflow-ai-agent] [LANE 5] START case_id=advanced-7
+2026-05-04T11:18:35.722Z [chat-only] [LANE 10] PASSED case_id=advanced-exact-11 elapsed_s=34.65
+2026-05-04T11:18:35.758Z [chat-only] [LANE 10] START case_id=advanced-exact-12
+2026-05-04T11:18:39.829Z [workflow-ai-agent] [LANE 3] FAILED case_id=category-4 elapsed_s=117.569 error=Expected confirmation but none was requested.
+2026-05-04T11:18:39.863Z [workflow-ai-agent] [LANE 3] START case_id=category-5
+2026-05-04T11:18:58.884Z [chat-only] [LANE 10] PASSED case_id=advanced-exact-12 elapsed_s=23.126
+2026-05-04T11:18:58.936Z [chat-only] [LANE 10] START case_id=advanced-exact-13
+2026-05-04T11:19:09.106Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-5 elapsed_s=83.954 error=Expected confirmation but none was requested.
+2026-05-04T11:19:09.145Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-6
+2026-05-04T11:19:12.715Z [query-chat-node] [LANE 10] PASSED case_id=advanced-exact-5 elapsed_s=150.691
+2026-05-04T11:19:12.746Z [query-chat-node] [LANE 10] START case_id=advanced-exact-6
+2026-05-04T11:19:19.317Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-13 elapsed_s=20.381 error=Expected confirmation but none was requested.
+2026-05-04T11:19:19.381Z [chat-only] [LANE 10] START case_id=advanced-exact-14
+2026-05-04T11:19:20.363Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-13 elapsed_s=158.202
+2026-05-04T11:19:20.400Z [query-chat-node] [LANE 2] START case_id=coverage2-14
+2026-05-04T11:19:29.880Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-5 elapsed_s=77.862 error=Expected confirmation but none was requested.
+2026-05-04T11:19:29.913Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-6
+2026-05-04T11:19:32.034Z [chat-only] [LANE 10] FAILED case_id=advanced-exact-14 elapsed_s=12.653 error=Final output missing expected text: training
+2026-05-04T11:19:32.066Z [chat-only] [LANE 10] START case_id=advanced-exact-15
+2026-05-04T11:19:37.505Z [chat-only] [LANE 2] PASSED case_id=coverage2-15 elapsed_s=82.593
+2026-05-04T11:19:37.568Z [chat-only] [LANE 2] START case_id=coverage2-16
+2026-05-04T11:19:40.996Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-7 elapsed_s=71.299 error=Expected confirmation but none was requested.
+2026-05-04T11:19:41.029Z [workflow-ai-agent] [LANE 5] START case_id=advanced-8
+2026-05-04T11:19:43.833Z [query-chat-node] [LANE 10] PASSED case_id=advanced-exact-6 elapsed_s=31.087
+2026-05-04T11:19:43.879Z [query-chat-node] [LANE 10] START case_id=advanced-exact-7
+2026-05-04T11:19:47.686Z [workflow-ai-agent] [LANE 3] FAILED case_id=category-5 elapsed_s=67.823 error=Expected confirmation but none was requested.
+2026-05-04T11:19:47.721Z [workflow-ai-agent] [LANE 3] START case_id=category-6
+2026-05-04T11:20:00.812Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-6 elapsed_s=51.667 error=Expected confirmation but none was requested.
+2026-05-04T11:20:00.870Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-7
+2026-05-04T11:20:18.107Z [chat-only] [LANE 10] PASSED case_id=advanced-exact-15 elapsed_s=46.041
+2026-05-04T11:20:18.147Z [chat-only] [LANE 10] START case_id=advanced-11
+2026-05-04T11:20:22.635Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-8 elapsed_s=41.606 error=Expected confirmation but none was requested.
+2026-05-04T11:20:22.670Z [workflow-ai-agent] [LANE 5] START case_id=advanced-9
+2026-05-04T11:20:31.168Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-6 elapsed_s=61.255 error=Expected confirmation but none was requested.
+2026-05-04T11:20:31.212Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-7
+2026-05-04T11:20:35.141Z [chat-only] [LANE 10] PASSED case_id=advanced-11 elapsed_s=16.994
+2026-05-04T11:20:35.197Z [chat-only] [LANE 10] START case_id=advanced-12
+2026-05-04T11:20:46.114Z [workflow-ai-agent] [LANE 3] PASSED case_id=category-6 elapsed_s=58.393
+2026-05-04T11:20:46.171Z [workflow-ai-agent] [LANE 3] START case_id=category-7
+2026-05-04T11:20:48.228Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-7 elapsed_s=64.349 error=Final output missing expected text: giga
+2026-05-04T11:20:48.274Z [query-chat-node] [LANE 10] START case_id=advanced-exact-8
+2026-05-04T11:20:52.175Z [chat-only] [LANE 10] PASSED case_id=advanced-12 elapsed_s=16.978
+2026-05-04T11:20:52.223Z [chat-only] [LANE 10] START case_id=advanced-13
+2026-05-04T11:20:53.459Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-7 elapsed_s=52.589 error=Expected confirmation but none was requested.
+2026-05-04T11:20:53.495Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-8
+2026-05-04T11:20:55.543Z [chat-only] [LANE 2] PASSED case_id=coverage2-16 elapsed_s=77.975
+2026-05-04T11:20:55.578Z [chat-only] [LANE 2] START case_id=coverage2-17
+2026-05-04T11:21:10.390Z [chat-only] [LANE 10] FAILED case_id=advanced-13 elapsed_s=18.167 error=Expected confirmation but none was requested.
+2026-05-04T11:21:10.461Z [chat-only] [LANE 10] START case_id=advanced-14
+2026-05-04T11:21:16.345Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-9 elapsed_s=53.675 error=Expected confirmation but none was requested.
+2026-05-04T11:21:16.386Z [workflow-ai-agent] [LANE 5] START case_id=advanced-10
+2026-05-04T11:21:23.386Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-7 elapsed_s=52.174 error=Expected confirmation but none was requested.
+2026-05-04T11:21:23.421Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-8
+2026-05-04T11:21:23.886Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-8 elapsed_s=35.612 error=Expected confirmation but none was requested.
+2026-05-04T11:21:23.919Z [query-chat-node] [LANE 10] START case_id=advanced-exact-9
+2026-05-04T11:21:36.593Z [chat-only] [LANE 10] FAILED case_id=advanced-14 elapsed_s=26.132 error=Expected confirmation but none was requested.
+2026-05-04T11:21:36.653Z [chat-only] [LANE 10] START case_id=advanced-15
+2026-05-04T11:21:43.714Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-8 elapsed_s=50.219 error=Expected confirmation but none was requested.
+2026-05-04T11:21:43.756Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-9
+2026-05-04T11:21:45.630Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-9 elapsed_s=21.711 error=Expected confirmation but none was requested.
+2026-05-04T11:21:45.664Z [query-chat-node] [LANE 10] START case_id=advanced-exact-10
+2026-05-04T11:21:46.489Z [workflow-ai-agent] [LANE 3] FAILED case_id=category-7 elapsed_s=60.318 error=Expected confirmation but none was requested.
+2026-05-04T11:21:46.528Z [workflow-ai-agent] [LANE 3] START case_id=category-8
+2026-05-04T11:21:47.916Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-14 elapsed_s=147.516
+2026-05-04T11:21:47.952Z [query-chat-node] [LANE 2] START case_id=coverage2-15
+2026-05-04T11:21:57.155Z [chat-only] [LANE 10] FAILED case_id=advanced-15 elapsed_s=20.502 error=Expected confirmation but none was requested.
+2026-05-04T11:21:57.286Z [chat-only] [LANE 10] START case_id=advanced-16
+2026-05-04T11:22:04.732Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-10 elapsed_s=19.068 error=Expected confirmation but none was requested.
+2026-05-04T11:22:04.773Z [query-chat-node] [LANE 10] START case_id=advanced-exact-11
+2026-05-04T11:22:09.313Z [workflow-ai-agent] [LANE 5] PASSED case_id=advanced-10 elapsed_s=52.927
+2026-05-04T11:22:09.347Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-1
+2026-05-04T11:22:09.442Z [chat-only] [LANE 2] PASSED case_id=coverage2-17 elapsed_s=73.864
+2026-05-04T11:22:09.479Z [chat-only] [LANE 2] START case_id=coverage2-18
+2026-05-04T11:22:13.339Z [chat-only] [LANE 10] FAILED case_id=advanced-16 elapsed_s=16.053 error=Expected confirmation but none was requested.
+2026-05-04T11:22:13.379Z [chat-only] [LANE 10] START case_id=advanced-17
+2026-05-04T11:22:19.335Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-11 elapsed_s=14.562 error=Expected confirmation but none was requested.
+2026-05-04T11:22:19.424Z [query-chat-node] [LANE 10] START case_id=advanced-exact-12
+2026-05-04T11:22:24.696Z [chat-only] [LANE 10] PASSED case_id=advanced-17 elapsed_s=11.317
+2026-05-04T11:22:24.782Z [chat-only] [LANE 10] START case_id=advanced-18
+2026-05-04T11:22:30.449Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-8 elapsed_s=67.028 error=Expected confirmation but none was requested.
+2026-05-04T11:22:30.497Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-9
+2026-05-04T11:22:34.868Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-12 elapsed_s=15.444 error=Expected confirmation but none was requested.
+2026-05-04T11:22:34.935Z [query-chat-node] [LANE 10] START case_id=advanced-exact-13
+2026-05-04T11:22:37.351Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-9 elapsed_s=53.595 error=Expected confirmation but none was requested.
+2026-05-04T11:22:37.408Z [workflow-ai-agent] [LANE 1] START case_id=chart-workflow-10
+2026-05-04T11:22:40.267Z [chat-only] [LANE 10] FAILED case_id=advanced-18 elapsed_s=15.485 error=Expected confirmation but none was requested.
+2026-05-04T11:22:40.304Z [chat-only] [LANE 10] START case_id=advanced-19
+2026-05-04T11:22:53.187Z [chat-only] [LANE 10] FAILED case_id=advanced-19 elapsed_s=12.883 error=Expected confirmation but none was requested.
+2026-05-04T11:22:53.222Z [chat-only] [LANE 10] START case_id=advanced-20
+2026-05-04T11:22:54.675Z [workflow-ai-agent] [LANE 3] FAILED case_id=category-8 elapsed_s=68.147 error=Expected confirmation but none was requested.
+2026-05-04T11:23:04.170Z [chat-only] [LANE 10] FAILED case_id=advanced-20 elapsed_s=10.948 error=Expected confirmation but none was requested.
+2026-05-04T11:23:04.229Z [chat-only] [LANE 10] START case_id=advanced-21
+2026-05-04T11:23:16.849Z [chat-only] [LANE 10] FAILED case_id=advanced-21 elapsed_s=12.62 error=Expected confirmation but none was requested.
+2026-05-04T11:23:16.887Z [chat-only] [LANE 10] START case_id=advanced-22
+2026-05-04T11:23:17.940Z [query-chat-node] [LANE 10] PASSED case_id=advanced-exact-13 elapsed_s=43.005
+2026-05-04T11:23:17.977Z [query-chat-node] [LANE 10] START case_id=advanced-exact-14
+2026-05-04T11:23:26.463Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-1 elapsed_s=77.116 error=Expected confirmation but none was requested.
+2026-05-04T11:23:26.517Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-2
+2026-05-04T11:23:28.368Z [chat-only] [LANE 10] FAILED case_id=advanced-22 elapsed_s=11.481 error=Expected confirmation but none was requested.
+2026-05-04T11:23:28.416Z [chat-only] [LANE 10] START case_id=advanced-23
+2026-05-04T11:23:29.344Z [workflow-ai-agent] [LANE 1] FAILED case_id=chart-workflow-10 elapsed_s=51.936 error=Expected confirmation but none was requested.
+2026-05-04T11:23:29.389Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-1
+2026-05-04T11:23:37.281Z [chat-only] [LANE 2] PASSED case_id=coverage2-18 elapsed_s=87.802
+2026-05-04T11:23:37.329Z [chat-only] [LANE 2] START case_id=coverage2-19
+2026-05-04T11:23:47.480Z [chat-only] [LANE 10] FAILED case_id=advanced-23 elapsed_s=19.064 error=Expected confirmation but none was requested.
+2026-05-04T11:23:47.551Z [chat-only] [LANE 10] START case_id=advanced-24
+2026-05-04T11:23:53.109Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-9 elapsed_s=82.612 error=Expected confirmation but none was requested.
+2026-05-04T11:23:53.144Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-10
+2026-05-04T11:24:04.807Z [chat-only] [LANE 10] FAILED case_id=advanced-24 elapsed_s=17.256 error=Expected confirmation but none was requested.
+2026-05-04T11:24:05.251Z [chat-only] [LANE 10] START case_id=advanced-25
+2026-05-04T11:24:08.691Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-1 elapsed_s=39.302
+2026-05-04T11:24:08.734Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-2
+2026-05-04T11:24:15.772Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-2 elapsed_s=49.255 error=Expected confirmation but none was requested.
+2026-05-04T11:24:15.806Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-3
+2026-05-04T11:24:19.109Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-14 elapsed_s=61.132 error=Final output missing expected text: training
+2026-05-04T11:24:19.226Z [query-chat-node] [LANE 10] START case_id=advanced-exact-15
+2026-05-04T11:24:19.977Z [chat-only] [LANE 10] FAILED case_id=advanced-25 elapsed_s=14.726 error=Expected confirmation but none was requested.
+2026-05-04T11:24:21.465Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-15 elapsed_s=153.513
+2026-05-04T11:24:21.512Z [query-chat-node] [LANE 2] START case_id=coverage2-16
+2026-05-04T11:24:43.213Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-10 elapsed_s=50.069 error=Expected confirmation but none was requested.
+2026-05-04T11:24:43.273Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-11
+2026-05-04T11:24:49.659Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-2 elapsed_s=40.925
+2026-05-04T11:24:49.698Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-3
+2026-05-04T11:24:50.322Z [chat-only] [LANE 2] PASSED case_id=coverage2-19 elapsed_s=72.993
+2026-05-04T11:24:50.364Z [chat-only] [LANE 2] START case_id=coverage2-20
+2026-05-04T11:25:04.844Z [query-chat-node] [LANE 10] FAILED case_id=advanced-exact-15 elapsed_s=45.618 error=Expected confirmation but none was requested.
+2026-05-04T11:25:04.909Z [query-chat-node] [LANE 10] START case_id=advanced-11
+2026-05-04T11:25:06.990Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-3 elapsed_s=51.184 error=Expected confirmation but none was requested.
+2026-05-04T11:25:07.039Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-4
+2026-05-04T11:25:21.481Z [query-chat-node] [LANE 10] FAILED case_id=advanced-11 elapsed_s=16.572 error=Expected confirmation but none was requested.
+2026-05-04T11:25:21.525Z [query-chat-node] [LANE 10] START case_id=advanced-12
+2026-05-04T11:25:23.635Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-3 elapsed_s=33.936
+2026-05-04T11:25:23.678Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-4
+2026-05-04T11:25:29.507Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-11 elapsed_s=46.234 error=Expected confirmation but none was requested.
+2026-05-04T11:25:29.543Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-12
+2026-05-04T11:25:37.926Z [query-chat-node] [LANE 10] FAILED case_id=advanced-12 elapsed_s=16.401 error=Expected confirmation but none was requested.
+2026-05-04T11:25:38.081Z [query-chat-node] [LANE 10] START case_id=advanced-13
+2026-05-04T11:25:40.011Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-4 elapsed_s=32.972 error=Expected confirmation but none was requested.
+2026-05-04T11:25:40.055Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-5
+2026-05-04T11:25:55.489Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-4 elapsed_s=31.811
+2026-05-04T11:25:55.528Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-5
+2026-05-04T11:25:59.595Z [query-chat-node] [LANE 10] FAILED case_id=advanced-13 elapsed_s=21.514 error=Expected confirmation but none was requested.
+2026-05-04T11:25:59.637Z [query-chat-node] [LANE 10] START case_id=advanced-14
+2026-05-04T11:26:00.472Z [chat-only] [LANE 2] PASSED case_id=coverage2-20 elapsed_s=70.108
+2026-05-04T11:26:00.531Z [chat-only] [LANE 2] START case_id=coverage2-21
+2026-05-04T11:26:13.335Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-12 elapsed_s=43.792 error=Expected confirmation but none was requested.
+2026-05-04T11:26:13.373Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-13
+2026-05-04T11:26:19.808Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-5 elapsed_s=39.753 error=Expected confirmation but none was requested.
+2026-05-04T11:26:19.869Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-6
+2026-05-04T11:26:31.427Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-5 elapsed_s=35.899
+2026-05-04T11:26:31.476Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-6
+2026-05-04T11:26:49.223Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-6 elapsed_s=29.354 error=Expected confirmation but none was requested.
+2026-05-04T11:26:49.260Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-7
+2026-05-04T11:26:55.587Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-16 elapsed_s=154.075
+2026-05-04T11:26:55.624Z [query-chat-node] [LANE 2] START case_id=coverage2-17
+2026-05-04T11:27:05.966Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-13 elapsed_s=52.593 error=Expected confirmation but none was requested.
+2026-05-04T11:27:06.005Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-14
+2026-05-04T11:27:12.045Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-6 elapsed_s=40.569
+2026-05-04T11:27:12.108Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-7
+2026-05-04T11:27:19.509Z [query-chat-node] [LANE 10] PASSED case_id=advanced-14 elapsed_s=79.872
+2026-05-04T11:27:19.547Z [query-chat-node] [LANE 10] START case_id=advanced-15
+2026-05-04T11:27:24.500Z [chat-only] [LANE 2] PASSED case_id=coverage2-21 elapsed_s=83.969
+2026-05-04T11:27:24.566Z [chat-only] [LANE 2] START case_id=coverage2-22
+2026-05-04T11:27:24.887Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-7 elapsed_s=35.627 error=Expected confirmation but none was requested.
+2026-05-04T11:27:24.974Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-8
+2026-05-04T11:27:42.804Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-7 elapsed_s=30.696
+2026-05-04T11:27:42.867Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-8
+2026-05-04T11:27:44.221Z [query-chat-node] [LANE 10] FAILED case_id=advanced-15 elapsed_s=24.674 error=Expected confirmation but none was requested.
+2026-05-04T11:27:44.268Z [query-chat-node] [LANE 10] START case_id=advanced-16
+2026-05-04T11:27:59.403Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-14 elapsed_s=53.398 error=Expected confirmation but none was requested.
+2026-05-04T11:27:59.449Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-15
+2026-05-04T11:28:11.268Z [query-chat-node] [LANE 10] FAILED case_id=advanced-16 elapsed_s=27 error=Expected confirmation but none was requested.
+2026-05-04T11:28:11.330Z [query-chat-node] [LANE 10] START case_id=advanced-17
+2026-05-04T11:28:28.716Z [query-chat-node] [LANE 10] FAILED case_id=advanced-17 elapsed_s=17.386 error=Expected confirmation but none was requested.
+2026-05-04T11:28:28.756Z [query-chat-node] [LANE 10] START case_id=advanced-18
+2026-05-04T11:28:37.961Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-8 elapsed_s=55.094
+2026-05-04T11:28:38.037Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-9
+2026-05-04T11:28:39.212Z [chat-only] [LANE 2] PASSED case_id=coverage2-22 elapsed_s=74.646
+2026-05-04T11:28:39.254Z [chat-only] [LANE 2] START case_id=coverage2-23
+2026-05-04T11:28:42.361Z [query-chat-node] [LANE 10] FAILED case_id=advanced-18 elapsed_s=13.605 error=Expected confirmation but none was requested.
+2026-05-04T11:28:42.410Z [query-chat-node] [LANE 10] START case_id=advanced-19
+2026-05-04T11:29:08.822Z [query-chat-node] [LANE 10] FAILED case_id=advanced-19 elapsed_s=26.412 error=Expected confirmation but none was requested.
+2026-05-04T11:29:08.891Z [query-chat-node] [LANE 10] START case_id=advanced-20
+2026-05-04T11:30:15.926Z [query-chat-node] [LANE 10] FAILED case_id=advanced-20 elapsed_s=67.035 error=Expected confirmation but none was requested.
+2026-05-04T11:30:15.991Z [query-chat-node] [LANE 10] START case_id=advanced-21
+2026-05-04T11:30:18.905Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-17 elapsed_s=203.281
+2026-05-04T11:30:18.949Z [query-chat-node] [LANE 2] START case_id=coverage2-18
+2026-05-04T11:30:24.975Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-8 elapsed_s=180.001 error=pending request timed out after 180000ms
+2026-05-04T11:30:25.018Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-9
+2026-05-04T11:30:30.027Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-15 elapsed_s=150.578 error=Expected confirmation but none was requested.
+2026-05-04T11:30:30.068Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-16
+2026-05-04T11:30:34.076Z [chat-only] [LANE 2] PASSED case_id=coverage2-23 elapsed_s=114.822
+2026-05-04T11:30:34.147Z [chat-only] [LANE 2] START case_id=coverage2-24
+2026-05-04T11:30:36.676Z [query-chat-node] [LANE 10] FAILED case_id=advanced-21 elapsed_s=20.685 error=Expected confirmation but none was requested.
+2026-05-04T11:30:36.724Z [query-chat-node] [LANE 10] START case_id=advanced-22
+2026-05-04T11:30:41.669Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-9 elapsed_s=123.632
+2026-05-04T11:30:41.708Z [workflow-ai-agent] [LANE 1] START case_id=chart-output-10
+2026-05-04T11:30:53.383Z [query-chat-node] [LANE 10] FAILED case_id=advanced-22 elapsed_s=16.659 error=Expected confirmation but none was requested.
+2026-05-04T11:30:53.433Z [query-chat-node] [LANE 10] START case_id=advanced-23
+2026-05-04T11:31:01.691Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-9 elapsed_s=36.673 error=Expected confirmation but none was requested.
+2026-05-04T11:31:01.728Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-10
+2026-05-04T11:31:16.155Z [workflow-ai-agent] [LANE 1] PASSED case_id=chart-output-10 elapsed_s=34.447
+2026-05-04T11:31:19.259Z [query-chat-node] [LANE 10] FAILED case_id=advanced-23 elapsed_s=25.826 error=Expected confirmation but none was requested.
+2026-05-04T11:31:19.298Z [query-chat-node] [LANE 10] START case_id=advanced-24
+2026-05-04T11:31:30.876Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-10 elapsed_s=29.148 error=Expected confirmation but none was requested.
+2026-05-04T11:31:30.919Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-11
+2026-05-04T11:31:43.140Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-16 elapsed_s=73.072 error=Expected confirmation but none was requested.
+2026-05-04T11:31:43.176Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-17
+2026-05-04T11:31:56.831Z [chat-only] [LANE 2] PASSED case_id=coverage2-24 elapsed_s=82.684
+2026-05-04T11:31:56.882Z [chat-only] [LANE 2] START case_id=coverage2-25
+2026-05-04T11:31:58.366Z [query-chat-node] [LANE 10] PASSED case_id=advanced-24 elapsed_s=39.068
+2026-05-04T11:31:58.412Z [query-chat-node] [LANE 10] START case_id=advanced-25
+2026-05-04T11:32:02.992Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-11 elapsed_s=32.073 error=Expected confirmation but none was requested.
+2026-05-04T11:32:03.027Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-12
+2026-05-04T11:32:16.733Z [query-chat-node] [LANE 10] FAILED case_id=advanced-25 elapsed_s=18.321 error=Expected confirmation but none was requested.
+2026-05-04T11:32:24.155Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-17 elapsed_s=40.979 error=Expected confirmation but none was requested.
+2026-05-04T11:32:24.215Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-18
+2026-05-04T11:32:31.636Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-12 elapsed_s=28.609 error=Expected confirmation but none was requested.
+2026-05-04T11:32:31.677Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-13
+2026-05-04T11:33:00.637Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-18 elapsed_s=161.688
+2026-05-04T11:33:00.684Z [query-chat-node] [LANE 2] START case_id=coverage2-19
+2026-05-04T11:33:04.077Z [chat-only] [LANE 2] PASSED case_id=coverage2-25 elapsed_s=67.195
+2026-05-04T11:33:04.124Z [chat-only] [LANE 2] START case_id=coverage2-26
+2026-05-04T11:33:09.507Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-18 elapsed_s=45.292 error=Expected confirmation but none was requested.
+2026-05-04T11:33:09.550Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-19
+2026-05-04T11:33:19.801Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-13 elapsed_s=48.124 error=Expected confirmation but none was requested.
+2026-05-04T11:33:19.845Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-14
+2026-05-04T11:33:51.140Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-19 elapsed_s=41.59 error=Expected confirmation but none was requested.
+2026-05-04T11:33:51.187Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-20
+2026-05-04T11:33:58.840Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-14 elapsed_s=38.995 error=Expected confirmation but none was requested.
+2026-05-04T11:33:58.878Z [workflow-ai-agent] [LANE 5] START case_id=advanced-exact-15
+2026-05-04T11:34:18.902Z [chat-only] [LANE 2] PASSED case_id=coverage2-26 elapsed_s=74.778
+2026-05-04T11:34:18.955Z [chat-only] [LANE 2] START case_id=coverage2-27
+2026-05-04T11:34:25.722Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-20 elapsed_s=34.535 error=Expected confirmation but none was requested.
+2026-05-04T11:34:25.768Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-21
+2026-05-04T11:34:32.636Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-exact-15 elapsed_s=33.758 error=Expected confirmation but none was requested.
+2026-05-04T11:34:32.687Z [workflow-ai-agent] [LANE 5] START case_id=advanced-11
+2026-05-04T11:34:55.073Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-19 elapsed_s=114.389
+2026-05-04T11:34:55.115Z [query-chat-node] [LANE 2] START case_id=coverage2-20
+2026-05-04T11:35:02.851Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-11 elapsed_s=30.164 error=Expected confirmation but none was requested.
+2026-05-04T11:35:02.891Z [workflow-ai-agent] [LANE 5] START case_id=advanced-12
+2026-05-04T11:35:12.734Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-21 elapsed_s=46.966 error=Expected confirmation but none was requested.
+2026-05-04T11:35:12.773Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-22
+2026-05-04T11:35:41.205Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-12 elapsed_s=38.314 error=Expected confirmation but none was requested.
+2026-05-04T11:35:41.253Z [workflow-ai-agent] [LANE 5] START case_id=advanced-13
+2026-05-04T11:35:49.099Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-22 elapsed_s=36.326 error=Expected confirmation but none was requested.
+2026-05-04T11:35:49.138Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-23
+2026-05-04T11:36:14.832Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-13 elapsed_s=33.579 error=Expected confirmation but none was requested.
+2026-05-04T11:36:14.881Z [workflow-ai-agent] [LANE 5] START case_id=advanced-14
+2026-05-04T11:36:20.962Z [chat-only] [LANE 2] PASSED case_id=coverage2-27 elapsed_s=122.007
+2026-05-04T11:36:21.010Z [chat-only] [LANE 2] START case_id=coverage2-28
+2026-05-04T11:36:36.409Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-23 elapsed_s=47.271 error=Expected confirmation but none was requested.
+2026-05-04T11:36:36.457Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-24
+2026-05-04T11:36:46.986Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-14 elapsed_s=32.105 error=Expected confirmation but none was requested.
+2026-05-04T11:36:47.026Z [workflow-ai-agent] [LANE 5] START case_id=advanced-15
+2026-05-04T11:37:06.378Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-20 elapsed_s=131.263
+2026-05-04T11:37:06.422Z [query-chat-node] [LANE 2] START case_id=coverage2-21
+2026-05-04T11:37:10.238Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-24 elapsed_s=33.781 error=Expected confirmation but none was requested.
+2026-05-04T11:37:10.285Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-25
+2026-05-04T11:37:40.714Z [chat-only] [LANE 2] PASSED case_id=coverage2-28 elapsed_s=79.704
+2026-05-04T11:37:40.752Z [chat-only] [LANE 2] START case_id=coverage2-29
+2026-05-04T11:39:01.943Z [chat-only] [LANE 2] PASSED case_id=coverage2-29 elapsed_s=81.191
+2026-05-04T11:39:01.981Z [chat-only] [LANE 2] START case_id=coverage2-30
+2026-05-04T11:39:14.400Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-21 elapsed_s=127.978
+2026-05-04T11:39:14.439Z [query-chat-node] [LANE 2] START case_id=coverage2-22
+2026-05-04T11:39:47.027Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-15 elapsed_s=180.001 error=pending request timed out after 180000ms
+2026-05-04T11:39:47.066Z [workflow-ai-agent] [LANE 5] START case_id=advanced-16
+2026-05-04T11:40:10.286Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-25 elapsed_s=180.001 error=pending request timed out after 180000ms
+2026-05-04T11:40:10.326Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-26
+2026-05-04T11:40:18.865Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-16 elapsed_s=31.799 error=Expected confirmation but none was requested.
+2026-05-04T11:40:18.952Z [workflow-ai-agent] [LANE 5] START case_id=advanced-17
+2026-05-04T11:40:38.547Z [chat-only] [LANE 2] PASSED case_id=coverage2-30 elapsed_s=96.566
+2026-05-04T11:40:38.586Z [chat-only] [LANE 2] START case_id=coverage2-31
+2026-05-04T11:40:53.965Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-17 elapsed_s=35.013 error=Expected confirmation but none was requested.
+2026-05-04T11:40:54.005Z [workflow-ai-agent] [LANE 5] START case_id=advanced-18
+2026-05-04T11:41:07.217Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-26 elapsed_s=56.891 error=Expected confirmation but none was requested.
+2026-05-04T11:41:07.256Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-27
+2026-05-04T11:41:09.176Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-22 elapsed_s=114.737
+2026-05-04T11:41:09.215Z [query-chat-node] [LANE 2] START case_id=coverage2-23
+2026-05-04T11:41:22.511Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-18 elapsed_s=28.506 error=Expected confirmation but none was requested.
+2026-05-04T11:41:22.553Z [workflow-ai-agent] [LANE 5] START case_id=advanced-19
+2026-05-04T11:41:52.244Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-27 elapsed_s=44.988 error=Expected confirmation but none was requested.
+2026-05-04T11:41:52.285Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-28
+2026-05-04T11:42:00.681Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-19 elapsed_s=38.128 error=Expected confirmation but none was requested.
+2026-05-04T11:42:00.764Z [workflow-ai-agent] [LANE 5] START case_id=advanced-20
+2026-05-04T11:42:06.597Z [chat-only] [LANE 2] PASSED case_id=coverage2-31 elapsed_s=88.011
+2026-05-04T11:42:06.639Z [chat-only] [LANE 2] START case_id=coverage2-32
+2026-05-04T11:42:30.942Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-28 elapsed_s=38.657 error=Expected confirmation but none was requested.
+2026-05-04T11:42:30.981Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-29
+2026-05-04T11:42:38.444Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-20 elapsed_s=37.68 error=Expected confirmation but none was requested.
+2026-05-04T11:42:38.482Z [workflow-ai-agent] [LANE 5] START case_id=advanced-21
+2026-05-04T11:43:10.103Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-29 elapsed_s=39.122 error=Expected confirmation but none was requested.
+2026-05-04T11:43:10.142Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-30
+2026-05-04T11:43:17.397Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-21 elapsed_s=38.915 error=Expected confirmation but none was requested.
+2026-05-04T11:43:17.434Z [workflow-ai-agent] [LANE 5] START case_id=advanced-22
+2026-05-04T11:43:35.403Z [chat-only] [LANE 2] PASSED case_id=coverage2-32 elapsed_s=88.764
+2026-05-04T11:43:35.444Z [chat-only] [LANE 2] START case_id=coverage2-33
+2026-05-04T11:43:41.790Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-30 elapsed_s=31.648 error=Expected confirmation but none was requested.
+2026-05-04T11:43:41.829Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-31
+2026-05-04T11:43:51.862Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-23 elapsed_s=162.647
+2026-05-04T11:43:51.902Z [query-chat-node] [LANE 2] START case_id=coverage2-24
+2026-05-04T11:44:06.308Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-22 elapsed_s=48.874 error=Expected confirmation but none was requested.
+2026-05-04T11:44:06.346Z [workflow-ai-agent] [LANE 5] START case_id=advanced-23
+2026-05-04T11:44:38.448Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-31 elapsed_s=56.619 error=Expected confirmation but none was requested.
+2026-05-04T11:44:38.485Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-32
+2026-05-04T11:44:44.055Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-23 elapsed_s=37.709 error=Expected confirmation but none was requested.
+2026-05-04T11:44:44.099Z [workflow-ai-agent] [LANE 5] START case_id=advanced-24
+2026-05-04T11:44:53.750Z [chat-only] [LANE 2] PASSED case_id=coverage2-33 elapsed_s=78.306
+2026-05-04T11:44:53.792Z [chat-only] [LANE 2] START case_id=coverage2-34
+2026-05-04T11:45:17.972Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-24 elapsed_s=33.873 error=Expected confirmation but none was requested.
+2026-05-04T11:45:18.043Z [workflow-ai-agent] [LANE 5] START case_id=advanced-25
+2026-05-04T11:45:26.493Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-32 elapsed_s=48.008 error=Expected confirmation but none was requested.
+2026-05-04T11:45:26.535Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-33
+2026-05-04T11:45:43.718Z [workflow-ai-agent] [LANE 5] FAILED case_id=advanced-25 elapsed_s=25.675 error=Expected confirmation but none was requested.
+2026-05-04T11:46:01.807Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-33 elapsed_s=35.272 error=Expected confirmation but none was requested.
+2026-05-04T11:46:01.845Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-34
+2026-05-04T11:46:07.103Z [chat-only] [LANE 2] PASSED case_id=coverage2-34 elapsed_s=73.311
+2026-05-04T11:46:07.142Z [chat-only] [LANE 2] START case_id=coverage2-35
+2026-05-04T11:46:31.490Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-24 elapsed_s=159.588
+2026-05-04T11:46:31.531Z [query-chat-node] [LANE 2] START case_id=coverage2-25
+2026-05-04T11:46:36.419Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-34 elapsed_s=34.574 error=Expected confirmation but none was requested.
+2026-05-04T11:46:36.458Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-35
+2026-05-04T11:47:11.305Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-35 elapsed_s=34.847 error=Expected confirmation but none was requested.
+2026-05-04T11:47:11.345Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-36
+2026-05-04T11:47:24.872Z [chat-only] [LANE 2] PASSED case_id=coverage2-35 elapsed_s=77.73
+2026-05-04T11:47:24.909Z [chat-only] [LANE 2] START case_id=coverage2-36
+2026-05-04T11:47:54.624Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-36 elapsed_s=43.279 error=Expected confirmation but none was requested.
+2026-05-04T11:47:54.663Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-37
+2026-05-04T11:48:29.982Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-37 elapsed_s=35.319 error=Expected confirmation but none was requested.
+2026-05-04T11:48:30.022Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-38
+2026-05-04T11:48:40.175Z [chat-only] [LANE 2] PASSED case_id=coverage2-36 elapsed_s=75.266
+2026-05-04T11:48:40.223Z [chat-only] [LANE 2] START case_id=coverage2-37
+2026-05-04T11:49:04.728Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-25 elapsed_s=153.197
+2026-05-04T11:49:04.769Z [query-chat-node] [LANE 2] START case_id=coverage2-26
+2026-05-04T11:49:06.638Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-38 elapsed_s=36.616 error=Expected confirmation but none was requested.
+2026-05-04T11:49:06.677Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-39
+2026-05-04T11:49:38.380Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-39 elapsed_s=31.703 error=Expected confirmation but none was requested.
+2026-05-04T11:49:38.422Z [workflow-ai-agent] [LANE 2] START case_id=coverage2-40
+2026-05-04T11:49:58.603Z [chat-only] [LANE 2] PASSED case_id=coverage2-37 elapsed_s=78.38
+2026-05-04T11:49:58.642Z [chat-only] [LANE 2] START case_id=coverage2-38
+2026-05-04T11:50:18.001Z [workflow-ai-agent] [LANE 2] FAILED case_id=coverage2-40 elapsed_s=39.579 error=Expected confirmation but none was requested.
+2026-05-04T11:51:26.686Z [chat-only] [LANE 2] PASSED case_id=coverage2-38 elapsed_s=88.044
+2026-05-04T11:51:26.725Z [chat-only] [LANE 2] START case_id=coverage2-39
+2026-05-04T11:51:28.455Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-26 elapsed_s=143.686
+2026-05-04T11:51:28.494Z [query-chat-node] [LANE 2] START case_id=coverage2-27
+2026-05-04T11:52:45.852Z [chat-only] [LANE 2] PASSED case_id=coverage2-39 elapsed_s=79.127
+2026-05-04T11:52:45.892Z [chat-only] [LANE 2] START case_id=coverage2-40
+2026-05-04T11:53:24.217Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-27 elapsed_s=115.723
+2026-05-04T11:53:24.257Z [query-chat-node] [LANE 2] START case_id=coverage2-28
+2026-05-04T11:54:28.964Z [chat-only] [LANE 2] PASSED case_id=coverage2-40 elapsed_s=103.072
+2026-05-04T11:56:14.731Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-28 elapsed_s=170.474
+2026-05-04T11:56:14.771Z [query-chat-node] [LANE 2] START case_id=coverage2-29
+2026-05-04T11:59:14.812Z [query-chat-node] [LANE 2] FAILED case_id=coverage2-29 elapsed_s=180.041 error=pending request timed out after 180000ms
+2026-05-04T11:59:14.852Z [query-chat-node] [LANE 2] START case_id=coverage2-30
+2026-05-04T12:01:37.600Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-30 elapsed_s=142.748
+2026-05-04T12:01:37.648Z [query-chat-node] [LANE 2] START case_id=coverage2-31
+2026-05-04T12:04:27.530Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-31 elapsed_s=169.882
+2026-05-04T12:04:27.575Z [query-chat-node] [LANE 2] START case_id=coverage2-32
+2026-05-04T12:07:02.414Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-32 elapsed_s=154.839
+2026-05-04T12:07:02.456Z [query-chat-node] [LANE 2] START case_id=coverage2-33
+2026-05-04T12:09:35.198Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-33 elapsed_s=152.742
+2026-05-04T12:09:35.240Z [query-chat-node] [LANE 2] START case_id=coverage2-34
+2026-05-04T12:12:27.115Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-34 elapsed_s=171.875
+2026-05-04T12:12:27.157Z [query-chat-node] [LANE 2] START case_id=coverage2-35
+2026-05-04T12:14:27.212Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-35 elapsed_s=120.055
+2026-05-04T12:14:27.258Z [query-chat-node] [LANE 2] START case_id=coverage2-36
+2026-05-04T12:16:31.647Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-36 elapsed_s=124.389
+2026-05-04T12:16:31.688Z [query-chat-node] [LANE 2] START case_id=coverage2-37
+2026-05-04T12:19:21.106Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-37 elapsed_s=169.418
+2026-05-04T12:19:21.146Z [query-chat-node] [LANE 2] START case_id=coverage2-38
+2026-05-04T12:22:09.572Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-38 elapsed_s=168.426
+2026-05-04T12:22:09.613Z [query-chat-node] [LANE 2] START case_id=coverage2-39
+2026-05-04T12:25:05.113Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-39 elapsed_s=175.5
+2026-05-04T12:25:05.153Z [query-chat-node] [LANE 2] START case_id=coverage2-40
+2026-05-04T12:27:51.266Z [query-chat-node] [LANE 2] PASSED case_id=coverage2-40 elapsed_s=166.113
+2026-05-04T12:27:51.308Z [chat-only] [LANE 0] RUN_SUMMARY run_id=run-20260504105734 enabled_cases=167

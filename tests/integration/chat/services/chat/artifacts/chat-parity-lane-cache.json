@@ -1,0 +1,348 @@
+{
+  "workflow-ai-agent": {
+    "lane-1": {
+      "chatId": "bfba13e6-5baa-4bb5-8cdc-82bf31b0e952",
+      "scopeId": "4f026079-0f12-43f4-bb9f-c3b37c254d6f"
+    },
+    "lane-2": {
+      "chatId": "316f69e7-dc7e-4cce-a36f-91cf877245d4",
+      "scopeId": "7c9f95e7-9c93-4dbf-a36c-be855ac755c8"
+    },
+    "lane-3": {
+      "chatId": "c2f5b98c-c2a1-4a02-a92a-dbfbf1391fb0",
+      "scopeId": "f6f17348-96a9-49c3-8aac-454e5cd5915c"
+    },
+    "lane-4": {
+      "chatId": "cab00804-0119-4cb6-ae15-b5aadc22294c",
+      "scopeId": "b5a86c74-d03d-4274-b5d1-82f694104935"
+    },
+    "lane-5": {
+      "chatId": "8fa55942-bc74-4559-ad46-70f309efbe74",
+      "scopeId": "7ab753cb-b31e-434d-a44b-da26146f2671"
+    }
+  },
+  "query-chat-node": {
+    "lane-1": {
+      "chatId": "a4d2b326-ab7c-406e-97ee-687a578c9e1f",
+      "scopeId": "44058673-e1da-42e7-8d25-48b305cf1237"
+    },
+    "lane-2": {
+      "chatId": "052b053c-9f36-457a-b013-33bb44acc2ef",
+      "scopeId": "798c893f-6baf-40bb-8aea-1cb2bcf50927"
+    },
+    "lane-3": {
+      "chatId": "913a7416-2047-490c-8c44-1efa3c23c715",
+      "scopeId": "0acc8e49-1d17-4fcf-9f23-a0565fff0c9f"
+    },
+    "lane-4": {
+      "chatId": null,
+      "scopeId": "31e8757c-5862-4b15-a300-f55013632e61"
+    },
+    "lane-5": {
+      "chatId": null,
+      "scopeId": "6c49f450-e29d-46d7-9b06-4d42e6f03396"
+    },
+    "lane-6": {
+      "chatId": null,
+      "scopeId": "74418d39-7182-4766-8d22-d04ea0406a8b"
+    },
+    "lane-7": {
+      "chatId": null,
+      "scopeId": "24279423-86a3-4214-b449-ada312d95ed5"
+    },
+    "lane-8": {
+      "chatId": null,
+      "scopeId": "cc972ef4-36f7-4e14-bf5a-5fbd1d4045d7"
+    },
+    "lane-9": {
+      "chatId": null,
+      "scopeId": "88086076-75a8-4b40-aa86-b52f15a338b7"
+    },
+    "lane-10": {
+      "chatId": null,
+      "scopeId": "e4c52788-f463-42f7-93de-e8ced8e6ab6b"
+    },
+    "lane-11": {
+      "chatId": null,
+      "scopeId": "988676a1-a14c-40cd-b25f-bff75b105da1"
+    },
+    "lane-12": {
+      "chatId": null,
+      "scopeId": "572861e8-6ce8-40eb-a348-ae5ba0f62c98"
+    },
+    "lane-13": {
+      "chatId": null,
+      "scopeId": "5071aeb3-7e34-4b5f-8327-b1698966779a"
+    },
+    "lane-14": {
+      "chatId": null,
+      "scopeId": "b083a090-5840-4014-b369-19a972a179a6"
+    },
+    "lane-15": {
+      "chatId": null,
+      "scopeId": "41c98007-e53b-466b-afd4-e5f7a13e3b1e"
+    },
+    "lane-16": {
+      "chatId": null,
+      "scopeId": "e2656164-c7f4-4b6f-89ea-d2433ab51e21"
+    },
+    "lane-17": {
+      "chatId": null,
+      "scopeId": "8a35c616-5e4e-4faf-afd6-b88cdfc53bad"
+    },
+    "lane-18": {
+      "chatId": null,
+      "scopeId": "18d5375d-3dac-4f89-ac2e-7298686de977"
+    },
+    "lane-19": {
+      "chatId": null,
+      "scopeId": "5d4b77e5-5f5f-4b5a-8567-20840773d26e"
+    },
+    "lane-20": {
+      "chatId": null,
+      "scopeId": "0c54c0a2-3ad6-465b-9681-677bf5d0cf34"
+    },
+    "lane-21": {
+      "chatId": null,
+      "scopeId": "a8924e7d-1c3c-4259-93e2-bb54e0a5b28f"
+    },
+    "lane-22": {
+      "chatId": null,
+      "scopeId": "ba8ff1c5-49da-4389-8003-de23176aa625"
+    },
+    "lane-23": {
+      "chatId": null,
+      "scopeId": "76ad695b-22c3-41f2-adb7-09ed6f39952a"
+    },
+    "lane-24": {
+      "chatId": null,
+      "scopeId": "dbb92dff-5adb-4960-9cc8-b7b9feca40bb"
+    },
+    "lane-25": {
+      "chatId": null,
+      "scopeId": "a0094a31-cde3-431d-8866-f815f37427f5"
+    },
+    "lane-26": {
+      "chatId": null,
+      "scopeId": "8de14b48-f3e1-4b80-bca0-2f6279a304e4"
+    },
+    "lane-27": {
+      "chatId": null,
+      "scopeId": "92256920-b51e-4707-9c7b-8d060da3ea1f"
+    },
+    "lane-28": {
+      "chatId": null,
+      "scopeId": "e2b50494-02e4-4d38-ad7d-0772d1345090"
+    },
+    "lane-29": {
+      "chatId": null,
+      "scopeId": "2f10fa7b-17a9-49c3-b2db-82f50033171c"
+    },
+    "lane-30": {
+      "chatId": null,
+      "scopeId": "b1434f86-35ea-4c12-a36c-766bf034329b"
+    },
+    "lane-31": {
+      "chatId": null,
+      "scopeId": "e1cdd57d-1971-4df2-b3b1-798f3e672476"
+    },
+    "lane-32": {
+      "chatId": null,
+      "scopeId": "c4e24825-500e-4bca-bddc-3a4d3e74f886"
+    },
+    "lane-33": {
+      "chatId": null,
+      "scopeId": "247b8eed-92ee-4531-b415-d3f067614b82"
+    },
+    "lane-34": {
+      "chatId": null,
+      "scopeId": "018e9251-b9e6-492a-9ac1-ca744a34c68d"
+    },
+    "lane-35": {
+      "chatId": null,
+      "scopeId": "3a534706-878d-4892-b3cd-ef382efc65ec"
+    },
+    "lane-36": {
+      "chatId": null,
+      "scopeId": "bff470cf-38db-4d7e-b849-4edb0df2d0b2"
+    },
+    "lane-37": {
+      "chatId": null,
+      "scopeId": "c105c1d5-0c19-4d26-b009-acded5ae4b89"
+    },
+    "lane-38": {
+      "chatId": null,
+      "scopeId": "fc132e86-06eb-480c-951e-db77dfcfac8e"
+    },
+    "lane-39": {
+      "chatId": null,
+      "scopeId": "732b3ce0-c865-4c27-b516-0351d91b6640"
+    },
+    "lane-40": {
+      "chatId": null,
+      "scopeId": "8e814afa-8467-4e7a-99bc-36bfbd385889"
+    }
+  },
+  "chat-only": {
+    "lane-1": {
+      "chatId": "0425ee32-f5ae-463f-b49f-3de2268e4157",
+      "scopeId": "1a21113c-26e5-4519-8dbe-3810260c5d3b"
+    },
+    "lane-2": {
+      "chatId": "7a85a968-d032-4436-9da4-a7ea423a86c9",
+      "scopeId": "56977b0a-58b7-4abd-b688-abfb7a87041f"
+    },
+    "lane-3": {
+      "chatId": "442fb724-ff75-4023-88b2-0985cb29bf0d",
+      "scopeId": "cb76a20a-1b8c-4bc6-873b-6c11e5081c48"
+    },
+    "lane-4": {
+      "chatId": "776f9354-b802-4164-a789-f1e213699eb1",
+      "scopeId": "2583a990-fd50-4866-b91f-0df2cce91642"
+    },
+    "lane-5": {
+      "chatId": "6c7b0992-0a78-4d6b-9a1b-4781032857f1",
+      "scopeId": "34223350-2050-4fa0-89e2-10e2597b5e5e"
+    },
+    "lane-6": {
+      "chatId": "c3410f64-7420-4f80-8cb9-c5cadffaf51b",
+      "scopeId": "0e510cff-43c0-41e2-b5b7-e2496afd7c34"
+    },
+    "lane-7": {
+      "chatId": "0b938dc5-8ac2-4081-9322-bc4fea015157",
+      "scopeId": "30c30296-f476-4da2-96ad-a737772034ab"
+    },
+    "lane-8": {
+      "chatId": "6e522579-f5bc-4224-a576-fa3d925365eb",
+      "scopeId": "489674ef-5af0-4de3-a9ce-eb3d9c760645"
+    },
+    "lane-9": {
+      "chatId": "fa04be73-a047-4aca-9b2e-ac006755632a",
+      "scopeId": "51cf5412-0777-453e-a176-fa7a94ea9db8"
+    },
+    "lane-10": {
+      "chatId": "c9f63f28-638f-4aed-8cf7-314694a80e1a",
+      "scopeId": "a84fd70a-405e-4fef-b1d1-84d69e086ff8"
+    },
+    "lane-11": {
+      "chatId": "a5871f70-77e0-4747-86a0-dde2216181a8",
+      "scopeId": "9b5f313f-a1ec-40ae-bdd6-6aac640b4a2c"
+    },
+    "lane-12": {
+      "chatId": "4020447c-7e42-488e-ae4a-76058b4ffe1b",
+      "scopeId": "4da1b19c-8de2-4b2f-9e9d-1bbe2f3b9235"
+    },
+    "lane-13": {
+      "chatId": "bcf460ec-e4ac-4291-8dff-e13c6b045a65",
+      "scopeId": "3f1bbe0e-58d0-4acf-b23f-300768d690a4"
+    },
+    "lane-14": {
+      "chatId": "761c107c-4730-4e64-9ceb-e8fdbed6f5fd",
+      "scopeId": "cbadf1fa-be7c-4b05-b89a-c0d469e158d5"
+    },
+    "lane-15": {
+      "chatId": "98f27777-83b0-4755-a98c-4433a37f2796",
+      "scopeId": "cdf355a9-fd31-451c-8110-d33314ebb6d7"
+    },
+    "lane-16": {
+      "chatId": "c5a1fa4f-ef93-43f4-b8bd-23ee107ea8b0",
+      "scopeId": "36079e07-baa0-4fcc-b3bb-977bc0f4768e"
+    },
+    "lane-17": {
+      "chatId": "b83246ad-c110-4f34-a301-b71194af7b79",
+      "scopeId": "23fb3088-1368-4830-abe4-f4fb118765ca"
+    },
+    "lane-18": {
+      "chatId": "2db95ea8-36f5-429a-ab1c-a2fa352cb53d",
+      "scopeId": "25362962-3c9c-44c0-9252-29c484a57bc2"
+    },
+    "lane-19": {
+      "chatId": "80733c87-b5ba-436a-a6a4-063642446a77",
+      "scopeId": "3d634792-600b-4516-a5f7-6c5c07812f53"
+    },
+    "lane-20": {
+      "chatId": "cf0ea4dc-5d70-4bc2-b050-721008c70d18",
+      "scopeId": "58d99a77-c784-4ad3-a584-61987d3583b0"
+    },
+    "lane-21": {
+      "chatId": "16d92fb1-f70c-4080-a5ec-a997f4385fbd",
+      "scopeId": "68825878-2717-4aff-b8b0-bf08d1d8353d"
+    },
+    "lane-22": {
+      "chatId": "9305e1bd-f580-4cfd-8d79-9a97e299cf02",
+      "scopeId": "d55c4835-2199-44ae-886f-5c9d0caac3ce"
+    },
+    "lane-23": {
+      "chatId": "a6249e1c-57b8-45b6-b7b0-fe3aa7499a3c",
+      "scopeId": "3e99dfed-dea0-4c54-bd72-bf6178cca9a4"
+    },
+    "lane-24": {
+      "chatId": "4a23f115-2817-459b-849f-367b0f55b273",
+      "scopeId": "ff20ac95-f5a2-4291-8922-678b5344d80a"
+    },
+    "lane-25": {
+      "chatId": "bc9b683a-3c1e-4ff9-a5f6-f5fb9f04ad2f",
+      "scopeId": "11f323b7-6193-463d-9491-85391184e702"
+    },
+    "lane-26": {
+      "chatId": "9a11f032-c58f-4082-878d-a074e99f2306",
+      "scopeId": "7b9f0fab-4cf4-4d37-83c0-c51feb20c641"
+    },
+    "lane-27": {
+      "chatId": "995384e1-9520-4168-9df8-b366cb6958d6",
+      "scopeId": "244a8cd9-c369-4882-b504-f168d97f5e35"
+    },
+    "lane-28": {
+      "chatId": "f5d79ff9-218e-474e-be6c-2028a2619f90",
+      "scopeId": "cbb5a91e-19ea-4e99-b14a-020580518165"
+    },
+    "lane-29": {
+      "chatId": "5c755e71-46f5-42af-a662-5a4b10e38bfd",
+      "scopeId": "ce4da5f5-41f3-4b42-ae2f-a90e299973ea"
+    },
+    "lane-30": {
+      "chatId": "9750fc93-725e-4d4b-a68c-0631e78b381a",
+      "scopeId": "94f12c00-45e1-4885-a07a-39a2f4c08331"
+    },
+    "lane-31": {
+      "chatId": "dc6da8d1-0ef1-4ae5-8da6-9d3dec1f3964",
+      "scopeId": "b589e688-3119-4a59-b5a4-0dc9cc03e69d"
+    },
+    "lane-32": {
+      "chatId": null,
+      "scopeId": "463e5758-819e-4f36-a831-82c56e34ac2f"
+    },
+    "lane-33": {
+      "chatId": "bde4c955-e41a-4ecd-a37b-d5a1d0a12148",
+      "scopeId": "3a2ac668-fef1-48a1-bcdf-c99d4ad17cdb"
+    },
+    "lane-34": {
+      "chatId": "32c28da3-c320-4993-863b-5b495327b25c",
+      "scopeId": "117311fe-3082-41fd-9ea4-fc0c9e6b2b69"
+    },
+    "lane-35": {
+      "chatId": "dcaabca6-1612-442a-ad64-e4ec94a8229d",
+      "scopeId": "05c536d7-c03a-4b93-b663-c8e74f3c0ddc"
+    },
+    "lane-36": {
+      "chatId": "519286ff-f884-4919-8e0d-f7abdf042b38",
+      "scopeId": "3ccd0b17-ec64-45f1-af9f-374fa15a67bb"
+    },
+    "lane-37": {
+      "chatId": "dcfcceb4-f849-46d3-87ce-ba3e04eac748",
+      "scopeId": "961d1453-3727-4bf5-b718-8bab33679ba1"
+    },
+    "lane-38": {
+      "chatId": "0c0f4eb0-9138-47a3-95d3-f96570a6485d",
+      "scopeId": "27ddd2d5-e070-41d2-89ef-cfd2c9a45054"
+    },
+    "lane-39": {
+      "chatId": "38733e7a-92ee-4800-bd6e-9dc35b9b910a",
+      "scopeId": "03cd8a92-1c30-49db-a2a9-eba774bbb921"
+    },
+    "lane-40": {
+      "chatId": "d73063ea-77c4-4261-84fb-fdc0409d59fc",
+      "scopeId": "c1e9c35d-648a-427e-9279-0a40b1b709f6"
+    }
+  }
+}

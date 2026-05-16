@@ -1,93 +1,56 @@
-import { LocalEventBus, makeId, nowIso, type PackageHealth, type PackageModule, type PaginationOptions, type RequestContext } from './contracts.js';
 import { InMemoryRepository, type BaseRecord } from './entity/repository.js';
+import { LocalEventBus, makeId, nowIso, type PackageHealth, type PackageModule, type PaginationOptions, type RequestContext } from './contracts.js';
+import { createStubLauncher } from './launcher.js';
+import { PackageObservability } from './observability.js';
 
 export interface ChatRecord extends BaseRecord { title: string; mode?: string; }
-export interface ChatMessageRecord extends BaseRecord { chatId: string; role: 'user' | 'assistant' | 'system'; content: string; metadata?: Record<string, unknown>; }
-export type SlashHandler = (args: string[], context: RequestContext, raw: string) => Promise<unknown> | unknown;
-export type ChatResponder = (input: { chatId: string; message: string; mode?: string; context: RequestContext }) => Promise<unknown> | unknown;
-export interface SlashCommandDescriptor { command: string; owner?: string; description?: string; handler: SlashHandler; }
+export interface ChatMessage extends BaseRecord { chatId: string; role: 'user'|'assistant'|'system'; content: string; format: 'text'|'json'|'markdown'; metadata?: Record<string, unknown>; }
+export interface ChatAttachment extends BaseRecord { chatId: string; messageId?: string; fileId?: string; fileName: string; path?: string; provider?: string; }
+export interface TransientChatSession { id: string; scope: 'project-debug' | 'agent-chat' | 'agent-creation-debug' | 'generic'; ownerId?: string; messages: Array<{ role: ChatMessage['role']; content: string; at: string }>; createdAt: string; updatedAt: string; }
+export interface QueryChatInput { message: string; mode?: string; attachments?: Array<{fileName:string; content?: string|Uint8Array; path?: string}>; confirm?: boolean; transient?: boolean; transientSessionId?: string; }
+export type QueryChatOptions = QueryChatInput;
+export type ChatMessageRecord = ChatMessage;
+export type ChatAttachmentRecord = ChatAttachment;
+export interface SlashCommand { command: string; owner?: string; description?: string; handler: (args: string[], context: RequestContext, raw?: string) => unknown | Promise<unknown>; }
 
 const chats = new InMemoryRepository<ChatRecord>('chat');
-const messages = new InMemoryRepository<ChatMessageRecord>('chat_msg');
-const slash = new Map<string, SlashCommandDescriptor>();
+const messages = new InMemoryRepository<ChatMessage>('chat_message');
+const attachments = new InMemoryRepository<ChatAttachment>('chat_attachment');
+const transientSessions = new Map<string, TransientChatSession>();
 const bus = new LocalEventBus();
-let responder: ChatResponder | undefined;
-
-function normalizeContent(content: unknown): string {
-  if (typeof content === 'string') return content;
-  if (content && typeof content === 'object' && 'message' in content) return normalizeContent((content as { message?: unknown }).message);
-  if (content == null) return '';
-  try { return JSON.stringify(content); } catch { return String(content); }
-}
-
-function normalizeCommand(command: string): string {
-  return command.trim().startsWith('/') ? command.trim().toLowerCase() : `/${command.trim().toLowerCase()}`;
-}
-
-function helpText(): string {
-  const commands = [...slash.values()].map((item) => `${item.command}${item.owner ? ` (${item.owner})` : ''}${item.description ? ` - ${item.description}` : ''}`);
-  return commands.length ? `Registered slash commands:\n${commands.join('\n')}` : 'No package slash commands are registered yet.';
-}
-
-slash.set('/help', { command: '/help', owner: '@connectingmatrix/chat', description: 'List registered package-owned slash commands', handler: () => helpText() });
+const slash = new Map<string, SlashCommand>();
+let responder: ((input: QueryChatInput & { chat?: ChatRecord; context: RequestContext; transientMessages?: TransientChatSession['messages'] }) => Promise<string>) | undefined;
+let driveApi: { upload?: (input: {fileName:string; content:string|Uint8Array; path?:string}, context?: RequestContext)=>Promise<{id?:string; path?:string; provider?:string; fileName?:string}> } | undefined;
+function normalizeContent(value: unknown): string { if (typeof value === 'string') return value; if (value && typeof value === 'object' && 'message' in value) return normalizeContent((value as { message?: unknown }).message); return JSON.stringify(value ?? ''); }
+async function defaultResponder(input: QueryChatInput & { chat?: ChatRecord; context: RequestContext; transientMessages?: TransientChatSession['messages'] }) { const prior = input.transientMessages?.length ? `\nContext messages: ${input.transientMessages.length}` : ''; return `Chat ${input.chat?.title ?? 'browser-session'} (${input.mode ?? input.chat?.mode ?? 'default'}): ${input.message}${prior}`; }
+function newTransientSession(input: { scope?: TransientChatSession['scope']; ownerId?: string }): TransientChatSession { const now = nowIso(); const session = { id: makeId('browser_chat'), scope: input.scope ?? 'generic', ownerId: input.ownerId, messages: [], createdAt: now, updatedAt: now }; transientSessions.set(session.id, session); return session; }
 
 export const Chat = {
-  bindWithServer(_endpoint: string) { return Chat; },
-  setResponder(nextResponder: ChatResponder) { responder = nextResponder; return Chat; },
-  registerSlashCommand(command: string, handler: SlashHandler, options: { owner?: string; description?: string } = {}) {
-    const normalized = normalizeCommand(command);
-    slash.set(normalized, { command: normalized, owner: options.owner, description: options.description, handler });
-    return Chat;
-  },
-  registerSlashCommands(commands: SlashCommandDescriptor[]) {
-    for (const command of commands) Chat.registerSlashCommand(command.command, command.handler, { owner: command.owner, description: command.description });
-    return Chat;
-  },
-  listSlashCommands() { return [...slash.values()].map(({ command, owner, description }) => ({ command, owner, description })); },
-  getChats(pagination: PaginationOptions = {}, context: RequestContext = {}) { return chats.list(context, pagination); },
+  bindDrive(api: typeof driveApi) { driveApi = api; return Chat; },
+  setResponder(next: typeof responder) { responder = next; return Chat; },
+  registerSlashCommand(command: SlashCommand) { slash.set(command.command.replace(/^\//,''), command); return Chat; },
+  registerSlashCommands(commands: SlashCommand[] = []) { for (const command of commands) Chat.registerSlashCommand(command); return Chat; },
+  listSlashCommands() { return [...slash.values()].map(({command,owner,description})=>({command,owner,description})); },
+  createTransientSession(input: { scope?: TransientChatSession['scope']; ownerId?: string } = {}) { return newTransientSession(input); },
+  createBrowserSession(input: { scope?: TransientChatSession['scope']; targetId?: string; ownerId?: string; browserContext?: Record<string, unknown> } = {}) { return newTransientSession({ scope: input.scope, ownerId: input.ownerId ?? input.targetId }); },
+  getTransientSession(id: string) { return transientSessions.get(id); },
+  clearTransientSession(id: string) { return transientSessions.delete(id); },
+  clearBrowserSession(id: string) { return transientSessions.delete(id); },
   createChat(input: { title: string; mode?: string }, context: RequestContext = {}) { return chats.create(input, context); },
-  getMessages(chatId: string, pagination: PaginationOptions = {}, context: RequestContext = {}) {
-    const listed = messages.list(context, { ...pagination, limit: pagination.limit ?? 100 });
-    return { ...listed, items: listed.items.filter((m) => m.chatId === chatId) };
-  },
-  search(chatId: string, term: string, context: RequestContext = {}) { return messages.search(term, context, ['content']).filter((m) => m.chatId === chatId); },
-  async sendMessage(chatId: string, content: unknown, context: RequestContext = {}) { const message = messages.create({ chatId, role: 'user', content: normalizeContent(content) }, context); await bus.emit(`chat:${chatId}`, message); return message; },
-  async queryChat(chatId: string, input: { message: unknown; mode?: string }, context: RequestContext = {}) {
-    await Chat.sendMessage(chatId, input.message, context);
-    const text = normalizeContent(input.message).trim();
-    const [command, ...args] = text.split(/\s+/);
-    const normalizedCommand = normalizeCommand(command || '');
-    const handler = text.startsWith('/') ? slash.get(normalizedCommand)?.handler : undefined;
-    const reply = handler
-      ? await handler(args, context, text)
-      : text.startsWith('/')
-        ? `Slash command is not registered: ${normalizedCommand}. Try /help.`
-        : responder
-          ? await responder({ chatId, message: text, mode: input.mode, context })
-          : text;
-    const assistant = messages.create({ chatId, role: 'assistant', content: normalizeContent(reply), metadata: { mode: input.mode, slashCommand: handler ? normalizedCommand : undefined } }, context);
-    await bus.emit(`chat:${chatId}`, assistant);
-    return assistant;
-  },
-  onMessage(chatId: string, handler: (message: ChatMessageRecord) => void | Promise<void>) { return bus.on(`chat:${chatId}`, handler); },
-  health(): PackageHealth { return { name: '@connectingmatrix/chat', status: 'ok', checkedAt: nowIso(), details: { chats: chats.list({ root: true }).total, messages: messages.list({ root: true }).total, slashCommands: slash.size, responder: Boolean(responder) } }; },
+  getChats(pagination: PaginationOptions = {}, context: RequestContext = {}) { return chats.list(context, pagination); },
+  getMessages(chatId: string, pagination: PaginationOptions = {}, context: RequestContext = {}) { return messages.list(context, {limit:500}).items.filter((m)=>m.chatId===chatId).slice(pagination.offset ?? 0, (pagination.offset ?? 0)+(pagination.limit ?? 50)); },
+  search(chatId: string, term: string, context: RequestContext = {}) { return messages.search(term, context, ['content']).filter((m)=>m.chatId===chatId); },
+  async attachFile(chatId: string, input: { fileName: string; content?: string|Uint8Array; path?: string }, context: RequestContext = {}) { let uploaded: {id?:string; path?:string; provider?:string; fileName?:string} = {}; if (driveApi?.upload && input.content != null) uploaded = await driveApi.upload({ fileName: input.fileName, content: input.content, path: input.path }, context); return attachments.create({ chatId, fileId: uploaded.id, fileName: uploaded.fileName ?? input.fileName, path: uploaded.path ?? input.path, provider: uploaded.provider }, context); },
+  async queryBrowserSession(sessionId: string, input: QueryChatInput, context: RequestContext = {}) { return Chat.queryTransient({ ...input, sessionId }, context); },
+  async queryTransient(input: QueryChatInput & { sessionId?: string; scope?: TransientChatSession['scope']; ownerId?: string }, context: RequestContext = {}) { const session = input.sessionId ? transientSessions.get(input.sessionId) ?? newTransientSession({ scope: input.scope, ownerId: input.ownerId }) : newTransientSession({ scope: input.scope, ownerId: input.ownerId }); session.messages.push({ role: 'user', content: normalizeContent(input.message), at: nowIso() }); let output: unknown; if (input.message.trim().startsWith('/')) { const [cmd, ...args] = input.message.trim().slice(1).split(/\s+/); const command = slash.get(cmd); output = command ? await command.handler(args, context, input.message) : `Unregistered slash command: /${cmd}`; } else output = await (responder ?? defaultResponder)({ ...input, context, transientMessages: session.messages }); const content = normalizeContent(output); session.messages.push({ role: 'assistant', content, at: nowIso() }); session.updatedAt = nowIso(); PackageObservability.track(`chat:transient:${session.id}`, { label: `${session.scope} chat session`, status: 'running', progress: 100, context: { messages: session.messages.length } }, context); await bus.emit(`chat:transient:${session.id}`, session); return { session, message: { role: 'assistant' as const, content, format: typeof output === 'object' ? 'json' as const : 'text' as const } }; },
+  async queryChat(chatId: string, input: QueryChatInput, context: RequestContext = {}) { if (input.transient) { const transient = await Chat.queryTransient({ ...input, sessionId: input.transientSessionId, ownerId: chatId }, context); return { id: makeId('transient_message'), chatId: transient.session.id, role: 'assistant', content: transient.message.content, format: transient.message.format, createdAt: nowIso(), updatedAt: nowIso() } as ChatMessage; } const chat = chats.get(chatId, context) ?? Chat.createChat({ title: 'Chat', mode: input.mode }, context); const user = messages.create({ chatId: chat.id, role: 'user', content: normalizeContent(input.message), format: 'text', metadata: { mode: input.mode } }, context); for (const file of input.attachments ?? []) await Chat.attachFile(chat.id, file, context); let output: unknown; if (input.message.trim().startsWith('/')) { const [cmd, ...args] = input.message.trim().slice(1).split(/\s+/); const command = slash.get(cmd); output = command ? await command.handler(args, context, input.message) : `Unregistered slash command: /${cmd}`; } else output = await (responder ?? defaultResponder)({ ...input, chat, context }); const assistant = messages.create({ chatId: chat.id, role: 'assistant', content: normalizeContent(output), format: typeof output === 'object' ? 'json' : 'text', metadata: { replyTo: user.id } }, context); PackageObservability.track(`chat:${chat.id}`, { label: chat.title, status: 'running', progress: 100, context: { lastMessage: assistant.id } }, context); await bus.emit(`chat:${chat.id}`, assistant); return assistant; },
+  queryChaat(chatId: string, input: QueryChatInput, context: RequestContext = {}) { return Chat.queryChat(chatId, input, context); },
+  onMessage(chatId: string, handler: (message: ChatMessage)=>void|Promise<void>) { return bus.on(`chat:${chatId}`, handler); },
+  onTransientSession(sessionId: string, handler: (session: TransientChatSession)=>void|Promise<void>) { return bus.on(`chat:transient:${sessionId}`, handler); },
+  launcher: createStubLauncher,
+  health(): PackageHealth { return { name: '@connectingmatrix/chat', status: 'ok', checkedAt: nowIso(), details: { chats: chats.list({root:true}).total, messages: messages.list({root:true}).total, transientSessions: transientSessions.size, slashCommands: [...slash.keys()], singleChatOwner: true, driveBound: Boolean(driveApi), ...PackageObservability.healthDetails() } }; }
 };
-
-export const graphql = {
-  namespace: 'chat',
-  typeDefs: `
-    type Chat { id: ID!, title: String!, mode: String, createdAt: String!, updatedAt: String! }
-    type ChatMessage { id: ID!, chatId: ID!, role: String!, content: String!, createdAt: String!, updatedAt: String! }
-    type SlashCommand { command: String!, owner: String, description: String }
-    input QueryChatInput { chatId: ID!, message: String!, mode: String }
-    type Query { chatList(limit: Int, offset: Int): [Chat!]!, chatMessages(chatId: ID!): [ChatMessage!]!, chatSlashCommands: [SlashCommand!]!, chatHealth: String! }
-    type Mutation { chatCreate(title: String!, mode: String): Chat!, queryChat(input: QueryChatInput!): ChatMessage! }
-  `,
-  resolvers: {
-    Query: { chatList: (_: unknown, args: PaginationOptions, ctx: RequestContext) => Chat.getChats(args, ctx).items, chatMessages: (_: unknown, args: { chatId: string }, ctx: RequestContext) => Chat.getMessages(args.chatId, {}, ctx).items, chatSlashCommands: () => Chat.listSlashCommands(), chatHealth: () => Chat.health().status },
-    Mutation: { chatCreate: (_: unknown, args: { title: string; mode?: string }, ctx: RequestContext) => Chat.createChat(args, ctx), queryChat: (_: unknown, args: { input: { chatId: string; message: string; mode?: string } }, ctx: RequestContext) => Chat.queryChat(args.input.chatId, { message: args.input.message, mode: args.input.mode }, ctx) },
-  },
-  migrations: ['migrations/0001_init.sql'],
-};
-export function createPackage(): PackageModule { return { name: '@connectingmatrix/chat', version: '0.1.0', health: () => Chat.health(), graphql, migrations: graphql.migrations, routes: [{ method: 'GET', path: '/chat/health', handler: () => Chat.health() }, { method: 'POST', path: '/chat/query', handler: (request) => Chat.queryChat(String((request as { body?: { chatId?: string } }).body?.chatId ?? ''), { message: (request as { body?: { message?: unknown; mode?: string } }).body?.message ?? '', mode: (request as { body?: { mode?: string } }).body?.mode }) }] }; }
-export * from './contracts.js';
+export const GigaChat = Chat;
+export const graphql = { namespace: 'chat', typeDefs: `type Chat { id: ID!, title: String!, mode: String } type ChatMessage { id: ID!, chatId: ID!, role: String!, content: String!, format: String! } input QueryChatInput { message: String!, mode: String, transient: Boolean, transientSessionId: ID } type Query { chatsList: [Chat!]!, chatMessages(chatId: ID!): [ChatMessage!]!, chatLauncher: String! } type Mutation { chatCreate(title: String!, mode: String): Chat!, chatQuery(chatId: ID!, input: QueryChatInput!): ChatMessage! }`, resolvers: { Query: { chatsList: (_:unknown,__unknown:unknown,ctx:RequestContext)=>Chat.getChats({},ctx).items, chatMessages: (_:unknown,args:{chatId:string},ctx:RequestContext)=>Chat.getMessages(args.chatId,{},ctx), chatLauncher: (_:unknown,__unknown:unknown,ctx:RequestContext)=>JSON.stringify(createStubLauncher(ctx)) }, Mutation: { chatCreate: (_:unknown,args:{title:string; mode?:string},ctx:RequestContext)=>Chat.createChat(args,ctx), chatQuery: (_:unknown,args:{chatId:string; input:QueryChatInput},ctx:RequestContext)=>Chat.queryChat(args.chatId,args.input,ctx) } }, migrations: ['migrations/0001_init.sql'] };
+export function createPackage(): PackageModule { return { name: '@connectingmatrix/chat', version: '0.3.0', health: () => Chat.health(), graphql, migrations: graphql.migrations, launcher: createStubLauncher, runtime: { Chat, GigaChat, observability: PackageObservability }, routes: [{ method: 'GET', path: '/chat/health', handler: () => Chat.health() }, { method: 'GET', path: '/chat/launcher', handler: (request) => createStubLauncher((request as { context?: RequestContext }).context ?? {}) }] }; }
+export * from './contracts.js'; export * from './package-structure.js'; export * from './observability.js'; export * from './launcher.js';

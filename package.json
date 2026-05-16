@@ -1,7 +1,7 @@
 {
   "name": "@connectingmatrix/chat",
-  "version": "0.1.0",
-  "description": "Complete chat system with queryChat, slash command routing, sockets, attachments, modes, dataloaders, GraphQL, and entity CRUD.",
+  "version": "0.2.0",
+  "description": "Single complete chat package owning connectingmatrix and Giga chat APIs: queryChat/queryChaat, sockets, attachments, modes, dataloaders, GraphQL, and entity CRUD.",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -23,18 +23,39 @@
       "types": "./dist/entity/index.d.ts",
       "import": "./dist/entity/index.js"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./giga": {
+      "types": "./dist/giga/index.d.ts",
+      "import": "./dist/giga/index.js"
+    },
+    "./package-structure": {
+      "types": "./dist/package-structure.d.ts",
+      "import": "./dist/package-structure.js"
+    },
+    "./launcher": {
+      "types": "./dist/launcher.d.ts",
+      "import": "./dist/launcher.js"
+    },
+    "./observability": {
+      "types": "./dist/observability.d.ts",
+      "import": "./dist/observability.js"
+    }
   },
   "files": [
     "dist",
     "src",
     "migrations",
-    "README.md"
+    "README.md",
+    "tests",
+    "vendor",
+    "PACKAGE_STRUCTURE.json",
+    "PACKAGE_STRUCTURE.md",
+    "playground.mjs"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "node --test dist/**/*.test.js",
-    "play": "npm run build && node dist/playground.mjs",
+    "play": "npm run build && node playground.mjs",
     "clean": "rm -rf dist"
   },
   "dependencies": {},
