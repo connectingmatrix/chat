@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { after, before, describe, it } from 'node:test';
 import ExcelJS from 'exceljs';
 import { Executor, prewarmNodeWorkerPool } from '@workflow/executor';
-import { deleteLiveQueueTopics } from '@connectingmatrix/workflows/services/workflow/queue/__tests__/workflow-webhook-live.runtime.fixture';
+import { deleteLiveQueueTopics } from '@connectingmatrix/workflow-driver/services/workflow/queue/__tests__/workflow-webhook-live.runtime.fixture';
 import { cleanupCreatedThroughGraphql } from './chat-giga-live.graphql-cleanup';
 import { assertLiveDataPlaneReady, closeLiveSession, readLiveSession, LiveSession } from './chat-giga-live.fixture';
 import { createdIds } from './chat-giga-live.ids';

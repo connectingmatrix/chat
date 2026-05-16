@@ -5,9 +5,9 @@ import { Button } from '../components/Button';
 import { Badge } from '../components/Badge';
 import { FormField } from '../components/FormField';
 import { Modal } from '../components/Modal';
-import { listAgents, listWorkflows } from '@/dataloaders';
+import { listAgents, listWorkflows } from '@giga/dataloader/client/legacy/dataloaders';
 import { useUiDataContext } from "../contexts/AuthSessionContext";
-import type { AIAgentRecord, EntityRecord } from '@/orm';
+import type { AIAgentRecord, EntityRecord } from '@giga/dataloader/client/legacy/orm';
 import { useToast } from '../components/Toast';
 
 interface Workflow {

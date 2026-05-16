@@ -1,6 +1,6 @@
-import { GRAPHQL_API_URL } from '@/graphql/env';
-import { accessTokenHeader, readStoredTokens } from '@/graphql/helper';
-import type { JsonObject, ScopeRef } from '@/orm/types';
+import { GRAPHQL_API_URL } from '@giga/dataloader/client/legacy/graphql/env';
+import { accessTokenHeader, readStoredTokens } from '@giga/dataloader/client/legacy/graphql/helper';
+import type { JsonObject, ScopeRef } from '@giga/dataloader/client/legacy/orm/types';
 
 export type UploadedChatAttachment = {
     id: string;

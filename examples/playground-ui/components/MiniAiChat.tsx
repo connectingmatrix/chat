@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Send, Sparkles } from 'lucide-react';
-import type { ChatState } from '@/orm';
+import type { ChatState } from '@giga/dataloader/client/legacy/orm';
 import { Button } from './Button';
 import { ErrorState } from './ErrorState';
 import { Input } from './client/Input';

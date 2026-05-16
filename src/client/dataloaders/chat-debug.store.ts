@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from 'react';
-import type { JsonObject } from '@/orm';
+import type { JsonObject } from '@giga/dataloader/client/legacy/orm';
 
 export type ChatDebugStatus = 'started' | 'progress' | 'completed' | 'failed';
 

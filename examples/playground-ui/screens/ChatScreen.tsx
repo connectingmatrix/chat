@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { RotateCcw, Send, Sparkles } from 'lucide-react';
-import type { ChatState } from '@/orm';
+import type { ChatState } from '@giga/dataloader/client/legacy/orm';
 import { Button } from '../components/Button';
 import { ErrorState } from '../components/ErrorState';
 import { SlashCommandInput } from '../components/SlashCommandInput';

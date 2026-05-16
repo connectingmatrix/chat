@@ -3,12 +3,12 @@ import { Executor, type WorkflowQueueRequest, type WorkflowQueueTerminalEvent } 
 import { SupabaseClientAdmin } from '@giga/general/decorators/integration/supabase-admin-client';
 import { isCurrentUserRootUser } from '@giga/shared/lib/helper';
 import { OrganisationEntity } from '@connectingmatrix/orm/repositories/entities';
-import { applyWorkflowQueueEvent } from '@connectingmatrix/workflows/services/workflow/queue/write/applyWorkflowQueueEvent';
-import { executeQueuedWorkflowRequest } from '@connectingmatrix/workflows/services/workflow/queue/write/executeQueuedWorkflowRequest';
-import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflows/services/workflow/runtime/workflow-identity';
+import { applyWorkflowQueueEvent } from '@connectingmatrix/workflow-driver/services/workflow/queue/write/applyWorkflowQueueEvent';
+import { executeQueuedWorkflowRequest } from '@connectingmatrix/workflow-driver/services/workflow/queue/write/executeQueuedWorkflowRequest';
+import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflow-driver/services/workflow/runtime/workflow-identity';
 import { WorkflowExecutionEntity } from '@connectingmatrix/orm/repositories/entities/runtime/WorkflowExecutionEntity';
 import { WorkflowVersionEntity } from '@connectingmatrix/orm/repositories/entities/runtime/WorkflowVersionEntity';
-import '@connectingmatrix/workflows/services/workflow/runtime/setupWorkflowExecutor';
+import '@connectingmatrix/workflow-driver/services/workflow/runtime/setupWorkflowExecutor';
 import {
   extractTerminalPayload,
   hydrateWorkflowDefinition,

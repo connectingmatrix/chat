@@ -33,3 +33,12 @@ This repo now includes package-local generated docs:
 - `docs/OBSERVABILITY.md` — logger/process-monitor/socket wiring.
 
 The package remains independently playable with `npm run build`, `npm test`, and `npm run play`.
+
+
+## Examples
+
+Debug/demo launchers live in `examples/`. Run `npm run play` after `npm run build`.
+
+## Package documentation
+
+See `docs/INDEX.md` for the final clean workspace contract and `examples/` launcher/debug notes.

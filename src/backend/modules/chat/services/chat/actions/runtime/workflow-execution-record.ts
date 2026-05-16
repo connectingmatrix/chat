@@ -1,5 +1,5 @@
 import { cloneJson } from 'giga-ai-helper';
-import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflows/services/workflow/runtime/workflow-identity';
+import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflow-driver/services/workflow/runtime/workflow-identity';
 import { WorkflowExecutionEntity } from '@connectingmatrix/orm/repositories/entities';
 import { AgentActionRuntime } from '@giga/shared/types/contracts/agent.types';
 import type { WorkflowDefinition } from '@giga/shared/types/contracts/workflow.types';

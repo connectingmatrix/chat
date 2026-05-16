@@ -8,7 +8,7 @@ import {
   startLiveApi,
   stopLiveApi,
 } from '@giga/general/services/graphql/__tests__/activity-log-live.runtime.fixture';
-import { ensureLiveQueueTopics } from '@connectingmatrix/workflows/services/workflow/queue/__tests__/workflow-webhook-live.runtime.fixture';
+import { ensureLiveQueueTopics } from '@connectingmatrix/workflow-driver/services/workflow/queue/__tests__/workflow-webhook-live.runtime.fixture';
 import { LIVE_CHAT_EMAIL, LIVE_CHAT_USER_ID, TREE_QUERY } from './chat-giga-live.queries';
 import type { Socket } from 'socket.io-client';
 

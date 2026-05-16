@@ -12,11 +12,11 @@ import { MarkdownContent } from '../components/editors/MarkdownContent';
 import { useSearchParams } from 'react-router';
 import { useUiDataContext } from '../contexts/AuthSessionContext';
 import { loadAppChatRuntimeSelection, loadAppChatState, sendAppChatMessage } from '../data/chat';
-import { uploadChatAttachmentToDrive } from '@/dataloaders/chat-attachments.loader';
-import type { UploadedChatAttachment } from '@/dataloaders/chat-attachments.loader';
+import { uploadChatAttachmentToDrive } from '@giga/dataloader/client/legacy/dataloaders/chat-attachments.loader';
+import type { UploadedChatAttachment } from '@giga/dataloader/client/legacy/dataloaders/chat-attachments.loader';
 import type { ChatRuntimeSelection } from '../data/chat';
-import type { ChatState } from '@/orm';
-import { chatDebugRoomKey, useChatDebugRoom, type ChatDebugTimeline } from '@/dataloaders/chat-debug.store';
+import type { ChatState } from '@giga/dataloader/client/legacy/orm';
+import { chatDebugRoomKey, useChatDebugRoom, type ChatDebugTimeline } from '@giga/dataloader/client/legacy/dataloaders/chat-debug.store';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 

@@ -1,12 +1,12 @@
-import { createRequestId } from '@/graphql/client';
-import { frontendGraphqlRequest } from '@/orm/graphql';
-import { readStoredTokens } from '@/graphql/helper';
-import { ChatSocketClient } from '@/socket/chat/ChatSocketClient';
-import type { AIChatQueryData, AIChatQueryRequest } from '@/socket/chat/types.socket';
-import { chatDebugRoomKey, pushChatDebugEvent, setChatDebugLastMessage, transferChatDebugRoom } from '@/dataloaders/chat-debug.store';
-import { findChatSession, findChatSessions, findEffectiveWorkflowBinding } from '@/orm';
-import type { ChatConfirmation, ChatMessage, ChatState, EntityRecord, JsonObject, ScopeRef, SlashCommand } from '@/orm';
-import type { UiDataContext } from '@/dataloaders/context';
+import { createRequestId } from '@giga/dataloader/client/legacy/graphql/client';
+import { frontendGraphqlRequest } from '@giga/dataloader/client/legacy/orm/graphql';
+import { readStoredTokens } from '@giga/dataloader/client/legacy/graphql/helper';
+import { ChatSocketClient } from '@giga/dataloader/client/legacy/socket/chat/ChatSocketClient';
+import type { AIChatQueryData, AIChatQueryRequest } from '@giga/dataloader/client/legacy/socket/chat/types.socket';
+import { chatDebugRoomKey, pushChatDebugEvent, setChatDebugLastMessage, transferChatDebugRoom } from '@giga/dataloader/client/legacy/dataloaders/chat-debug.store';
+import { findChatSession, findChatSessions, findEffectiveWorkflowBinding } from '@giga/dataloader/client/legacy/orm';
+import type { ChatConfirmation, ChatMessage, ChatState, EntityRecord, JsonObject, ScopeRef, SlashCommand } from '@giga/dataloader/client/legacy/orm';
+import type { UiDataContext } from '@giga/dataloader/client/legacy/dataloaders/context';
 
 export const slashCommands: SlashCommand[] = [
     { id: 'workflow-list', command: '/workflow list', title: 'List workflows', description: 'Show workflow catalog.', example: '/workflow list' },

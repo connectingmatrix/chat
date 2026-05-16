@@ -2,9 +2,9 @@ import { createWorkflowExecutionTimeoutController } from '@workflow/executor';
 import { cloneJson } from 'giga-ai-helper';
 import { createRunId } from 'giga-ai-helper/workflow';
 import { EnvLoader } from '@giga/shared/lib/env';
-import { executeWorkflow } from '@connectingmatrix/workflows/services/workflow';
-import { createWorkflowReferenceHostContext } from '@connectingmatrix/workflows/services/workflow/contracts/execution-reference';
-import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflows/services/workflow/runtime/workflow-identity';
+import { executeWorkflow } from '@connectingmatrix/workflow-driver/services/workflow';
+import { createWorkflowReferenceHostContext } from '@connectingmatrix/workflow-driver/services/workflow/contracts/execution-reference';
+import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflow-driver/services/workflow/runtime/workflow-identity';
 import { WorkflowAssignmentEntity } from '@connectingmatrix/orm/repositories/entities/runtime/WorkflowAssignmentEntity';
 import { OrganisationEntity } from '@connectingmatrix/orm/repositories/entities/runtime/OrganisationEntity';
 import { WorkflowEntity } from '@connectingmatrix/orm/repositories/entities/runtime/WorkflowEntity';
@@ -18,7 +18,7 @@ import {
   WorkflowLogLevelEnum,
   WorkflowRunLogEvent,
   WorkflowRuntimeSettings,
-} from '@connectingmatrix/workflows/services/workflow/contracts/types';
+} from '@connectingmatrix/workflow-driver/services/workflow/contracts/types';
 import { RetrievedChunk, SourceReference } from '@giga/shared/types/contracts/graphql.types';
 import { ChatScope, ChatScopeSnapshot, ResolvedChatScope } from '../../contracts/types';
 import { buildWorkflowChatDebugState } from './chat-debug-state';

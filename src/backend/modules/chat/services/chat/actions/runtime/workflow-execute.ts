@@ -2,7 +2,7 @@ import { cloneJson } from 'giga-ai-helper';
 import { createRunId } from 'giga-ai-helper/workflow';
 import { readWorkflowRuntimeLimitsDirect } from '@giga/plan-policy/services/plan-policy/runtime/enforcement';
 import { AgentActionRuntime } from '@giga/shared/types/contracts/agent.types';
-import { WorkflowNodeKindEnum, WorkflowNodeStatusEnum } from '@connectingmatrix/workflows/services/workflow/contracts/types';
+import { WorkflowNodeKindEnum, WorkflowNodeStatusEnum } from '@connectingmatrix/workflow-driver/services/workflow/contracts/types';
 import { GigaActionOutput, emptyActionArtifacts } from '../contracts/types';
 import { loadChatWorkflowState, saveChatWorkflowState, workflowEditorUrl, workflowShape } from '../auth/workflow-session';
 import { optionalText, requireCapability } from './helpers';
@@ -105,7 +105,7 @@ export async function runExecuteWorkflow(runtime: AgentActionRuntime, input: any
   const limits = await readWorkflowRuntimeLimitsDirect(runtime.supabase, { userId: runtime.userId });
   const broadcast = workflowBroadcast(runtime, input);
   // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require
-  const { executeWorkflowMutation } = require('@connectingmatrix/workflows/services/workflow/runtime/service');
+  const { executeWorkflowMutation } = require('@connectingmatrix/workflow-driver/services/workflow/runtime/service');
   let result;
   try {
     result = await executeWorkflowMutation({

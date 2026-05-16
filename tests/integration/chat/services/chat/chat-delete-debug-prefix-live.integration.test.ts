@@ -5,7 +5,7 @@ import {
   createLiveQueueTestEnvironment,
   deleteLiveQueueTopics,
   ensureLiveQueueTopics,
-} from '@connectingmatrix/workflows/services/workflow/queue/__tests__/workflow-webhook-live.runtime.fixture';
+} from '@connectingmatrix/workflow-driver/services/workflow/queue/__tests__/workflow-webhook-live.runtime.fixture';
 import { cleanupCreated } from './chat-giga-live.cleanup';
 import { chatGraphql, closeLiveSession, createLiveChatScope, LiveSession, readLiveSession } from './chat-giga-live.fixture';
 import { createdIds } from './chat-giga-live.ids';

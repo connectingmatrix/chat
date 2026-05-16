@@ -2,7 +2,7 @@ import { randomUUID, createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import nodeSourceShas from '@workflow/nodes/generated/node-source-shas.json';
 import { buildWorkflowSearchText, createWorkflowSecret } from '@giga/general/services/graphql/resolvers/integration/base';
-import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflows/services/workflow/runtime/workflow-identity';
+import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflow-driver/services/workflow/runtime/workflow-identity';
 import { chatParityFixturePath, readChatParityFixture } from '@connectingmatrix/chat/services/chat/workflow/runtime/chat-parity-fixtures';
 import { chatGraphql, LiveSession, liveSessionForUser } from './chat-giga-live.fixture';
 

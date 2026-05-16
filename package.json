@@ -28,10 +28,6 @@
       "types": "./dist/package-structure.d.ts",
       "import": "./dist/package-structure.js"
     },
-    "./launcher": {
-      "types": "./dist/launcher.d.ts",
-      "import": "./dist/launcher.js"
-    },
     "./observability": {
       "types": "./dist/observability.d.ts",
       "import": "./dist/observability.js"
@@ -54,13 +50,13 @@
     "vendor",
     "PACKAGE_STRUCTURE.json",
     "PACKAGE_STRUCTURE.md",
-    "playground.mjs",
-    "docs"
+    "docs",
+    "examples"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "node --test dist/**/*.test.js",
-    "play": "npm run build && node playground.mjs",
+    "play": "npm run build && node examples/playground.mjs",
     "clean": "rm -rf dist"
   },
   "dependencies": {},

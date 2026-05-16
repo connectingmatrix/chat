@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto';
 import { WorkflowEntity } from '@connectingmatrix/orm/repositories/entities';
 import { buildWorkflowSearchText, createWorkflowSecret } from '@giga/general/services/graphql/resolvers/integration/base';
-import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflows/services/workflow/runtime/workflow-identity';
+import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflow-driver/services/workflow/runtime/workflow-identity';
 import { readChatParityFixture } from '../runtime/chat-parity-fixtures';
 
 export async function importLatestChatParityAiAgentWorkflow(userId: string): Promise<{ workflowId: string; name: string; description: string }> {

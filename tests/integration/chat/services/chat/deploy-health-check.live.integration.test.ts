@@ -10,7 +10,7 @@ import { Executor } from '@workflow/executor';
 import { agentSdkConfigWithModelProfile, readDefaultAgentModelId } from '@connectingmatrix/ai-agents/services/ai-agents/io/model-profile';
 import { buildWorkflowSearchText, createWorkflowSecret } from '@giga/general/services/graphql/resolvers/integration/base';
 import { signAppAccessToken } from '@giga/permissions/services/auth/app-auth-token';
-import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflows/services/workflow/runtime/workflow-identity';
+import { normalizeWorkflowSnapshotIdentity } from '@connectingmatrix/workflow-driver/services/workflow/runtime/workflow-identity';
 import { CHAT_GET_OR_CREATE, LIVE_CHAT_EMAIL, LIVE_CHAT_USER_ID, TREE_QUERY } from './chat-giga-live.queries';
 
 type GraphqlScalar = string | number | boolean | null;

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { ChatState } from "@/orm";
+import type { ChatState } from "@giga/dataloader/client/legacy/orm";
 import { Send, BarChart3, ChevronRight } from "lucide-react";
 import { Button } from "../components/Button";
 import { Card } from "../components/Card";

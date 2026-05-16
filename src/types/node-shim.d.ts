@@ -1,10 +1,12 @@
-
+declare const process: { pid: number; uptime?: () => number; memoryUsage?: () => { rss?: number; heapUsed?: number; heapTotal?: number; external?: number; arrayBuffers?: number }; env?: Record<string,string|undefined>; versions?: Record<string,string> };
 declare module 'node:test' { const test: any; export default test; }
 declare module 'node:assert/strict' { const assert: any; export default assert; }
-declare module 'node:fs' { export function appendFileSync(path: string, data: string): void; export function mkdirSync(path: string, opts?: any): void; }
-declare module 'node:path' { export function dirname(path: string): string; }
-declare module 'node:crypto' { export function createHmac(algorithm: string, key: string): { update(data: string): any; digest(enc: string): string }; export function timingSafeEqual(a: Uint8Array, b: Uint8Array): boolean; }
-declare module 'node:http' { export function createServer(handler: (request: any, response: any) => any): any; }
-declare const process: { pid: number; memoryUsage?: () => NodeJS.MemoryUsage; uptime?: () => number };
-declare const Buffer: { from(input: any, encoding?: string): any; concat(chunks: any[]): any; };
-declare namespace NodeJS { interface MemoryUsage { rss: number; heapTotal: number; heapUsed: number; external: number; arrayBuffers?: number } }
+declare module 'node:http' { export const createServer: any; }
+declare module 'node:fs' { const fs: any; export default fs; export const readdirSync:any; export const statSync:any; export const existsSync:any; export const readFileSync:any; export const writeFileSync:any; export const appendFileSync:any; export const mkdirSync:any; }
+declare module 'node:path' { const path: any; export default path; export const join:any; export const relative:any; export const dirname:any; }
+declare module 'node:child_process' { export const spawnSync: any; }
+declare module 'node:crypto' { export const createHmac:any; export const randomUUID:any; export const randomBytes:any; export const timingSafeEqual:any; }
+declare module 'socket.io-client' { export const io: any; export type Socket = any; }
+declare module 'react' { export const useEffect: any; export const useMemo: any; export const useState: any; export type ReactNode = any; const React: any; export default React; }
+interface ImportMeta { env?: Record<string,string|boolean|undefined>; }
+declare const Buffer: any;

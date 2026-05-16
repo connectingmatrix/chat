@@ -1,8 +1,8 @@
 import { parseRecordValue } from 'giga-ai-helper/workflow';
 import { EntityRequestContext } from '@connectingmatrix/orm/orm/request-entity-context';
-import { executeSharedAgentRuntime } from '@connectingmatrix/workflows/services/workflow/agent';
+import { executeSharedAgentRuntime } from '@connectingmatrix/workflow-driver/services/workflow/agent';
 import type { QueryChatInput } from '@connectingmatrix/chat/services/chat/contracts/types';
-import type { WorkflowNodeHandlerContext } from '@connectingmatrix/workflows/services/workflow/contracts/types';
+import type { WorkflowNodeHandlerContext } from '@connectingmatrix/workflow-driver/services/workflow/contracts/types';
 
 const text = (value: unknown): string => String(value ?? '').trim();
 const record = (value: unknown): Record<string, unknown> => parseRecordValue(value);
